@@ -1,37 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Trabajo Final Sis457\\sis457_Pizzeria\\CadPizzeria\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{4B15357E-644F-43CA-8365-7E5E484ADA3F}|Sis457_Pizzeria\\Sis457_Pizzeria.csproj|c:\\trabajo final sis457\\sis457_pizzeria\\cadpizzeria\\sis457_pizzeria\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B15357E-644F-43CA-8365-7E5E484ADA3F}|Sis457_Pizzeria\\Sis457_Pizzeria.csproj|solutionrelative:sis457_pizzeria\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Sis457\\sis457_Pizzeria\\Sis457_Pizzeria\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Trabajo Final Sis457\\sis457_Pizzeria\\CadPizzeria\\Sis457_Pizzeria\\Class1.cs",
-              "RelativeDocumentMoniker": "Sis457_Pizzeria\\Class1.cs",
-              "ToolTip": "C:\\Trabajo Final Sis457\\sis457_Pizzeria\\CadPizzeria\\Sis457_Pizzeria\\Class1.cs",
-              "RelativeToolTip": "Sis457_Pizzeria\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T22:34:41.274Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

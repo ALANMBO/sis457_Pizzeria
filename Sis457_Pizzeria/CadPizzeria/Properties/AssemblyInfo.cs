@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // La información general de un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
-[assembly: AssemblyTitle("Sis457_Pizzeria")]
+[assembly: AssemblyTitle("CadPizzeria")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Sis457_Pizzeria")]
+[assembly: AssemblyProduct("CadPizzeria")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // El siguiente GUID sirve como id. de typelib si este proyecto se expone a COM.
-[assembly: Guid("4b15357e-644f-43ca-8365-7e5e484ada3f")]
+[assembly: Guid("417ff068-2dbc-42b5-a7fa-8856dce73433")]
 
 // La información de versión de un ensamblado consta de los cuatro valores siguientes:
 //

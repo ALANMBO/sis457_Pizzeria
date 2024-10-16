@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Trabajo Final Sis457\\sis457_Pizzeria\\CadPizzeria\\",
+  "WorkspaceRootPath": "C:\\Sis457\\sis457_Pizzeria\\Sis457_Pizzeria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4B15357E-644F-43CA-8365-7E5E484ADA3F}|Sis457_Pizzeria\\Sis457_Pizzeria.csproj|c:\\trabajo final sis457\\sis457_pizzeria\\cadpizzeria\\sis457_pizzeria\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B15357E-644F-43CA-8365-7E5E484ADA3F}|Sis457_Pizzeria\\Sis457_Pizzeria.csproj|solutionrelative:sis457_pizzeria\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{417FF068-2DBC-42B5-A7FA-8856DCE73433}|CadPizzeria\\CadPizzeria.csproj|c:\\sis457\\sis457_pizzeria\\sis457_pizzeria\\cadpizzeria\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{417FF068-2DBC-42B5-A7FA-8856DCE73433}|CadPizzeria\\CadPizzeria.csproj|solutionrelative:cadpizzeria\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Trabajo Final Sis457\\sis457_Pizzeria\\CadPizzeria\\Sis457_Pizzeria\\Class1.cs",
-              "RelativeDocumentMoniker": "Sis457_Pizzeria\\Class1.cs",
-              "ToolTip": "C:\\Trabajo Final Sis457\\sis457_Pizzeria\\CadPizzeria\\Sis457_Pizzeria\\Class1.cs",
-              "RelativeToolTip": "Sis457_Pizzeria\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T22:34:41.274Z",
-              "EditorCaption": ""
+              "Title": "Modelo.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Sis457\\sis457_Pizzeria\\Sis457_Pizzeria\\CadPizzeria\\Modelo.edmx",
+              "RelativeDocumentMoniker": "CadPizzeria\\Modelo.edmx",
+              "ToolTip": "C:\\Sis457\\sis457_Pizzeria\\Sis457_Pizzeria\\CadPizzeria\\Modelo.edmx [Diagram1]",
+              "RelativeToolTip": "CadPizzeria\\Modelo.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-10-15T00:41:01.788Z",
+              "EditorCaption": " [Diagram1]"
             }
           ]
         }
