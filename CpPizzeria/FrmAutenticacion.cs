@@ -16,14 +16,8 @@ namespace CpPizzeria
         public FrmAutenticacion()
         {
             InitializeComponent();
-          //  txtClave.Text = Util.Encrypt("ele123"); //este codigo lo empcipta  
-
         }
 
-        private void FrmAutenticacion_Load(object sender, EventArgs e)
-        {
-
-        }
         private bool validar()
         {
             bool esValido = true;
@@ -32,44 +26,37 @@ namespace CpPizzeria
 
             if (string.IsNullOrEmpty(txtUsuario.Text))
             {
-                erpUsuario.SetError(txtUsuario, "El campo usuario es obligatorio");
                 esValido = false;
+                erpUsuario.SetError(txtUsuario, "El campo usuario es obligatorio");
             }
             if (string.IsNullOrEmpty(txtClave.Text))
             {
-                erpClave.SetError(txtClave, "El campo contraseña es obligatorio");
                 esValido = false;
+                erpClave.SetError(txtClave, "El campo contraseña es obligatorio");
             }
             return esValido;
         }
 
-        private void txtClave_TextChanged(object sender, EventArgs e)
+        private void btnIniciar_Click(object sender, EventArgs e)
         {
-            
-           //if (e.KeyChar == (char)Keys.Enter) btnIniciar.PerformClick();
-            
+            if (validar())
+            {
+                var usuario = UsuarioCln.validar(txtUsuario.Text, Util.Encrypt(txtClave.Text));
+                if (usuario != null)
+                {
+                    Util.usuario = usuario;
+                    txtUsuario.Focus();
+                    txtUsuario.SelectAll();
+                    Visible = false;
+                    new FrmPrincipal(this).ShowDialog();
+                }
+                else
+                {
+                    MessageBox.Show("Usuario y/o contraseña incorrecto", "::: Error - Mensaje :::",
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+            }
         }
-        // private void btnIniciar_Click(object sender, EventArgs e)
-        //{
-        //   if (validar())
-        //  {
-        //       var usuario = UsuarioCln.validar(txtUsuario.Text, Util.Encrypt(txtClave.Text));
-        //     if (usuario != null)
-        //   {
-        //        Util.usuario = usuario;
-        //     txtUsuario.Focus();
-        //        txtUsuario.SelectAll();
-        //       Visible = false;
-        //       new FrmPrincipal(this).ShowDialog();
     }
-    //        else
-    //        {
-    //            MessageBox.Show("Usuario y/o contraseña incorrecto", "::: Error - Mensaje :::",
-    //                MessageBoxButtons.OK, MessageBoxIcon.Error);
-    //        }
-
-    //    }
-
-    //}
-
-    
+}

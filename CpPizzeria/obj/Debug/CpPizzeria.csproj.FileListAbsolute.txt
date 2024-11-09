@@ -1,0 +1,46 @@
+C:\Sis457\sis457_Pizzeria\sis457_Pizzeria\Sis457_Pizzeria\CpPizzeria\bin\Debug\CpPizzeria.pdb
+C:\Sis457\sis457_Pizzeria\sis457_Pizzeria\Sis457_Pizzeria\CpPizzeria\bin\Debug\CadPizzeria.dll
+C:\Sis457\sis457_Pizzeria\sis457_Pizzeria\Sis457_Pizzeria\CpPizzeria\bin\Debug\ClnPizzeria.dll
+C:\Sis457\sis457_Pizzeria\sis457_Pizzeria\Sis457_Pizzeria\CpPizzeria\bin\Debug\EntityFramework.dll
+C:\Sis457\sis457_Pizzeria\sis457_Pizzeria\Sis457_Pizzeria\CpPizzeria\bin\Debug\EntityFramework.SqlServer.dll
+C:\Sis457\sis457_Pizzeria\sis457_Pizzeria\Sis457_Pizzeria\CpPizzeria\bin\Debug\CadPizzeria.pdb
+C:\Sis457\sis457_Pizzeria\sis457_Pizzeria\Sis457_Pizzeria\CpPizzeria\bin\Debug\CadPizzeria.dll.config
+C:\Sis457\sis457_Pizzeria\sis457_Pizzeria\Sis457_Pizzeria\CpPizzeria\bin\Debug\ClnPizzeria.pdb
+C:\Sis457\sis457_Pizzeria\sis457_Pizzeria\Sis457_Pizzeria\CpPizzeria\bin\Debug\ClnPizzeria.dll.config
+C:\Sis457\sis457_Pizzeria\sis457_Pizzeria\Sis457_Pizzeria\CpPizzeria\bin\Debug\EntityFramework.xml
+C:\Sis457\sis457_Pizzeria\sis457_Pizzeria\Sis457_Pizzeria\CpPizzeria\bin\Debug\EntityFramework.SqlServer.xml
+C:\Sis457\sis457_Pizzeria\sis457_Pizzeria\Sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.csproj.AssemblyReference.cache
+C:\Sis457\sis457_Pizzeria\sis457_Pizzeria\Sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.FrmAutenticacion.resources
+C:\Sis457\sis457_Pizzeria\sis457_Pizzeria\Sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.FrmPrincipal.resources
+C:\Sis457\sis457_Pizzeria\sis457_Pizzeria\Sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.FrmProducto.resources
+C:\Sis457\sis457_Pizzeria\sis457_Pizzeria\Sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.Properties.Resources.resources
+C:\Sis457\sis457_Pizzeria\sis457_Pizzeria\Sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.csproj.GenerateResource.cache
+C:\Sis457\sis457_Pizzeria\sis457_Pizzeria\Sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.csproj.CoreCompileInputs.cache
+C:\Sis457\sis457_Pizzeria\sis457_Pizzeria\Sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.csproj.Up2Date
+C:\Sis457\sis457_Pizzeria\sis457_Pizzeria\Sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.pdb
+C:\Sis457\sis457_Pizzeria\sis457_Pizzeria\Sis457_Pizzeria\CpPizzeria\bin\Debug\CpPizzeria.exe.config
+C:\Sis457\sis457_Pizzeria\sis457_Pizzeria\Sis457_Pizzeria\CpPizzeria\bin\Debug\CpPizzeria.exe
+C:\Sis457\sis457_Pizzeria\sis457_Pizzeria\Sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.exe
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\bin\Debug\CpPizzeria.exe.config
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\bin\Debug\CpPizzeria.exe
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\bin\Debug\CpPizzeria.pdb
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\bin\Debug\CadPizzeria.dll
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\bin\Debug\ClnPizzeria.dll
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\bin\Debug\EntityFramework.dll
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\bin\Debug\EntityFramework.SqlServer.dll
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\bin\Debug\CadPizzeria.pdb
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\bin\Debug\CadPizzeria.dll.config
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\bin\Debug\ClnPizzeria.pdb
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\bin\Debug\ClnPizzeria.dll.config
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\bin\Debug\EntityFramework.xml
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\bin\Debug\EntityFramework.SqlServer.xml
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.csproj.AssemblyReference.cache
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.FrmAutenticacion.resources
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.FrmPrincipal.resources
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.FrmProducto.resources
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.Properties.Resources.resources
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.csproj.GenerateResource.cache
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.csproj.CoreCompileInputs.cache
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.csproj.Up2Date
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.exe
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.pdb
