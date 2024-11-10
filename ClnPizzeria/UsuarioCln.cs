@@ -10,13 +10,13 @@ namespace ClnPizzeria
 {
     public class UsuarioCln
     {
-        public static  Usuario validar(String usuario, string clave)
+        public static int insertar(Usuario usuario)
         {
             using (var context = new LabPizzeriaHouseEntities())
             {
-                return context.Usuario
-                .Where(x => x.usuario == usuario && x.clave == clave)
-                .FirstOrDefaultAsync();
+                context.Usuario.Add(usuario);
+                context.SaveChanges();
+                return usuario.idUsuario;
             }
         }
 

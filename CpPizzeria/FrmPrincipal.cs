@@ -29,5 +29,10 @@ namespace CpPizzeria
         {
             new FrmProducto().ShowDialog();
         }
+
+        private void btnCliente_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
