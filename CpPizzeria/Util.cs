@@ -13,10 +13,12 @@ namespace CpPizzeria
 {
     public class Util
     {
+
         public static Usuario usuario;
         static bool notPaste = false;
         public static string Encrypt(string clearText)
         {
+
             string EncryptionKey = "SIS457-1nf0!";
             byte[] clearBytes = Encoding.Unicode.GetBytes(clearText);
             using (Aes encryptor = Aes.Create())
@@ -36,6 +38,7 @@ namespace CpPizzeria
             }
             return clearText;
         }
+
 
         /// <summary>
         /// Validar sólo números en el evento KeyPress
@@ -73,6 +76,7 @@ namespace CpPizzeria
             }
         }
 
+
         /// <summary>
         /// Validar sólo letras en el evento KeyPress
         /// </summary>
@@ -83,6 +87,7 @@ namespace CpPizzeria
             else if (Char.IsSeparator(e.KeyChar)) e.Handled = false;
             else e.Handled = true;
         }
+
 
         /// <summary>
         /// Validar ni números ni letras en el evento KeyPress

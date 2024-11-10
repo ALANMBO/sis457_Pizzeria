@@ -1,6 +1,7 @@
 ﻿using CadPizzeria;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,13 +10,13 @@ namespace ClnPizzeria
 {
     public class UsuarioCln
     {
-        public static int insertar(Usuario usuario)
+        public static  Usuario validar(String usuario, string clave)
         {
             using (var context = new LabPizzeriaHouseEntities())
             {
-                context.Usuario.Add(usuario);
-                context.SaveChanges();
-                return usuario.idUsuario;
+                return context.Usuario
+                .Where(x => x.usuario == usuario && x.clave == clave)
+                .FirstOrDefaultAsync();
             }
         }
 
@@ -24,7 +25,7 @@ namespace ClnPizzeria
             using (var context = new LabPizzeriaHouseEntities())
             {
                 var existente = context.Usuario.Find(usuario.idUsuario);
-                existente.usuario1 = usuario.usuario1.Trim();
+                existente.usuario = usuario.usuario.Trim();
                 existente.idEmpleado = usuario.idEmpleado;
                 existente.usuarioRegistro = usuario.usuarioRegistro;
                 return context.SaveChanges();
@@ -66,7 +67,7 @@ namespace ClnPizzeria
             using (var contexto = new LabPizzeriaHouseEntities())
             {
                 return contexto.Usuario
-                    .Where(x => x.usuario1 == usuario && x.clave == clave && x.estado == 1)
+                    .Where(x => x.usuario == usuario && x.clave == clave && x.estado == 1)
                     .FirstOrDefault();
             }
         }

@@ -149,7 +149,7 @@ namespace CpPizzeria
                 nombre = txtNombre.Text.Trim(),
                 descripcion = txtDescripcion.Text.Trim(),
                 precio = nudPrecio.Value,
-                usuarioRegistro = Util.usuario.usuario1,
+                usuarioRegistro = Util.usuario.usuario,
                 fechaRegistro = DateTime.Now,
                 estado = 1,
                 //stock = (int)nudStock.Value // Ensure stock field is saved

@@ -32,18 +32,18 @@
             this.btnProducto = new System.Windows.Forms.Button();
             this.MenuVertical = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnlogoInicio = new System.Windows.Forms.PictureBox();
             this.btnEmpleado = new System.Windows.Forms.Button();
             this.btnProvedor = new System.Windows.Forms.Button();
             this.btnCliente = new System.Windows.Forms.Button();
             this.btnVenta = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbltitulo = new System.Windows.Forms.Label();
             this.MenuVertical.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnlogoInicio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnlogoInicio)).BeginInit();
             this.SuspendLayout();
             // 
             // btnProducto
@@ -86,13 +86,26 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Red;
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::CpPizzeria.Properties.Resources.images23;
-            this.pictureBox2.Location = new System.Drawing.Point(576, 225);
+            this.pictureBox2.Location = new System.Drawing.Point(597, 388);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(251, 133);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 10;
             this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Red;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = global::CpPizzeria.Properties.Resources.descarga1;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 388);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(251, 133);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
             // 
             // btnlogoInicio
             // 
@@ -117,10 +130,10 @@
             this.btnEmpleado.ForeColor = System.Drawing.Color.White;
             this.btnEmpleado.Image = global::CpPizzeria.Properties.Resources._3592854_add_user_business_man_employee_general_human_member_office_107767;
             this.btnEmpleado.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEmpleado.Location = new System.Drawing.Point(4, 155);
+            this.btnEmpleado.Location = new System.Drawing.Point(10, 155);
             this.btnEmpleado.Margin = new System.Windows.Forms.Padding(4);
             this.btnEmpleado.Name = "btnEmpleado";
-            this.btnEmpleado.Size = new System.Drawing.Size(189, 49);
+            this.btnEmpleado.Size = new System.Drawing.Size(145, 49);
             this.btnEmpleado.TabIndex = 5;
             this.btnEmpleado.Text = "Empleado";
             this.btnEmpleado.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -136,10 +149,10 @@
             this.btnProvedor.ForeColor = System.Drawing.Color.White;
             this.btnProvedor.Image = global::CpPizzeria.Properties.Resources.distributorlogokorora_93658;
             this.btnProvedor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProvedor.Location = new System.Drawing.Point(4, 330);
+            this.btnProvedor.Location = new System.Drawing.Point(292, 155);
             this.btnProvedor.Margin = new System.Windows.Forms.Padding(4);
             this.btnProvedor.Name = "btnProvedor";
-            this.btnProvedor.Size = new System.Drawing.Size(189, 49);
+            this.btnProvedor.Size = new System.Drawing.Size(164, 49);
             this.btnProvedor.TabIndex = 4;
             this.btnProvedor.Text = "Proveedores";
             this.btnProvedor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -155,10 +168,10 @@
             this.btnCliente.ForeColor = System.Drawing.Color.White;
             this.btnCliente.Image = global::CpPizzeria.Properties.Resources._1486485581_account_audience_person_customer_profile_user_81164;
             this.btnCliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCliente.Location = new System.Drawing.Point(4, 215);
+            this.btnCliente.Location = new System.Drawing.Point(163, 156);
             this.btnCliente.Margin = new System.Windows.Forms.Padding(4);
             this.btnCliente.Name = "btnCliente";
-            this.btnCliente.Size = new System.Drawing.Size(189, 49);
+            this.btnCliente.Size = new System.Drawing.Size(121, 49);
             this.btnCliente.TabIndex = 3;
             this.btnCliente.Text = "Clientes";
             this.btnCliente.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -174,12 +187,13 @@
             this.btnVenta.ForeColor = System.Drawing.Color.White;
             this.btnVenta.Image = global::CpPizzeria.Properties.Resources.sales_bag_shopping_bargain_retail_icon_icons_com_55340;
             this.btnVenta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVenta.Location = new System.Drawing.Point(4, 388);
+            this.btnVenta.Location = new System.Drawing.Point(464, 155);
             this.btnVenta.Margin = new System.Windows.Forms.Padding(4);
             this.btnVenta.Name = "btnVenta";
-            this.btnVenta.Size = new System.Drawing.Size(189, 49);
+            this.btnVenta.Size = new System.Drawing.Size(116, 49);
             this.btnVenta.TabIndex = 2;
             this.btnVenta.Text = "Ventas";
+            this.btnVenta.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnVenta.UseVisualStyleBackColor = false;
             // 
             // button1
@@ -192,27 +206,14 @@
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = global::CpPizzeria.Properties.Resources.add_box_item_product_icon_179239;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(4, 273);
+            this.button1.Location = new System.Drawing.Point(588, 155);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(189, 49);
+            this.button1.Size = new System.Drawing.Size(147, 49);
             this.button1.TabIndex = 1;
             this.button1.Text = "Productos";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Red;
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::CpPizzeria.Properties.Resources.descarga1;
-            this.pictureBox1.Location = new System.Drawing.Point(284, 225);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(251, 133);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
             // 
             // lbltitulo
             // 
@@ -244,8 +245,8 @@
             this.Load += new System.EventHandler(this.FrmPrincipal_Load);
             this.MenuVertical.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnlogoInicio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnlogoInicio)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
