@@ -28,3 +28,18 @@ D:\Trabajo final de sis457\sis457_Pizzeria\ClnPizzeria\obj\Debug\ClnPizzeria.csp
 D:\Trabajo final de sis457\sis457_Pizzeria\ClnPizzeria\obj\Debug\ClnPizze.361206D7.Up2Date
 D:\Trabajo final de sis457\sis457_Pizzeria\ClnPizzeria\obj\Debug\ClnPizzeria.dll
 D:\Trabajo final de sis457\sis457_Pizzeria\ClnPizzeria\obj\Debug\ClnPizzeria.pdb
+C:\Users\Hansel\Desktop\REPOSITORIOS\sis457_Pizzeria\ClnPizzeria\obj\Debug\ClnPizzeria.csproj.AssemblyReference.cache
+C:\Users\Hansel\Desktop\REPOSITORIOS\sis457_Pizzeria\ClnPizzeria\obj\Debug\ClnPizzeria.csproj.CoreCompileInputs.cache
+C:\Users\Hansel\Desktop\REPOSITORIOS\sis457_Pizzeria\ClnPizzeria\obj\Debug\ClnPizzeria.dll
+C:\Users\Hansel\Desktop\REPOSITORIOS\sis457_Pizzeria\ClnPizzeria\obj\Debug\ClnPizzeria.pdb
+C:\Users\Hansel\Desktop\REPOSITORIOS\sis457_Pizzeria\ClnPizzeria\bin\Debug\ClnPizzeria.dll.config
+C:\Users\Hansel\Desktop\REPOSITORIOS\sis457_Pizzeria\ClnPizzeria\bin\Debug\ClnPizzeria.dll
+C:\Users\Hansel\Desktop\REPOSITORIOS\sis457_Pizzeria\ClnPizzeria\bin\Debug\ClnPizzeria.pdb
+C:\Users\Hansel\Desktop\REPOSITORIOS\sis457_Pizzeria\ClnPizzeria\bin\Debug\CadPizzeria.dll
+C:\Users\Hansel\Desktop\REPOSITORIOS\sis457_Pizzeria\ClnPizzeria\bin\Debug\EntityFramework.dll
+C:\Users\Hansel\Desktop\REPOSITORIOS\sis457_Pizzeria\ClnPizzeria\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Hansel\Desktop\REPOSITORIOS\sis457_Pizzeria\ClnPizzeria\bin\Debug\CadPizzeria.pdb
+C:\Users\Hansel\Desktop\REPOSITORIOS\sis457_Pizzeria\ClnPizzeria\bin\Debug\CadPizzeria.dll.config
+C:\Users\Hansel\Desktop\REPOSITORIOS\sis457_Pizzeria\ClnPizzeria\bin\Debug\EntityFramework.xml
+C:\Users\Hansel\Desktop\REPOSITORIOS\sis457_Pizzeria\ClnPizzeria\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Hansel\Desktop\REPOSITORIOS\sis457_Pizzeria\ClnPizzeria\obj\Debug\ClnPizze.361206D7.Up2Date

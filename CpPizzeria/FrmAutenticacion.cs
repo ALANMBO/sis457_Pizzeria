@@ -16,10 +16,14 @@ namespace CpPizzeria
         public FrmAutenticacion()
         {
             InitializeComponent();
+            // txtClave.Text = Util.Encrypt("hola123"); //este codigo lo empcipta  
 
-            // txtClave.Text = Util.Encrypt("Anze123"); //este codigo lo empcipta 
         }
 
+        private void FrmAutenticacion_Load(object sender, EventArgs e)
+        {
+
+        }
         private bool validar()
         {
             bool esValido = true;
@@ -28,18 +32,17 @@ namespace CpPizzeria
 
             if (string.IsNullOrEmpty(txtUsuario.Text))
             {
-                esValido = false;
                 erpUsuario.SetError(txtUsuario, "El campo usuario es obligatorio");
+                esValido = false;
             }
             if (string.IsNullOrEmpty(txtClave.Text))
             {
-                esValido = false;
                 erpClave.SetError(txtClave, "El campo contraseña es obligatorio");
+                esValido = false;
             }
             return esValido;
         }
-
-        private void btnIniciar_Click(object sender, EventArgs e)
+        private void btnIniciar_Click_1(object sender, EventArgs e)
         {
             if (validar())
             {
@@ -60,5 +63,13 @@ namespace CpPizzeria
 
             }
         }
+
+
+        private void txtClave_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter) btnIniciar.PerformClick();
+        }
+
+ 
     }
 }

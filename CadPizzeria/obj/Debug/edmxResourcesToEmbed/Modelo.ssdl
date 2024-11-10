@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="LabPizzeriaHouseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+<Schema Namespace="LabPizzeriaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
   <EntityType Name="Categoria">
     <Key>
       <PropertyRef Name="idCategoria" />
@@ -16,7 +16,7 @@
     </Key>
     <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="razonSocial" Type="varchar" MaxLength="50" Nullable="false" />
-    <Property Name="nit" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="cedulaIdentidad" Type="varchar" MaxLength="15" Nullable="false" />
     <Property Name="celular" Type="varchar" MaxLength="8" Nullable="false" />
     <Property Name="usuarioRegistro" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="fechaRegistro" Type="datetime" Nullable="false" />
@@ -45,7 +45,8 @@
     <Property Name="codigo" Type="varchar" MaxLength="20" Nullable="false" />
     <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="descripcion" Type="varchar" MaxLength="500" Nullable="false" />
-    <Property Name="precio" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="precio" Type="decimal" Precision="5" Scale="2" Nullable="false" />
+    <Property Name="stock" Type="int" Nullable="false" />
     <Property Name="usuarioRegistro" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="fechaRegistro" Type="datetime" Nullable="false" />
     <Property Name="estado" Type="smallint" Nullable="false" />
@@ -69,7 +70,7 @@
     <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="idUsuario" Type="int" Nullable="false" />
     <Property Name="idCliente" Type="int" Nullable="false" />
-    <Property Name="totalVenta" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="totalVenta" Type="decimal" Precision="18" Scale="0" Nullable="false" />
     <Property Name="fechaVenta" Type="date" Nullable="false" />
     <Property Name="usuarioRegistro" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="fechaRegistro" Type="datetime" Nullable="false" />
@@ -83,13 +84,13 @@
     <Property Name="idVenta" Type="int" Nullable="false" />
     <Property Name="idProducto" Type="int" Nullable="false" />
     <Property Name="cantidad" Type="int" Nullable="false" />
-    <Property Name="precioUnitario" Type="decimal" Precision="10" Scale="2" Nullable="false" />
-    <Property Name="total" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="precioUnitario" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="total" Type="decimal" Precision="18" Scale="0" Nullable="false" />
     <Property Name="usuarioRegistro" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="fechaRegistro" Type="datetime" Nullable="false" />
     <Property Name="estado" Type="smallint" Nullable="false" />
   </EntityType>
-  <Association Name="FK__Producto__idCate__2B3F6F97">
+  <Association Name="FK__Producto__idCate__2C3393D0">
     <End Role="Categoria" Type="Self.Categoria" Multiplicity="1" />
     <End Role="Producto" Type="Self.Producto" Multiplicity="*" />
     <ReferentialConstraint>
@@ -113,7 +114,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="fk_Venta_Cliente">
+  <Association Name="FK__Venta__idCliente__33D4B598">
     <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
     <End Role="Venta" Type="Self.Venta" Multiplicity="*" />
     <ReferentialConstraint>
@@ -125,7 +126,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="fk_Venta_Usuario">
+  <Association Name="FK__Venta__idUsuario__32E0915F">
     <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
     <End Role="Venta" Type="Self.Venta" Multiplicity="*" />
     <ReferentialConstraint>
@@ -137,7 +138,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="fk_VentaDetalle_Producto">
+  <Association Name="FK__VentaDeta__idPro__38996AB5">
     <End Role="Producto" Type="Self.Producto" Multiplicity="1" />
     <End Role="VentaDetalle" Type="Self.VentaDetalle" Multiplicity="*" />
     <ReferentialConstraint>
@@ -149,7 +150,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="fk_VentaDetalle_Venta">
+  <Association Name="FK__VentaDeta__idVen__37A5467C">
     <End Role="Venta" Type="Self.Venta" Multiplicity="1" />
     <End Role="VentaDetalle" Type="Self.VentaDetalle" Multiplicity="*" />
     <ReferentialConstraint>
@@ -176,7 +177,7 @@
   <Function Name="paVentaListar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="parametro" Type="varchar" Mode="In" />
   </Function>
-  <EntityContainer Name="LabPizzeriaHouseModelStoreContainer">
+  <EntityContainer Name="LabPizzeriaModelStoreContainer">
     <EntitySet Name="Categoria" EntityType="Self.Categoria" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Empleado" EntityType="Self.Empleado" Schema="dbo" store:Type="Tables" />
@@ -184,7 +185,7 @@
     <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Venta" EntityType="Self.Venta" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="VentaDetalle" EntityType="Self.VentaDetalle" Schema="dbo" store:Type="Tables" />
-    <AssociationSet Name="FK__Producto__idCate__2B3F6F97" Association="Self.FK__Producto__idCate__2B3F6F97">
+    <AssociationSet Name="FK__Producto__idCate__2C3393D0" Association="Self.FK__Producto__idCate__2C3393D0">
       <End Role="Categoria" EntitySet="Categoria" />
       <End Role="Producto" EntitySet="Producto" />
     </AssociationSet>
@@ -192,19 +193,19 @@
       <End Role="Empleado" EntitySet="Empleado" />
       <End Role="Usuario" EntitySet="Usuario" />
     </AssociationSet>
-    <AssociationSet Name="fk_Venta_Cliente" Association="Self.fk_Venta_Cliente">
+    <AssociationSet Name="FK__Venta__idCliente__33D4B598" Association="Self.FK__Venta__idCliente__33D4B598">
       <End Role="Cliente" EntitySet="Cliente" />
       <End Role="Venta" EntitySet="Venta" />
     </AssociationSet>
-    <AssociationSet Name="fk_Venta_Usuario" Association="Self.fk_Venta_Usuario">
+    <AssociationSet Name="FK__Venta__idUsuario__32E0915F" Association="Self.FK__Venta__idUsuario__32E0915F">
       <End Role="Usuario" EntitySet="Usuario" />
       <End Role="Venta" EntitySet="Venta" />
     </AssociationSet>
-    <AssociationSet Name="fk_VentaDetalle_Producto" Association="Self.fk_VentaDetalle_Producto">
+    <AssociationSet Name="FK__VentaDeta__idPro__38996AB5" Association="Self.FK__VentaDeta__idPro__38996AB5">
       <End Role="Producto" EntitySet="Producto" />
       <End Role="VentaDetalle" EntitySet="VentaDetalle" />
     </AssociationSet>
-    <AssociationSet Name="fk_VentaDetalle_Venta" Association="Self.fk_VentaDetalle_Venta">
+    <AssociationSet Name="FK__VentaDeta__idVen__37A5467C" Association="Self.FK__VentaDeta__idVen__37A5467C">
       <End Role="Venta" EntitySet="Venta" />
       <End Role="VentaDetalle" EntitySet="VentaDetalle" />
     </AssociationSet>

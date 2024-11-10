@@ -1,7 +1,7 @@
-﻿using CadPizzeria;
+﻿
+using CadPizzeria;
 using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +12,7 @@ namespace ClnPizzeria
     {
         public static int insertar(Usuario usuario)
         {
-            using (var context = new LabPizzeriaHouseEntities())
+            using (var context = new LabPizzeriaEntities())
             {
                 context.Usuario.Add(usuario);
                 context.SaveChanges();
@@ -22,10 +22,10 @@ namespace ClnPizzeria
 
         public static int actualizar(Usuario usuario)
         {
-            using (var context = new LabPizzeriaHouseEntities())
+            using (var context = new LabPizzeriaEntities())
             {
                 var existente = context.Usuario.Find(usuario.idUsuario);
-                existente.usuario = usuario.usuario.Trim();
+                existente.usuario1 = usuario.usuario1.Trim();
                 existente.idEmpleado = usuario.idEmpleado;
                 existente.usuarioRegistro = usuario.usuarioRegistro;
                 return context.SaveChanges();
@@ -34,7 +34,7 @@ namespace ClnPizzeria
 
         public static int cambiarClave(int id, string clave, string usuarioRegistro)
         {
-            using (var contexto = new LabPizzeriaHouseEntities())
+            using (var contexto = new LabPizzeriaEntities())
             {
                 var existente = contexto.Usuario.Find(id);
                 existente.clave = clave;
@@ -45,7 +45,7 @@ namespace ClnPizzeria
 
         public static int eliminar(int id, string usuario)
         {
-            using (var contexto = new LabPizzeriaHouseEntities())
+            using (var contexto = new LabPizzeriaEntities())
             {
                 var existente = contexto.Usuario.Find(id);
                 existente.estado = -1;
@@ -56,7 +56,7 @@ namespace ClnPizzeria
 
         public static Usuario get(int id)
         {
-            using (var contexto = new LabPizzeriaHouseEntities())
+            using (var contexto = new LabPizzeriaEntities())
             {
                 return contexto.Usuario.Find(id);
             }
@@ -64,17 +64,17 @@ namespace ClnPizzeria
 
         public static Usuario validar(string usuario, string clave)
         {
-            using (var contexto = new LabPizzeriaHouseEntities())
+            using (var contexto = new LabPizzeriaEntities())
             {
                 return contexto.Usuario
-                    .Where(x => x.usuario == usuario && x.clave == clave && x.estado == 1)
+                    .Where(x => x.usuario1 == usuario && x.clave == clave && x.estado == 1)
                     .FirstOrDefault();
             }
         }
 
         public static List<Usuario> listar()
         {
-            using (var contexto = new LabPizzeriaHouseEntities())
+            using (var contexto = new LabPizzeriaEntities())
             {
                 return contexto.Usuario.Where(x => x.estado != -1).ToList();
             }

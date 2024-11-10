@@ -11,7 +11,7 @@ namespace ClnPizzeria
     {
         public static Producto obtener(int idProducto)
         {
-            using (var context = new LabPizzeriaHouseEntities())
+            using (var context = new LabPizzeriaEntities())
             {
                 return context.Producto.Find(idProducto);
             }
@@ -20,7 +20,7 @@ namespace ClnPizzeria
 
         public static int insertar(Producto producto)
         {
-            using (var context = new LabPizzeriaHouseEntities())
+            using (var context = new LabPizzeriaEntities())
             {
                 context.Producto.Add(producto);
                 context.SaveChanges();
@@ -30,7 +30,7 @@ namespace ClnPizzeria
 
         public static int actualizar(Producto producto)
         {
-            using (var context = new LabPizzeriaHouseEntities())
+            using (var context = new LabPizzeriaEntities())
             {
                 var existente = context.Producto.Find(producto.idProducto);
                 existente.codigo = producto.codigo;
@@ -45,7 +45,7 @@ namespace ClnPizzeria
 
         public static int eliminar(int idProducto, string usuarioRegistro)
         {
-            using (var context = new LabPizzeriaHouseEntities())
+            using (var context = new LabPizzeriaEntities())
             {
                 var existente = context.Producto.Find(idProducto);
                 existente.estado = -1;
@@ -56,7 +56,7 @@ namespace ClnPizzeria
 
         public static Producto get(int idProducto)
         {
-            using (var context = new LabPizzeriaHouseEntities())
+            using (var context = new LabPizzeriaEntities())
             {
                 return context.Producto.Find(idProducto);
             }
@@ -64,7 +64,7 @@ namespace ClnPizzeria
 
         public static List<Producto> listar()
         {
-            using (var context = new LabPizzeriaHouseEntities())
+            using (var context = new LabPizzeriaEntities())
             {
                 return context.Producto.Where(x => x.estado != -1).ToList();
             }
@@ -72,7 +72,7 @@ namespace ClnPizzeria
 
         public static List<paProductosListar_Result> listarPa(string parametro)
         {
-            using (var context = new LabPizzeriaHouseEntities())
+            using (var context = new LabPizzeriaEntities())
             {
                 return context.paProductosListar(parametro).ToList();
             }
