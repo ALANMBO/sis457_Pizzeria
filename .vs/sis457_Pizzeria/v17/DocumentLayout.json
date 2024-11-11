@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EFFF3A50-AAD2-4CCC-9796-9D37F622E491}|CpPizzeria\\CpPizzeria.csproj|D:\\Trabajo final de sis457\\sis457_Pizzeria\\cppizzeria\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EFFF3A50-AAD2-4CCC-9796-9D37F622E491}|CpPizzeria\\CpPizzeria.csproj|solutionrelative:cppizzeria\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EFFF3A50-AAD2-4CCC-9796-9D37F622E491}|CpPizzeria\\CpPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\cppizzeria\\frmautenticacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EFFF3A50-AAD2-4CCC-9796-9D37F622E491}|CpPizzeria\\CpPizzeria.csproj|solutionrelative:cppizzeria\\frmautenticacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFFF3A50-AAD2-4CCC-9796-9D37F622E491}|CpPizzeria\\CpPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\cppizzeria\\frmautenticacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EFFF3A50-AAD2-4CCC-9796-9D37F622E491}|CpPizzeria\\CpPizzeria.csproj|D:\\Trabajo final de sis457\\sis457_Pizzeria\\cppizzeria\\frmautenticacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFFF3A50-AAD2-4CCC-9796-9D37F622E491}|CpPizzeria\\CpPizzeria.csproj|solutionrelative:cppizzeria\\frmautenticacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFFF3A50-AAD2-4CCC-9796-9D37F622E491}|CpPizzeria\\CpPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\cppizzeria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EFFF3A50-AAD2-4CCC-9796-9D37F622E491}|CpPizzeria\\CpPizzeria.csproj|D:\\Trabajo final de sis457\\sis457_Pizzeria\\cppizzeria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFFF3A50-AAD2-4CCC-9796-9D37F622E491}|CpPizzeria\\CpPizzeria.csproj|solutionrelative:cppizzeria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFFF3A50-AAD2-4CCC-9796-9D37F622E491}|CpPizzeria\\CpPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\cppizzeria\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{EFFF3A50-AAD2-4CCC-9796-9D37F622E491}|CpPizzeria\\CpPizzeria.csproj|solutionrelative:cppizzeria\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DB2EAF6-C500-4AAC-B1E8-AA3642D49098}|CadPizzeria\\CadPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\cadpizzeria\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{6DB2EAF6-C500-4AAC-B1E8-AA3642D49098}|CadPizzeria\\CadPizzeria.csproj|D:\\Trabajo final de sis457\\sis457_Pizzeria\\cadpizzeria\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{6DB2EAF6-C500-4AAC-B1E8-AA3642D49098}|CadPizzeria\\CadPizzeria.csproj|solutionrelative:cadpizzeria\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\CpPizzeria\\Program.cs",
               "RelativeDocumentMoniker": "CpPizzeria\\Program.cs",
@@ -66,18 +66,17 @@
               "RelativeToolTip": "CpPizzeria\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T02:24:32.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T02:24:32.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "App.config",
               "DocumentMoniker": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\CpPizzeria\\App.config",
               "RelativeDocumentMoniker": "CpPizzeria\\App.config",
               "ToolTip": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\CpPizzeria\\App.config",
               "RelativeToolTip": "CpPizzeria\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-11-11T02:22:08.702Z",
               "EditorCaption": ""
@@ -92,12 +91,11 @@
               "RelativeToolTip": "CadPizzeria\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-11-11T02:21:21.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T02:21:21.164Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FrmAutenticacion.cs",
               "DocumentMoniker": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\CpPizzeria\\FrmAutenticacion.cs",
               "RelativeDocumentMoniker": "CpPizzeria\\FrmAutenticacion.cs",
@@ -110,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FrmAutenticacion.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\CpPizzeria\\FrmAutenticacion.cs",
               "RelativeDocumentMoniker": "CpPizzeria\\FrmAutenticacion.cs",
@@ -130,8 +128,7 @@
               "RelativeToolTip": "ClnPizzeria\\UsuarioCln.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T19:12:00.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T19:12:00.112Z"
             },
             {
               "$type": "Document",
@@ -143,8 +140,7 @@
               "RelativeToolTip": "CpPizzeria\\FrmPrincipal.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAAADAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T19:07:46.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T19:07:46.901Z"
             },
             {
               "$type": "Document",
@@ -155,8 +151,7 @@
               "ToolTip": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\CpPizzeria\\FrmPrincipal.cs [Dise\u00F1o]",
               "RelativeToolTip": "CpPizzeria\\FrmPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T19:04:44.316Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-10T19:04:44.316Z"
             },
             {
               "$type": "Document",
@@ -168,8 +163,7 @@
               "RelativeToolTip": "ClnPizzeria\\VentaCln.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T19:12:06.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T19:12:06.176Z"
             }
           ]
         }
