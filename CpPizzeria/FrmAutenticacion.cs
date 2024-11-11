@@ -16,7 +16,7 @@ namespace CpPizzeria
         public FrmAutenticacion()
         {
             InitializeComponent();
-            // txtClave.Text = Util.Encrypt("hola123"); //este codigo lo empcipta  
+            // txtClave.Text = Util.Encrypt("hola123"); //este codigo lo encriptada  
 
         }
 
