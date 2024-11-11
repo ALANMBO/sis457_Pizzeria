@@ -148,9 +148,6 @@
   <data name="create_icon_2351081" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\create_icon_2351081.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="create_icon_235108" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\create_icon_235108.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="delete_4219" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\delete_4219.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -163,8 +160,14 @@
   <data name="images23" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images23.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="sales_bag_shopping_bargain_retail_icon-icons.com_55340" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sales_bag_shopping_bargain_retail_icon-icons.com_55340.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="add_box_item_product_icon_179239" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\add_box_item_product_icon_179239.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="descarga1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descarga1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="food-pizza-folder_99390" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\food-pizza-folder_99390.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,8 +178,8 @@
   <data name="distributorlogokorora_93658" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\distributorlogokorora_93658.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="descarga1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\descarga1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="create_icon_235108" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\create_icon_235108.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="twocirclingarrows1_120592" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\twocirclingarrows1_120592.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,7 +190,7 @@
   <data name="3592854-add-user-business-man-employee-general-human-member-office_107767" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3592854-add-user-business-man-employee-general-human-member-office_107767.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sales_bag_shopping_bargain_retail_icon-icons.com_55340" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sales_bag_shopping_bargain_retail_icon-icons.com_55340.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bigpicturewithlandscape_121963" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bigpicturewithlandscape_121963.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

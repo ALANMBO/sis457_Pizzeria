@@ -54,10 +54,9 @@
             this.btnIniciar.ForeColor = System.Drawing.Color.Transparent;
             this.btnIniciar.Image = global::CpPizzeria.Properties.Resources.savetheapplication_guardar_2958;
             this.btnIniciar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnIniciar.Location = new System.Drawing.Point(112, 218);
-            this.btnIniciar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnIniciar.Location = new System.Drawing.Point(84, 177);
             this.btnIniciar.Name = "btnIniciar";
-            this.btnIniciar.Size = new System.Drawing.Size(216, 43);
+            this.btnIniciar.Size = new System.Drawing.Size(181, 42);
             this.btnIniciar.TabIndex = 36;
             this.btnIniciar.Text = "INICIAR SESION";
             this.btnIniciar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -70,10 +69,9 @@
             this.lblclave.BackColor = System.Drawing.Color.Transparent;
             this.lblclave.Font = new System.Drawing.Font("Cooper Black", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblclave.ForeColor = System.Drawing.Color.White;
-            this.lblclave.Location = new System.Drawing.Point(13, 146);
-            this.lblclave.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblclave.Location = new System.Drawing.Point(10, 119);
             this.lblclave.Name = "lblclave";
-            this.lblclave.Size = new System.Drawing.Size(188, 26);
+            this.lblclave.Size = new System.Drawing.Size(156, 21);
             this.lblclave.TabIndex = 35;
             this.lblclave.Text = "CONTRASEÑA";
             // 
@@ -84,10 +82,9 @@
             this.lblUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblUsuario.Font = new System.Drawing.Font("Cooper Black", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsuario.ForeColor = System.Drawing.Color.White;
-            this.lblUsuario.Location = new System.Drawing.Point(35, 86);
-            this.lblUsuario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblUsuario.Location = new System.Drawing.Point(26, 70);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(130, 26);
+            this.lblUsuario.Size = new System.Drawing.Size(108, 21);
             this.lblUsuario.TabIndex = 34;
             this.lblUsuario.Text = "USUARIO";
             // 
@@ -96,12 +93,11 @@
             this.txtClave.BackColor = System.Drawing.Color.LightGray;
             this.txtClave.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtClave.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtClave.Location = new System.Drawing.Point(209, 146);
-            this.txtClave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtClave.Location = new System.Drawing.Point(172, 119);
             this.txtClave.Multiline = true;
             this.txtClave.Name = "txtClave";
             this.txtClave.PasswordChar = '*';
-            this.txtClave.Size = new System.Drawing.Size(293, 28);
+            this.txtClave.Size = new System.Drawing.Size(220, 23);
             this.txtClave.TabIndex = 33;
             // 
             // txtUsuario
@@ -109,11 +105,10 @@
             this.txtUsuario.BackColor = System.Drawing.Color.LightGray;
             this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(209, 84);
-            this.txtUsuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUsuario.Location = new System.Drawing.Point(172, 68);
             this.txtUsuario.Multiline = true;
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(293, 28);
+            this.txtUsuario.Size = new System.Drawing.Size(220, 23);
             this.txtUsuario.TabIndex = 32;
             // 
             // lblTitulo
@@ -123,10 +118,9 @@
             this.lblTitulo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblTitulo.Font = new System.Drawing.Font("Cooper Black", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitulo.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblTitulo.Location = new System.Drawing.Point(114, 20);
-            this.lblTitulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTitulo.Location = new System.Drawing.Point(86, 16);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(309, 39);
+            this.lblTitulo.Size = new System.Drawing.Size(249, 31);
             this.lblTitulo.TabIndex = 31;
             this.lblTitulo.Text = "INICIAR SESION";
             // 
@@ -140,10 +134,10 @@
             // 
             // FrmAutenticacion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::CpPizzeria.Properties.Resources.pizzaback;
-            this.ClientSize = new System.Drawing.Size(532, 300);
+            this.ClientSize = new System.Drawing.Size(407, 304);
             this.Controls.Add(this.btnIniciar);
             this.Controls.Add(this.lblclave);
             this.Controls.Add(this.lblUsuario);
@@ -151,7 +145,6 @@
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.lblTitulo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmAutenticacion";
             this.Text = "::: Autenticacion - Pizza :::";
             ((System.ComponentModel.ISupportInitialize)(this.erpClave)).EndInit();
