@@ -73,3 +73,4 @@ D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.cspro
 D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.exe
 D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.pdb
 D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.FrmCliente.resources
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.FrmProducto.resources

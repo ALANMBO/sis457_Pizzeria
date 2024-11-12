@@ -65,7 +65,7 @@ namespace CpPizzeria
 
         private void btnProducto_Click_1(object sender, EventArgs e)
         {
-
+            new FrmProducto().ShowDialog();
         }
 
         private void btnProvedor_Click_1(object sender, EventArgs e)

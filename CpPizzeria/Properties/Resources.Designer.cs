@@ -143,6 +143,16 @@ namespace CpPizzeria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap customer_service_icon_icons_com_51012 {
+            get {
+                object obj = ResourceManager.GetObject("customer-service_icon-icons.com_51012", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap delete_4219 {
             get {
                 object obj = ResourceManager.GetObject("delete_4219", resourceCulture);

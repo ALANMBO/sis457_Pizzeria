@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCliente));
             this.gbxDatos = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblRazon = new System.Windows.Forms.Label();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.txtCelular = new System.Windows.Forms.TextBox();
@@ -54,6 +55,7 @@
             this.erpCelular = new System.Windows.Forms.ErrorProvider(this.components);
             this.btnVolver = new System.Windows.Forms.Button();
             this.gbxDatos.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlAcciones.SuspendLayout();
             this.gbxLista.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLista)).BeginInit();
@@ -64,6 +66,8 @@
             // 
             // gbxDatos
             // 
+            this.gbxDatos.BackgroundImage = global::CpPizzeria.Properties.Resources.pizzaback;
+            this.gbxDatos.Controls.Add(this.pictureBox1);
             this.gbxDatos.Controls.Add(this.lblRazon);
             this.gbxDatos.Controls.Add(this.btnGuardar);
             this.gbxDatos.Controls.Add(this.txtCelular);
@@ -71,22 +75,33 @@
             this.gbxDatos.Controls.Add(this.lblCelular);
             this.gbxDatos.Controls.Add(this.lblCedula);
             this.gbxDatos.Controls.Add(this.txtCedula);
-            this.gbxDatos.Font = new System.Drawing.Font("Cooper Black", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbxDatos.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbxDatos.ForeColor = System.Drawing.Color.White;
             this.gbxDatos.Location = new System.Drawing.Point(6, 295);
             this.gbxDatos.Margin = new System.Windows.Forms.Padding(4);
             this.gbxDatos.Name = "gbxDatos";
             this.gbxDatos.Padding = new System.Windows.Forms.Padding(4);
-            this.gbxDatos.Size = new System.Drawing.Size(565, 191);
+            this.gbxDatos.Size = new System.Drawing.Size(734, 178);
             this.gbxDatos.TabIndex = 21;
             this.gbxDatos.TabStop = false;
             this.gbxDatos.Text = "Datos del Cliente ";
             this.gbxDatos.Enter += new System.EventHandler(this.gbxDatos_Enter);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::CpPizzeria.Properties.Resources.customer_service_icon_icons_com_51012;
+            this.pictureBox1.Location = new System.Drawing.Point(587, 26);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(133, 127);
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
+            // 
             // lblRazon
             // 
             this.lblRazon.AutoSize = true;
-            this.lblRazon.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.lblRazon.BackColor = System.Drawing.Color.Transparent;
             this.lblRazon.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRazon.ForeColor = System.Drawing.Color.White;
             this.lblRazon.Location = new System.Drawing.Point(8, 33);
             this.lblRazon.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRazon.Name = "lblRazon";
@@ -96,15 +111,17 @@
             // 
             // btnGuardar
             // 
+            this.btnGuardar.BackColor = System.Drawing.Color.Transparent;
+            this.btnGuardar.ForeColor = System.Drawing.Color.Black;
             this.btnGuardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuardar.Location = new System.Drawing.Point(172, 132);
+            this.btnGuardar.Location = new System.Drawing.Point(324, 133);
             this.btnGuardar.Margin = new System.Windows.Forms.Padding(4);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(89, 37);
             this.btnGuardar.TabIndex = 13;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.UseVisualStyleBackColor = false;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // txtCelular
@@ -112,7 +129,7 @@
             this.txtCelular.Location = new System.Drawing.Point(133, 104);
             this.txtCelular.Margin = new System.Windows.Forms.Padding(4);
             this.txtCelular.Name = "txtCelular";
-            this.txtCelular.Size = new System.Drawing.Size(235, 20);
+            this.txtCelular.Size = new System.Drawing.Size(432, 26);
             this.txtCelular.TabIndex = 12;
             // 
             // txtRazon
@@ -120,15 +137,15 @@
             this.txtRazon.Location = new System.Drawing.Point(133, 32);
             this.txtRazon.Margin = new System.Windows.Forms.Padding(4);
             this.txtRazon.Name = "txtRazon";
-            this.txtRazon.Size = new System.Drawing.Size(235, 20);
+            this.txtRazon.Size = new System.Drawing.Size(432, 26);
             this.txtRazon.TabIndex = 7;
             // 
             // lblCelular
             // 
             this.lblCelular.AutoSize = true;
-            this.lblCelular.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.lblCelular.BackColor = System.Drawing.Color.Transparent;
             this.lblCelular.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCelular.Location = new System.Drawing.Point(5, 102);
+            this.lblCelular.Location = new System.Drawing.Point(49, 111);
             this.lblCelular.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCelular.Name = "lblCelular";
             this.lblCelular.Size = new System.Drawing.Size(75, 19);
@@ -138,9 +155,9 @@
             // lblCedula
             // 
             this.lblCedula.AutoSize = true;
-            this.lblCedula.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.lblCedula.BackColor = System.Drawing.Color.Transparent;
             this.lblCedula.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCedula.Location = new System.Drawing.Point(5, 68);
+            this.lblCedula.Location = new System.Drawing.Point(57, 68);
             this.lblCedula.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCedula.Name = "lblCedula";
             this.lblCedula.Size = new System.Drawing.Size(45, 19);
@@ -152,11 +169,13 @@
             this.txtCedula.Location = new System.Drawing.Point(133, 68);
             this.txtCedula.Margin = new System.Windows.Forms.Padding(4);
             this.txtCedula.Name = "txtCedula";
-            this.txtCedula.Size = new System.Drawing.Size(235, 20);
+            this.txtCedula.Size = new System.Drawing.Size(432, 26);
             this.txtCedula.TabIndex = 10;
             // 
             // pnlAcciones
             // 
+            this.pnlAcciones.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlAcciones.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pnlAcciones.Controls.Add(this.btnLimpiar);
             this.pnlAcciones.Controls.Add(this.btnEditar);
@@ -166,7 +185,7 @@
             this.pnlAcciones.Location = new System.Drawing.Point(593, 84);
             this.pnlAcciones.Margin = new System.Windows.Forms.Padding(4);
             this.pnlAcciones.Name = "pnlAcciones";
-            this.pnlAcciones.Size = new System.Drawing.Size(194, 378);
+            this.pnlAcciones.Size = new System.Drawing.Size(147, 208);
             this.pnlAcciones.TabIndex = 20;
             this.pnlAcciones.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlAcciones_Paint);
             // 
@@ -177,7 +196,7 @@
             this.btnLimpiar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
             this.btnLimpiar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.btnLimpiar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLimpiar.Location = new System.Drawing.Point(17, 176);
+            this.btnLimpiar.Location = new System.Drawing.Point(4, 152);
             this.btnLimpiar.Margin = new System.Windows.Forms.Padding(4);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(94, 42);
@@ -191,7 +210,7 @@
             // 
             this.btnEditar.BackColor = System.Drawing.Color.LightGray;
             this.btnEditar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEditar.Location = new System.Drawing.Point(17, 75);
+            this.btnEditar.Location = new System.Drawing.Point(4, 41);
             this.btnEditar.Margin = new System.Windows.Forms.Padding(4);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(94, 40);
@@ -206,7 +225,7 @@
             // 
             this.btnEliminar.BackColor = System.Drawing.Color.LightGray;
             this.btnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEliminar.Location = new System.Drawing.Point(17, 123);
+            this.btnEliminar.Location = new System.Drawing.Point(4, 89);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(4);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(94, 45);
@@ -221,7 +240,7 @@
             // 
             this.btnNuevo.BackColor = System.Drawing.Color.LightGray;
             this.btnNuevo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNuevo.Location = new System.Drawing.Point(17, 38);
+            this.btnNuevo.Location = new System.Drawing.Point(4, 4);
             this.btnNuevo.Margin = new System.Windows.Forms.Padding(4);
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(94, 29);
@@ -234,9 +253,13 @@
             // 
             // gbxLista
             // 
+            this.gbxLista.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.gbxLista.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.gbxLista.BackgroundImage = global::CpPizzeria.Properties.Resources.pizzaback;
             this.gbxLista.Controls.Add(this.dgvLista);
-            this.gbxLista.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbxLista.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbxLista.ForeColor = System.Drawing.Color.White;
             this.gbxLista.Location = new System.Drawing.Point(6, 84);
             this.gbxLista.Margin = new System.Windows.Forms.Padding(4);
             this.gbxLista.Name = "gbxLista";
@@ -265,10 +288,12 @@
             // 
             // btnBuscar
             // 
-            this.btnBuscar.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.btnBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnBuscar.BackColor = System.Drawing.Color.White;
             this.btnBuscar.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBuscar.Location = new System.Drawing.Point(522, 35);
+            this.btnBuscar.Location = new System.Drawing.Point(640, 35);
             this.btnBuscar.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(100, 41);
@@ -281,10 +306,12 @@
             // 
             // txtBuscar
             // 
-            this.txtBuscar.Location = new System.Drawing.Point(138, 42);
+            this.txtBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtBuscar.Location = new System.Drawing.Point(139, 47);
             this.txtBuscar.Margin = new System.Windows.Forms.Padding(4);
             this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(376, 20);
+            this.txtBuscar.Size = new System.Drawing.Size(494, 20);
             this.txtBuscar.TabIndex = 17;
             this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
             this.txtBuscar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBuscar_KeyPress);
@@ -292,9 +319,10 @@
             // lblBuscar
             // 
             this.lblBuscar.AutoSize = true;
-            this.lblBuscar.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblBuscar.BackColor = System.Drawing.Color.Transparent;
             this.lblBuscar.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBuscar.Location = new System.Drawing.Point(3, 43);
+            this.lblBuscar.ForeColor = System.Drawing.Color.White;
+            this.lblBuscar.Location = new System.Drawing.Point(3, 49);
             this.lblBuscar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBuscar.Name = "lblBuscar";
             this.lblBuscar.Size = new System.Drawing.Size(127, 19);
@@ -303,9 +331,11 @@
             // 
             // lblTitulo
             // 
-            this.lblTitulo.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.lblTitulo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lblTitulo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblTitulo.BackColor = System.Drawing.Color.Transparent;
             this.lblTitulo.Font = new System.Drawing.Font("Cooper Black", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.ForeColor = System.Drawing.Color.White;
             this.lblTitulo.Location = new System.Drawing.Point(0, 0);
             this.lblTitulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitulo.Name = "lblTitulo";
@@ -328,15 +358,18 @@
             // 
             // btnVolver
             // 
-            this.btnVolver.BackColor = System.Drawing.Color.LightGray;
+            this.btnVolver.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnVolver.BackColor = System.Drawing.Color.Black;
             this.btnVolver.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.btnVolver.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
             this.btnVolver.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnVolver.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.ForeColor = System.Drawing.Color.White;
             this.btnVolver.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVolver.Location = new System.Drawing.Point(706, 0);
+            this.btnVolver.Location = new System.Drawing.Point(719, 0);
             this.btnVolver.Margin = new System.Windows.Forms.Padding(4);
             this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(94, 42);
+            this.btnVolver.Size = new System.Drawing.Size(68, 27);
             this.btnVolver.TabIndex = 4;
             this.btnVolver.Text = "Volver";
             this.btnVolver.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -348,7 +381,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::CpPizzeria.Properties.Resources.descarga;
+            this.BackgroundImage = global::CpPizzeria.Properties.Resources.pizzaback;
             this.ClientSize = new System.Drawing.Size(800, 486);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.gbxDatos);
@@ -364,6 +397,7 @@
             this.Load += new System.EventHandler(this.FrmCliente_Load);
             this.gbxDatos.ResumeLayout(false);
             this.gbxDatos.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnlAcciones.ResumeLayout(false);
             this.gbxLista.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvLista)).EndInit();
@@ -400,5 +434,6 @@
         private System.Windows.Forms.ErrorProvider erpCedula;
         private System.Windows.Forms.ErrorProvider erpCelular;
         private System.Windows.Forms.Button btnVolver;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
