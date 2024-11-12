@@ -55,7 +55,7 @@ namespace CpPizzeria
 
         private void btnCliente_Click_1(object sender, EventArgs e)
         {
-            
+            new FrmCliente().ShowDialog();
         }
 
         private void btnEmpleado_Click_1(object sender, EventArgs e)
