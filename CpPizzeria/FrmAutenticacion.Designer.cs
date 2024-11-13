@@ -116,7 +116,7 @@
             this.txtUsuario.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
             this.txtUsuario.BorderThickness = 2;
             this.txtUsuario.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtUsuario.DefaultText = "Usuario";
+            this.txtUsuario.DefaultText = "";
             this.txtUsuario.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtUsuario.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtUsuario.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -143,7 +143,7 @@
             this.txtClave.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
             this.txtClave.BorderThickness = 2;
             this.txtClave.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtClave.DefaultText = "Contraceña";
+            this.txtClave.DefaultText = "";
             this.txtClave.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtClave.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtClave.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -155,7 +155,7 @@
             this.txtClave.Location = new System.Drawing.Point(162, 119);
             this.txtClave.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtClave.Name = "txtClave";
-            this.txtClave.PasswordChar = '\0';
+            this.txtClave.PasswordChar = '*';
             this.txtClave.PlaceholderForeColor = System.Drawing.Color.Transparent;
             this.txtClave.PlaceholderText = "Usuario";
             this.txtClave.SelectedText = "";

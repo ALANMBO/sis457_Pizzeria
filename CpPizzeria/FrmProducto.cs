@@ -82,7 +82,6 @@ namespace CpPizzeria
         private void btnNuevo_Click(object sender, EventArgs e)
         {
             esNuevo = true;
-           // ExpandirFormulario();
             LimpiarFormulario();
             txtCodigo.Focus();
         }
@@ -90,7 +89,6 @@ namespace CpPizzeria
         private void btnEditar_Click(object sender, EventArgs e)
         {
             esNuevo = false;
-            //ExpandirFormulario();
             CargarDatosProducto();
         }
 
