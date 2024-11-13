@@ -233,6 +233,36 @@
   <ItemGroup>
     <None Include="Resources\iconfinder-broom-clean-service-labor-website-4622511_122412.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows_Close_Program_22531.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_78483.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capacity_maximize_full_screen_arrow_expand_icon_258775.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_84308.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man-2_icon-icons.com_55041.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man-2_icon-icons.com_55041 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\material_colors_macos_bigsur_icon_189995.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sales-by-payment-method_25410.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business_packages_boxes_products_sellingproducts_thereport_2344.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\concertticket_83678.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

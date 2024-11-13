@@ -123,9 +123,39 @@ namespace CpPizzeria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap business_packages_boxes_products_sellingproducts_thereport_2344 {
+            get {
+                object obj = ResourceManager.GetObject("business_packages_boxes_products_sellingproducts_thereport_2344", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap canceltheapplication_cancelar_2901 {
             get {
                 object obj = ResourceManager.GetObject("canceltheapplication_cancelar_2901", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap capacity_maximize_full_screen_arrow_expand_icon_258775 {
+            get {
+                object obj = ResourceManager.GetObject("capacity_maximize_full_screen_arrow_expand_icon_258775", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap concertticket_83678 {
+            get {
+                object obj = ResourceManager.GetObject("concertticket_83678", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,6 +283,46 @@ namespace CpPizzeria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap man_2_icon_icons_com_55041 {
+            get {
+                object obj = ResourceManager.GetObject("man-2_icon-icons.com_55041", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap man_2_icon_icons_com_55041__1_ {
+            get {
+                object obj = ResourceManager.GetObject("man-2_icon-icons.com_55041 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap material_colors_macos_bigsur_icon_189995 {
+            get {
+                object obj = ResourceManager.GetObject("material_colors_macos_bigsur_icon_189995", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap minimize_78483 {
+            get {
+                object obj = ResourceManager.GetObject("minimize_78483", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pizza_food_20620 {
             get {
                 object obj = ResourceManager.GetObject("pizza_food_20620", resourceCulture);
@@ -303,6 +373,16 @@ namespace CpPizzeria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Sales_by_payment_method_25410 {
+            get {
+                object obj = ResourceManager.GetObject("Sales-by-payment-method_25410", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap savetheapplication_guardar_2958 {
             get {
                 object obj = ResourceManager.GetObject("savetheapplication_guardar_2958", resourceCulture);
@@ -336,6 +416,26 @@ namespace CpPizzeria.Properties {
         internal static System.Drawing.Bitmap twocirclingarrows1_120592 {
             get {
                 object obj = ResourceManager.GetObject("twocirclingarrows1_120592", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_84308 {
+            get {
+                object obj = ResourceManager.GetObject("user_84308", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Windows_Close_Program_22531 {
+            get {
+                object obj = ResourceManager.GetObject("Windows_Close_Program_22531", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

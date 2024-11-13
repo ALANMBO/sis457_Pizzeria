@@ -21,7 +21,8 @@ namespace CpPizzeria
 
         }
 
-        private void iconrestaurar_Click(object sender, EventArgs e)
+
+        private void iconrestaurar_Click_1(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Normal;
             iconrestaurar.Visible = false;
@@ -33,62 +34,34 @@ namespace CpPizzeria
             this.WindowState = FormWindowState.Minimized;
         }
 
-        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
-        private extern static void ReleaseCapture();
-        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
-        private extern static void SendMessage(System.IntPtr hwnd, int wmsg, int wparam, int lparam);
-
-        private void btnlogoInicio_Click_1(object sender, EventArgs e)
+        private void iconCerrar2_Click(object sender, EventArgs e)
         {
-
+            Close();
         }
 
-        private void MenuVertical_Paint_1(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panelContenedor_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void btnCliente_Click_1(object sender, EventArgs e)
+        private void btnCliente_Click(object sender, EventArgs e)
         {
             new FrmCliente().ShowDialog();
         }
 
-        private void btnEmpleado_Click_1(object sender, EventArgs e)
+        private void btnProveedor_Click(object sender, EventArgs e)
         {
-            new FrmEmpleado().ShowDialog();
+            
         }
 
-        private void btnProducto_Click_1(object sender, EventArgs e)
+        private void btnProducto_Click(object sender, EventArgs e)
         {
             new FrmProducto().ShowDialog();
         }
 
-        private void btnProvedor_Click_1(object sender, EventArgs e)
+        private void btnEmpleado_Click(object sender, EventArgs e)
         {
-
+            new FrmEmpleado().ShowDialog();
         }
 
-        private void btnVenta_Click_1(object sender, EventArgs e)
+        private void btnVenta_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Maximized;
-            iconrestaurar.Visible = true;
-            iconmaximizar.Visible = false;
         }
     }
 }
