@@ -74,3 +74,6 @@ D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.exe
 D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.pdb
 D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.FrmCliente.resources
 D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.FrmProducto.resources
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\bin\Debug\C1.Win.C1Command.4.dll
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\bin\Debug\Guna.UI2.dll
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\bin\Debug\C1.Win.C1Command.4.xml

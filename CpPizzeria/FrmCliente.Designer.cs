@@ -177,6 +177,7 @@
             this.pnlAcciones.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlAcciones.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnlAcciones.Controls.Add(this.btnVolver);
             this.pnlAcciones.Controls.Add(this.btnLimpiar);
             this.pnlAcciones.Controls.Add(this.btnEditar);
             this.pnlAcciones.Controls.Add(this.btnEliminar);
@@ -185,7 +186,7 @@
             this.pnlAcciones.Location = new System.Drawing.Point(593, 84);
             this.pnlAcciones.Margin = new System.Windows.Forms.Padding(4);
             this.pnlAcciones.Name = "pnlAcciones";
-            this.pnlAcciones.Size = new System.Drawing.Size(147, 208);
+            this.pnlAcciones.Size = new System.Drawing.Size(185, 208);
             this.pnlAcciones.TabIndex = 20;
             this.pnlAcciones.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlAcciones_Paint);
             // 
@@ -366,7 +367,7 @@
             this.btnVolver.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVolver.ForeColor = System.Drawing.Color.White;
             this.btnVolver.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVolver.Location = new System.Drawing.Point(719, 0);
+            this.btnVolver.Location = new System.Drawing.Point(109, 130);
             this.btnVolver.Margin = new System.Windows.Forms.Padding(4);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(68, 27);
@@ -383,7 +384,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::CpPizzeria.Properties.Resources.pizzaback;
             this.ClientSize = new System.Drawing.Size(800, 486);
-            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.gbxDatos);
             this.Controls.Add(this.pnlAcciones);
             this.Controls.Add(this.gbxLista);

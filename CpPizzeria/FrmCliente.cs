@@ -43,7 +43,7 @@ namespace CpPizzeria
 
         private void FrmCliente_Load(object sender, EventArgs e)
         {
-            Size = new Size(860, 349); 
+            //Size = new Size(860, 349); 
             listar();
         }
 
@@ -77,11 +77,7 @@ namespace CpPizzeria
                 dgvLista.Rows[0].Cells["razonSocial"].Selected = true;
         }
 
-        private void btnBuscar_Click(object sender, EventArgs e)
-        {
-            listar(); 
-            txtBuscar.Clear();
-        }
+        
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
@@ -124,7 +120,7 @@ namespace CpPizzeria
         private void btnNuevo_Click(object sender, EventArgs e)
         {
             esNuevo = true; 
-            Size = new Size(955, 487); 
+            //Size = new Size(955, 487); 
             limpiar();
         }
 
@@ -171,7 +167,7 @@ namespace CpPizzeria
                 }
 
                 listar(); 
-                Size = new Size(678, 487); 
+               // Size = new Size(678, 487); 
                 limpiar(); 
             }
         }

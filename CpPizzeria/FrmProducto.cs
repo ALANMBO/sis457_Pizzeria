@@ -1,4 +1,5 @@
-﻿using ClnPizzeria;
+﻿using CadPizzeria;
+using ClnPizzeria;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -76,6 +77,154 @@ namespace CpPizzeria
 
             if (dgvLista.Columns["stock"] != null)
                 dgvLista.Columns["stock"].HeaderText = "Stock";
+        }
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            esNuevo = true;
+           // ExpandirFormulario();
+            LimpiarFormulario();
+            txtCodigo.Focus();
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            esNuevo = false;
+            //ExpandirFormulario();
+            CargarDatosProducto();
+        }
+
+        private void CargarDatosProducto()
+        {
+            int index = dgvLista.CurrentCell.RowIndex;
+            int id = Convert.ToInt32(dgvLista.Rows[index].Cells["idProducto"].Value);
+            var producto = ProductoCln.get(id);
+            txtCodigo.Text = producto.codigo;
+            txtNombre.Text = producto.nombre;
+            txtDescripcion.Text = producto.descripcion;
+            nudPrecio.Value = producto.precio;
+            nudCategoria.Value = producto.idCategoria;
+            nudStock.Value = producto.stock;
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            ListarProductos();
+            txtBuscar.Clear();
+        }
+
+        private void txtBuscar_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter) ListarProductos();
+        }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            if (ValidarCampos())
+            {
+                GuardarProducto();
+                ListarProductos();
+
+                MessageBox.Show("Producto guardado correctamente", "::: Cafeteria - Mensaje :::", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void GuardarProducto()
+        {
+            var producto = new Producto
+            {
+                idCategoria = (int)nudCategoria.Value,
+                codigo = txtCodigo.Text.Trim(),
+                nombre = txtNombre.Text.Trim(),
+                descripcion = txtDescripcion.Text.Trim(),
+                precio = nudPrecio.Value,
+                usuarioRegistro = Util.usuario.usuario1,
+                fechaRegistro = DateTime.Now,
+                estado = 1,
+                stock = (int)nudStock.Value 
+            };
+
+            if (esNuevo)
+            {
+                ProductoCln.insertar(producto);
+            }
+            else
+            {
+                int index = dgvLista.CurrentCell.RowIndex;
+                producto.idProducto = Convert.ToInt32(dgvLista.Rows[index].Cells["idProducto"].Value);
+                ProductoCln.actualizar(producto);
+            }
+        }
+
+        private bool ValidarCampos()
+        {
+            bool esValido = true;
+            erpCodigo.Clear();
+            erpNombre.Clear();
+            erpPrecio.Clear();
+            erpStock.Clear(); 
+
+            if (string.IsNullOrEmpty(txtCodigo.Text))
+            {
+                esValido = false;
+                erpCodigo.SetError(txtCodigo, "El campo Codigo es obligatorio");
+            }
+            if (string.IsNullOrEmpty(txtNombre.Text))
+            {
+                esValido = false;
+                erpNombre.SetError(txtNombre, "El campo Nombre es obligatorio");
+            }
+            if (nudPrecio.Value <= 0)
+            {
+                esValido = false;
+                erpPrecio.SetError(nudPrecio, "El campo Precio es obligatorio");
+            }
+            if (nudStock.Value < 0) 
+            {
+                esValido = false;
+                erpStock.SetError(nudStock, "El campo Stock no puede ser negativo");
+            }
+
+            return esValido;
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            EliminarProducto();
+        }
+
+        private void EliminarProducto()
+        {
+            int index = dgvLista.CurrentCell.RowIndex;
+            int idProducto = Convert.ToInt32(dgvLista.Rows[index].Cells["idProducto"].Value);
+            string codigo = dgvLista.Rows[index].Cells["codigo"].Value.ToString();
+            DialogResult dialog = MessageBox.Show($"¿Está seguro de eliminar el producto {codigo}?", "::: Pizzeria - Mensaje :::", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (dialog == DialogResult.OK)
+            {
+                ProductoCln.eliminar(idProducto, "pizzaHouse");
+                ListarProductos();
+                MessageBox.Show("Producto dado de baja correctamente", "::: Pizzeria - Mensaje :::", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void btnVaciar_Click(object sender, EventArgs e)
+        {
+            LimpiarFormulario();
+        }
+
+        private void LimpiarFormulario()
+        {
+            txtCodigo.Clear();
+            txtNombre.Clear();
+            txtDescripcion.Clear();
+            nudPrecio.Value = 0;
+            nudCategoria.Value = 0;
+            nudStock.Value = 0;
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
