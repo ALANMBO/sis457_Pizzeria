@@ -118,82 +118,88 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="canceltheapplication_cancelar_2901" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\canceltheapplication_cancelar_2901.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pizza_pizzadeliverypersonpeopleman_pizza_repartidordepizzas_person_1646" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pizza_pizzadeliverypersonpeopleman_pizza_repartidordepizzas_person_1646.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="savetheapplication_guardar_2958" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\savetheapplication_guardar_2958.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="food-pizza-folder_99390" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food-pizza-folder_99390.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="food-pizza-folder_993901" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\food-pizza-folder_993901.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pizzaback" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pizzaback.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="seo-social-web-network-internet_322_icon-icons.com_61532" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\seo-social-web-network-internet_322_icon-icons.com_61532.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="-create-new-folder_90671" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\-create-new-folder_90671.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="descarga1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descarga1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="descarga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\descarga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bigpicturewithlandscape_121963" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bigpicturewithlandscape_121963.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="create_icon_2351081" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\create_icon_2351081.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="create_icon_235108" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\create_icon_235108.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="distributorlogokorora_93658" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\distributorlogokorora_93658.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="delete_4219" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\delete_4219.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="searcher_magnifyng_glass_search_locate_find_icon_123813" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\searcher_magnifyng_glass_search_locate_find_icon_123813.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="-create-new-folder_90671" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\-create-new-folder_90671.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pizza_pizzadeliverypersonpeopleman_pizza_repartidordepizzas_person_16461" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pizza_pizzadeliverypersonpeopleman_pizza_repartidordepizzas_person_16461.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1490129329-rounded38_82203" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1490129329-rounded38_82203.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="images23" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images23.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="create_icon_235108" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\create_icon_235108.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sales_bag_shopping_bargain_retail_icon-icons.com_55340" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sales_bag_shopping_bargain_retail_icon-icons.com_55340.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="add_box_item_product_icon_179239" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\add_box_item_product_icon_179239.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="food-pizza-folder_99390" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\food-pizza-folder_99390.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="canceltheapplication_cancelar_2901" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\canceltheapplication_cancelar_2901.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pizza_food_20620" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pizza_food_20620.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="distributorlogokorora_93658" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\distributorlogokorora_93658.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="add_box_item_product_icon_179239" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_box_item_product_icon_179239.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="descarga1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\descarga1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="twocirclingarrows1_120592" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\twocirclingarrows1_120592.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1486485581-account-audience-person-customer-profile-user_81164" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1486485581-account-audience-person-customer-profile-user_81164.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bigpicturewithlandscape_121963" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bigpicturewithlandscape_121963.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="3592854-add-user-business-man-employee-general-human-member-office_107767" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3592854-add-user-business-man-employee-general-human-member-office_107767.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="searcher_magnifyng_glass_search_locate_find_icon_123813" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\searcher_magnifyng_glass_search_locate_find_icon_123813.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1486485581-account-audience-person-customer-profile-user_81164" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1486485581-account-audience-person-customer-profile-user_81164.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images23.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pizza_pizzadeliverypersonpeopleman_pizza_repartidordepizzas_person_1646" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizza_pizzadeliverypersonpeopleman_pizza_repartidordepizzas_person_1646.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="customer-service_icon-icons.com_51012" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\customer-service_icon-icons.com_51012.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="savetheapplication_guardar_2958" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\savetheapplication_guardar_2958.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pizza_pizzadeliverypersonpeopleman_pizza_repartidordepizzas_person_16461" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizza_pizzadeliverypersonpeopleman_pizza_repartidordepizzas_person_16461.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="twocirclingarrows1_120592" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\twocirclingarrows1_120592.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seo-social-web-network-internet_322_icon-icons.com_61532" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seo-social-web-network-internet_322_icon-icons.com_61532.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="create_icon_2351081" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\create_icon_2351081.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pizzaback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizzaback.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconfinder-broom-clean-service-labor-website-4622511_122412" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconfinder-broom-clean-service-labor-website-4622511_122412.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

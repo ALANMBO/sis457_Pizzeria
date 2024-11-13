@@ -73,6 +73,16 @@ namespace CpPizzeria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1490129329_rounded38_82203 {
+            get {
+                object obj = ResourceManager.GetObject("1490129329-rounded38_82203", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _3592854_add_user_business_man_employee_general_human_member_office_107767 {
             get {
                 object obj = ResourceManager.GetObject("3592854-add-user-business-man-employee-general-human-member-office_107767", resourceCulture);
@@ -206,6 +216,16 @@ namespace CpPizzeria.Properties {
         internal static System.Drawing.Bitmap food_pizza_folder_993901 {
             get {
                 object obj = ResourceManager.GetObject("food-pizza-folder_993901", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_broom_clean_service_labor_website_4622511_122412 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder-broom-clean-service-labor-website-4622511_122412", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
