@@ -103,7 +103,7 @@
             this.dvgCantidad,
             this.dvgSubTotal});
             this.dvgListaVenta.Location = new System.Drawing.Point(5, 284);
-            this.dvgListaVenta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dvgListaVenta.Margin = new System.Windows.Forms.Padding(4);
             this.dvgListaVenta.Name = "dvgListaVenta";
             this.dvgListaVenta.ReadOnly = true;
             this.dvgListaVenta.RowHeadersWidth = 51;
@@ -182,9 +182,9 @@
             this.gbxProducto.Controls.Add(this.lblNombre);
             this.gbxProducto.Controls.Add(this.lblPrecio);
             this.gbxProducto.Location = new System.Drawing.Point(5, 43);
-            this.gbxProducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbxProducto.Margin = new System.Windows.Forms.Padding(4);
             this.gbxProducto.Name = "gbxProducto";
-            this.gbxProducto.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbxProducto.Padding = new System.Windows.Forms.Padding(4);
             this.gbxProducto.Size = new System.Drawing.Size(722, 225);
             this.gbxProducto.TabIndex = 21;
             this.gbxProducto.TabStop = false;
@@ -204,7 +204,7 @@
             this.btnAgregar.ForeColor = System.Drawing.Color.Black;
             this.btnAgregar.Image = global::CpPizzeria.Properties.Resources.add_icon_icons_com_65126;
             this.btnAgregar.Location = new System.Drawing.Point(580, 164);
-            this.btnAgregar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(4);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(89, 36);
             this.btnAgregar.TabIndex = 30;
@@ -247,7 +247,7 @@
             this.btnBuscar.ForeColor = System.Drawing.Color.Black;
             this.btnBuscar.Image = global::CpPizzeria.Properties.Resources.searcher_magnifyng_glass_search_locate_find_icon_123813;
             this.btnBuscar.Location = new System.Drawing.Point(580, 113);
-            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(89, 33);
             this.btnBuscar.TabIndex = 29;
@@ -322,6 +322,7 @@
             this.CbxProducto.Name = "CbxProducto";
             this.CbxProducto.Size = new System.Drawing.Size(124, 36);
             this.CbxProducto.TabIndex = 16;
+            this.CbxProducto.SelectedIndexChanged += new System.EventHandler(this.CbxProducto_SelectedIndexChanged);
             // 
             // gbxCliente
             // 
@@ -331,9 +332,9 @@
             this.gbxCliente.Controls.Add(this.lblNit);
             this.gbxCliente.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbxCliente.Location = new System.Drawing.Point(243, 21);
-            this.gbxCliente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbxCliente.Margin = new System.Windows.Forms.Padding(4);
             this.gbxCliente.Name = "gbxCliente";
-            this.gbxCliente.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbxCliente.Padding = new System.Windows.Forms.Padding(4);
             this.gbxCliente.Size = new System.Drawing.Size(434, 69);
             this.gbxCliente.TabIndex = 9;
             this.gbxCliente.TabStop = false;
@@ -412,7 +413,7 @@
             // txtPrecio
             // 
             this.txtPrecio.Location = new System.Drawing.Point(21, 241);
-            this.txtPrecio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPrecio.Margin = new System.Windows.Forms.Padding(4);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(132, 20);
             this.txtPrecio.TabIndex = 13;
@@ -423,9 +424,9 @@
             this.gbxVenta.Controls.Add(this.lblFecha);
             this.gbxVenta.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbxVenta.Location = new System.Drawing.Point(9, 21);
-            this.gbxVenta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbxVenta.Margin = new System.Windows.Forms.Padding(4);
             this.gbxVenta.Name = "gbxVenta";
-            this.gbxVenta.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbxVenta.Padding = new System.Windows.Forms.Padding(4);
             this.gbxVenta.Size = new System.Drawing.Size(226, 51);
             this.gbxVenta.TabIndex = 10;
             this.gbxVenta.TabStop = false;
@@ -436,7 +437,7 @@
             this.dtpFecha.Enabled = false;
             this.dtpFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpFecha.Location = new System.Drawing.Point(63, 19);
-            this.dtpFecha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtpFecha.Margin = new System.Windows.Forms.Padding(4);
             this.dtpFecha.Name = "dtpFecha";
             this.dtpFecha.Size = new System.Drawing.Size(145, 22);
             this.dtpFecha.TabIndex = 1;
@@ -492,7 +493,7 @@
             // tbxIdProducto
             // 
             this.tbxIdProducto.Location = new System.Drawing.Point(109, 74);
-            this.tbxIdProducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbxIdProducto.Margin = new System.Windows.Forms.Padding(4);
             this.tbxIdProducto.Name = "tbxIdProducto";
             this.tbxIdProducto.Size = new System.Drawing.Size(31, 20);
             this.tbxIdProducto.TabIndex = 6;

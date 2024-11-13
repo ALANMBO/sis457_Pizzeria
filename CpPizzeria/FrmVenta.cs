@@ -46,21 +46,21 @@ namespace CpPizzeria
         {
             if (validar())
             {
-                // Intenta obtener el ID y el precio del producto
+                
                 int id = 0;
                 decimal precio = 0;
-                if (!int.TryParse(tbxIdProducto.Text.Trim(), out id)) // Si el ID no es válido
+                if (!int.TryParse(tbxIdProducto.Text.Trim(), out id)) 
                 {
                     MessageBox.Show("ID del producto no es válido.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
-                if (!decimal.TryParse(txtPrecio.Text.Trim(), out precio)) // Si el precio no es válido
+                if (!decimal.TryParse(txtPrecio.Text.Trim(), out precio)) 
                 {
                     MessageBox.Show("Precio del producto no es válido.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
 
-                // Obtiene el producto seleccionado, la cantidad y verifica el stock disponible
+                
                 string producto = CbxProducto.Text.Trim();
                 int cantidad = (int)nudCantidadP.Value;
                 int stockDisponible = (int)nudStock.Value;
@@ -73,14 +73,14 @@ namespace CpPizzeria
 
                 decimal subtotal = precio * cantidad;
 
-                // Agrega el producto a la grilla de la venta
+               
                 dvgListaVenta.Rows.Add(id, producto, precio, cantidad, subtotal);
-                sumaTotal += subtotal; // Suma el subtotal al total acumulado
+                sumaTotal += subtotal; 
 
-                // Actualiza el total en la interfaz de usuario
-                txtTotal.Text = sumaTotal.ToString("N2", CultureInfo.CreateSpecificCulture("en-US")); // Formatea el total como moneda
+                
+                txtTotal.Text = sumaTotal.ToString("N2", CultureInfo.CreateSpecificCulture("en-US")); 
 
-                // Limpia los campos para la próxima adición
+                
                 limpiar();
             }
         }
@@ -101,7 +101,7 @@ namespace CpPizzeria
             erpRazonSocial.SetError(txtrazonSocial, "");
             erpProducto.SetError(CbxProducto, "");
 
-            // Verifica si los campos requeridos están vacíos
+         
             if (string.IsNullOrEmpty(txtNit.Text))
             {
                 esValido = false;
@@ -112,17 +112,41 @@ namespace CpPizzeria
                 esValido = false;
                 erpRazonSocial.SetError(txtrazonSocial, "El campo Razon Social es obligatorio");
             }
-            //if (string.IsNullOrEmpty(txtCelular.Text))
-            //{
-               /// esValido = false;
-                ///erpCelular.SetError(txtCelular, "El campo celular es obligatorio");
-            ///}
+            
             if (CbxProducto.SelectedIndex == -1)
             {
                 esValido = false;
                 erpProducto.SetError(CbxProducto, "Debe seleccionar un producto");
             }
             return esValido;
+        }
+
+        private void CbxProducto_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (CbxProducto.SelectedItem != null)
+            {
+                Producto productoSeleccionado = (Producto)CbxProducto.SelectedItem;
+                tbxIdProducto.Text = productoSeleccionado.idProducto.ToString();
+                txtPrecio.Text = productoSeleccionado.precio.ToString();
+                txtCodigo.Text = productoSeleccionado.codigo.ToString();
+
+                
+                int stock = productoSeleccionado.stock;
+                if (stock < nudStock.Minimum)
+                {
+                    stock = (int)nudStock.Minimum;
+                }
+                else if (stock > nudStock.Maximum)
+                {
+                    stock = (int)nudStock.Maximum;
+                }
+
+                nudStock.Value = stock; 
+            }
+            else
+            {
+                limpiar(); 
+            }
         }
     }
 }
