@@ -92,9 +92,9 @@
             this.gbxDatos.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbxDatos.ForeColor = System.Drawing.Color.White;
             this.gbxDatos.Location = new System.Drawing.Point(16, 298);
-            this.gbxDatos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbxDatos.Margin = new System.Windows.Forms.Padding(4);
             this.gbxDatos.Name = "gbxDatos";
-            this.gbxDatos.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbxDatos.Padding = new System.Windows.Forms.Padding(4);
             this.gbxDatos.Size = new System.Drawing.Size(573, 177);
             this.gbxDatos.TabIndex = 22;
             this.gbxDatos.TabStop = false;
@@ -113,7 +113,7 @@
             this.btnGuardar.ForeColor = System.Drawing.Color.Black;
             this.btnGuardar.Image = global::CpPizzeria.Properties.Resources.savetheapplication_guardar_2958;
             this.btnGuardar.Location = new System.Drawing.Point(440, 74);
-            this.btnGuardar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(4);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(101, 35);
             this.btnGuardar.TabIndex = 10;
@@ -136,7 +136,7 @@
             // 
             this.nudStock.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nudStock.Location = new System.Drawing.Point(331, 144);
-            this.nudStock.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nudStock.Margin = new System.Windows.Forms.Padding(4);
             this.nudStock.Name = "nudStock";
             this.nudStock.Size = new System.Drawing.Size(77, 26);
             this.nudStock.TabIndex = 19;
@@ -144,7 +144,7 @@
             // nudCategoria
             // 
             this.nudCategoria.Location = new System.Drawing.Point(331, 96);
-            this.nudCategoria.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nudCategoria.Margin = new System.Windows.Forms.Padding(4);
             this.nudCategoria.Name = "nudCategoria";
             this.nudCategoria.Size = new System.Drawing.Size(77, 26);
             this.nudCategoria.TabIndex = 18;
@@ -164,7 +164,7 @@
             // nudPrecio
             // 
             this.nudPrecio.Location = new System.Drawing.Point(331, 44);
-            this.nudPrecio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nudPrecio.Margin = new System.Windows.Forms.Padding(4);
             this.nudPrecio.Name = "nudPrecio";
             this.nudPrecio.Size = new System.Drawing.Size(77, 26);
             this.nudPrecio.TabIndex = 14;
@@ -184,7 +184,7 @@
             // txtDescripcion
             // 
             this.txtDescripcion.Location = new System.Drawing.Point(15, 145);
-            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(4);
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(273, 26);
             this.txtDescripcion.TabIndex = 12;
@@ -204,7 +204,7 @@
             // txtNombre
             // 
             this.txtNombre.Location = new System.Drawing.Point(15, 95);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(273, 26);
             this.txtNombre.TabIndex = 10;
@@ -224,7 +224,7 @@
             // txtCodigo
             // 
             this.txtCodigo.Location = new System.Drawing.Point(15, 45);
-            this.txtCodigo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCodigo.Margin = new System.Windows.Forms.Padding(4);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(273, 26);
             this.txtCodigo.TabIndex = 8;
@@ -252,7 +252,7 @@
             this.panel1.Controls.Add(this.btnNuevo);
             this.panel1.Font = new System.Drawing.Font("Cooper Black", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(597, 305);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(272, 170);
             this.panel1.TabIndex = 20;
@@ -270,7 +270,7 @@
             this.btnSalir.ForeColor = System.Drawing.Color.Black;
             this.btnSalir.Image = global::CpPizzeria.Properties.Resources.canceltheapplication_cancelar_2901;
             this.btnSalir.Location = new System.Drawing.Point(81, 122);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(101, 35);
             this.btnSalir.TabIndex = 9;
@@ -290,7 +290,7 @@
             this.btnVaciar.ForeColor = System.Drawing.Color.Black;
             this.btnVaciar.Image = global::CpPizzeria.Properties.Resources.iconfinder_broom_clean_service_labor_website_4622511_122412;
             this.btnVaciar.Location = new System.Drawing.Point(149, 67);
-            this.btnVaciar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnVaciar.Margin = new System.Windows.Forms.Padding(4);
             this.btnVaciar.Name = "btnVaciar";
             this.btnVaciar.Size = new System.Drawing.Size(101, 35);
             this.btnVaciar.TabIndex = 8;
@@ -310,7 +310,7 @@
             this.btnEditar.ForeColor = System.Drawing.Color.Black;
             this.btnEditar.Image = global::CpPizzeria.Properties.Resources.create_icon_235108;
             this.btnEditar.Location = new System.Drawing.Point(149, 16);
-            this.btnEditar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEditar.Margin = new System.Windows.Forms.Padding(4);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(101, 35);
             this.btnEditar.TabIndex = 7;
@@ -330,7 +330,7 @@
             this.btnEliminar.ForeColor = System.Drawing.Color.Black;
             this.btnEliminar.Image = global::CpPizzeria.Properties.Resources.delete_4219;
             this.btnEliminar.Location = new System.Drawing.Point(13, 67);
-            this.btnEliminar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(4);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(101, 35);
             this.btnEliminar.TabIndex = 6;
@@ -350,7 +350,7 @@
             this.btnNuevo.ForeColor = System.Drawing.Color.Black;
             this.btnNuevo.Image = global::CpPizzeria.Properties.Resources._1490129329_rounded38_82203;
             this.btnNuevo.Location = new System.Drawing.Point(13, 16);
-            this.btnNuevo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNuevo.Margin = new System.Windows.Forms.Padding(4);
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(101, 35);
             this.btnNuevo.TabIndex = 5;
@@ -365,9 +365,9 @@
             this.gbxLista.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbxLista.ForeColor = System.Drawing.Color.Black;
             this.gbxLista.Location = new System.Drawing.Point(13, 89);
-            this.gbxLista.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbxLista.Margin = new System.Windows.Forms.Padding(4);
             this.gbxLista.Name = "gbxLista";
-            this.gbxLista.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbxLista.Padding = new System.Windows.Forms.Padding(4);
             this.gbxLista.Size = new System.Drawing.Size(856, 208);
             this.gbxLista.TabIndex = 19;
             this.gbxLista.TabStop = false;
@@ -382,7 +382,7 @@
             this.dgvLista.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvLista.GridColor = System.Drawing.Color.White;
             this.dgvLista.Location = new System.Drawing.Point(8, 16);
-            this.dgvLista.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvLista.Margin = new System.Windows.Forms.Padding(4);
             this.dgvLista.MultiSelect = false;
             this.dgvLista.Name = "dgvLista";
             this.dgvLista.ReadOnly = true;
@@ -394,7 +394,7 @@
             // txtBuscar
             // 
             this.txtBuscar.Location = new System.Drawing.Point(193, 61);
-            this.txtBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtBuscar.Margin = new System.Windows.Forms.Padding(4);
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(541, 20);
             this.txtBuscar.TabIndex = 18;
@@ -441,7 +441,7 @@
             this.btnBuscar.ForeColor = System.Drawing.Color.Black;
             this.btnBuscar.Image = global::CpPizzeria.Properties.Resources.searcher_magnifyng_glass_search_locate_find_icon_123813;
             this.btnBuscar.Location = new System.Drawing.Point(746, 52);
-            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(50, 35);
             this.btnBuscar.TabIndex = 21;

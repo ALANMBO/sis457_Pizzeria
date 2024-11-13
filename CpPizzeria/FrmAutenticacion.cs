@@ -21,10 +21,6 @@ namespace CpPizzeria
 
         }
 
-        private void FrmAutenticacion_Load(object sender, EventArgs e)
-        {
-
-        }
         private bool validar()
         {
             bool esValido = true;
@@ -43,7 +39,8 @@ namespace CpPizzeria
             }
             return esValido;
         }
-        private void btnIniciar_Click_1(object sender, EventArgs e)
+       
+        private void btnIniciar_Click(object sender, EventArgs e)
         {
             if (validar())
             {
@@ -65,12 +62,14 @@ namespace CpPizzeria
             }
         }
 
+        private void FrmAutenticacion_Load(object sender, EventArgs e)
+        {
+
+        }
 
         private void txtClave_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)Keys.Enter) btnIniciar.PerformClick();
         }
-
- 
     }
 }
