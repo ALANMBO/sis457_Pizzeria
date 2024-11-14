@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace CpPizzeria
 {
@@ -116,11 +117,23 @@ namespace CpPizzeria
                 erpTelefono.SetError(txtTelefono, "El campo Telefono debe tener al menos 8 caracteres");
             }
 
-            if (string.IsNullOrEmpty(cbxCargo.Text))
+            if (cbxCargo.SelectedItem == null || cbxCargo.SelectedItem.ToString() == "Seleccione un cargo")
             {
                 esValido = false;
                 erpCargo.SetError(cbxCargo, "El campo Cargo es obligatorio");
             }
+            else
+            {
+                esValido = true;
+                erpCargo.Clear();
+            }
+
+
+
+
+            //if (string.IsNullOrEmpty(cbxCargo.Text)){
+              //  esValido = false;
+             //   erpCargo.SetError(cbxCargo, "El campo Cargo es obligatorio"); }
 
             if (nudSalario.Value <= 0)
             {
