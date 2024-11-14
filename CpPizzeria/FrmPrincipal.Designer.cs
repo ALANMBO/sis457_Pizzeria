@@ -65,9 +65,10 @@
             this.iconminimizar.BackColor = System.Drawing.Color.Transparent;
             this.iconminimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconminimizar.Image = global::CpPizzeria.Properties.Resources.minimize_78483;
-            this.iconminimizar.Location = new System.Drawing.Point(590, 5);
+            this.iconminimizar.Location = new System.Drawing.Point(677, 6);
+            this.iconminimizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.iconminimizar.Name = "iconminimizar";
-            this.iconminimizar.Size = new System.Drawing.Size(18, 18);
+            this.iconminimizar.Size = new System.Drawing.Size(24, 22);
             this.iconminimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.iconminimizar.TabIndex = 10;
             this.iconminimizar.TabStop = false;
@@ -79,9 +80,10 @@
             this.iconrestaurar.BackColor = System.Drawing.Color.Transparent;
             this.iconrestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconrestaurar.Image = global::CpPizzeria.Properties.Resources.capacity_maximize_full_screen_arrow_expand_icon_258775;
-            this.iconrestaurar.Location = new System.Drawing.Point(614, 5);
+            this.iconrestaurar.Location = new System.Drawing.Point(709, 6);
+            this.iconrestaurar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.iconrestaurar.Name = "iconrestaurar";
-            this.iconrestaurar.Size = new System.Drawing.Size(18, 18);
+            this.iconrestaurar.Size = new System.Drawing.Size(24, 22);
             this.iconrestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.iconrestaurar.TabIndex = 9;
             this.iconrestaurar.TabStop = false;
@@ -93,9 +95,10 @@
             this.iconmaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.iconmaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconmaximizar.Image = ((System.Drawing.Image)(resources.GetObject("iconmaximizar.Image")));
-            this.iconmaximizar.Location = new System.Drawing.Point(694, 5);
+            this.iconmaximizar.Location = new System.Drawing.Point(815, 6);
+            this.iconmaximizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.iconmaximizar.Name = "iconmaximizar";
-            this.iconmaximizar.Size = new System.Drawing.Size(18, 18);
+            this.iconmaximizar.Size = new System.Drawing.Size(24, 22);
             this.iconmaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.iconmaximizar.TabIndex = 8;
             this.iconmaximizar.TabStop = false;
@@ -105,9 +108,10 @@
             this.iconcerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.iconcerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconcerrar.Image = ((System.Drawing.Image)(resources.GetObject("iconcerrar.Image")));
-            this.iconcerrar.Location = new System.Drawing.Point(720, 5);
+            this.iconcerrar.Location = new System.Drawing.Point(850, 6);
+            this.iconcerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.iconcerrar.Name = "iconcerrar";
-            this.iconcerrar.Size = new System.Drawing.Size(17, 18);
+            this.iconcerrar.Size = new System.Drawing.Size(23, 22);
             this.iconcerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.iconcerrar.TabIndex = 7;
             this.iconcerrar.TabStop = false;
@@ -116,9 +120,10 @@
             // 
             this.btnMenu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnMenu.Image")));
-            this.btnMenu.Location = new System.Drawing.Point(-93, 6);
+            this.btnMenu.Location = new System.Drawing.Point(-124, 7);
+            this.btnMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMenu.Name = "btnMenu";
-            this.btnMenu.Size = new System.Drawing.Size(35, 35);
+            this.btnMenu.Size = new System.Drawing.Size(47, 43);
             this.btnMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnMenu.TabIndex = 6;
             this.btnMenu.TabStop = false;
@@ -130,9 +135,10 @@
             this.iconCerrar2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconCerrar2.ErrorImage = global::CpPizzeria.Properties.Resources.canceltheapplication_cancelar_2901;
             this.iconCerrar2.Image = global::CpPizzeria.Properties.Resources.Windows_Close_Program_22531;
-            this.iconCerrar2.Location = new System.Drawing.Point(566, 5);
+            this.iconCerrar2.Location = new System.Drawing.Point(645, 6);
+            this.iconCerrar2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.iconCerrar2.Name = "iconCerrar2";
-            this.iconCerrar2.Size = new System.Drawing.Size(18, 18);
+            this.iconCerrar2.Size = new System.Drawing.Size(24, 22);
             this.iconCerrar2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.iconCerrar2.TabIndex = 11;
             this.iconCerrar2.TabStop = false;
@@ -144,18 +150,20 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Cooper Black", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(183, 7);
+            this.lblTitulo.Location = new System.Drawing.Point(244, 9);
+            this.lblTitulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(260, 36);
+            this.lblTitulo.Size = new System.Drawing.Size(329, 46);
             this.lblTitulo.TabIndex = 12;
             this.lblTitulo.Text = "Menu Principal";
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::CpPizzeria.Properties.Resources.customer_service_icon_icons_com_51012;
-            this.pictureBox1.Location = new System.Drawing.Point(26, 56);
+            this.pictureBox1.Location = new System.Drawing.Point(35, 69);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(105, 89);
+            this.pictureBox1.Size = new System.Drawing.Size(140, 110);
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;
             // 
@@ -163,9 +171,10 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImage = global::CpPizzeria.Properties.Resources.man_2_icon_icons_com_55041__1_;
-            this.pictureBox2.Location = new System.Drawing.Point(271, 48);
+            this.pictureBox2.Location = new System.Drawing.Point(283, 86);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(95, 97);
+            this.pictureBox2.Size = new System.Drawing.Size(107, 92);
             this.pictureBox2.TabIndex = 18;
             this.pictureBox2.TabStop = false;
             // 
@@ -173,9 +182,10 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.BackgroundImage = global::CpPizzeria.Properties.Resources.material_colors_macos_bigsur_icon_189995;
-            this.pictureBox3.Location = new System.Drawing.Point(489, 48);
+            this.pictureBox3.Location = new System.Drawing.Point(493, 86);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(95, 97);
+            this.pictureBox3.Size = new System.Drawing.Size(98, 93);
             this.pictureBox3.TabIndex = 19;
             this.pictureBox3.TabStop = false;
             // 
@@ -183,9 +193,10 @@
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.BackgroundImage = global::CpPizzeria.Properties.Resources.Sales_by_payment_method_25410;
-            this.pictureBox4.Location = new System.Drawing.Point(277, 239);
+            this.pictureBox4.Location = new System.Drawing.Point(283, 262);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(95, 97);
+            this.pictureBox4.Size = new System.Drawing.Size(95, 92);
             this.pictureBox4.TabIndex = 20;
             this.pictureBox4.TabStop = false;
             // 
@@ -193,9 +204,10 @@
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.BackgroundImage = global::CpPizzeria.Properties.Resources.business_packages_boxes_products_sellingproducts_thereport_2344;
-            this.pictureBox5.Location = new System.Drawing.Point(493, 239);
+            this.pictureBox5.Location = new System.Drawing.Point(493, 262);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(95, 97);
+            this.pictureBox5.Size = new System.Drawing.Size(92, 92);
             this.pictureBox5.TabIndex = 21;
             this.pictureBox5.TabStop = false;
             // 
@@ -211,10 +223,10 @@
             this.btnEmpleado.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEmpleado.ForeColor = System.Drawing.Color.Black;
             this.btnEmpleado.Image = global::CpPizzeria.Properties.Resources._1490129329_rounded38_82203;
-            this.btnEmpleado.Location = new System.Drawing.Point(30, 156);
-            this.btnEmpleado.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEmpleado.Location = new System.Drawing.Point(40, 192);
+            this.btnEmpleado.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnEmpleado.Name = "btnEmpleado";
-            this.btnEmpleado.Size = new System.Drawing.Size(101, 35);
+            this.btnEmpleado.Size = new System.Drawing.Size(135, 43);
             this.btnEmpleado.TabIndex = 22;
             this.btnEmpleado.Text = "Empleado";
             this.btnEmpleado.Click += new System.EventHandler(this.btnEmpleado_Click);
@@ -231,10 +243,10 @@
             this.btnCliente.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCliente.ForeColor = System.Drawing.Color.Black;
             this.btnCliente.Image = global::CpPizzeria.Properties.Resources.user_84308;
-            this.btnCliente.Location = new System.Drawing.Point(271, 156);
-            this.btnCliente.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCliente.Location = new System.Drawing.Point(267, 192);
+            this.btnCliente.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnCliente.Name = "btnCliente";
-            this.btnCliente.Size = new System.Drawing.Size(101, 35);
+            this.btnCliente.Size = new System.Drawing.Size(135, 43);
             this.btnCliente.TabIndex = 23;
             this.btnCliente.Text = "Cliente";
             this.btnCliente.Click += new System.EventHandler(this.btnCliente_Click);
@@ -251,10 +263,10 @@
             this.btnMenu1.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMenu1.ForeColor = System.Drawing.Color.Black;
             this.btnMenu1.Image = global::CpPizzeria.Properties.Resources.distributorlogokorora_93658;
-            this.btnMenu1.Location = new System.Drawing.Point(483, 156);
-            this.btnMenu1.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMenu1.Location = new System.Drawing.Point(473, 192);
+            this.btnMenu1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnMenu1.Name = "btnMenu1";
-            this.btnMenu1.Size = new System.Drawing.Size(101, 35);
+            this.btnMenu1.Size = new System.Drawing.Size(135, 43);
             this.btnMenu1.TabIndex = 24;
             this.btnMenu1.Text = "Menu";
             this.btnMenu1.Click += new System.EventHandler(this.btnMenu1_Click);
@@ -271,10 +283,10 @@
             this.btnVenta.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVenta.ForeColor = System.Drawing.Color.Black;
             this.btnVenta.Image = global::CpPizzeria.Properties.Resources.concertticket_83678;
-            this.btnVenta.Location = new System.Drawing.Point(274, 347);
-            this.btnVenta.Margin = new System.Windows.Forms.Padding(4);
+            this.btnVenta.Location = new System.Drawing.Point(267, 363);
+            this.btnVenta.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnVenta.Name = "btnVenta";
-            this.btnVenta.Size = new System.Drawing.Size(101, 35);
+            this.btnVenta.Size = new System.Drawing.Size(135, 43);
             this.btnVenta.TabIndex = 25;
             this.btnVenta.Text = "Venta";
             this.btnVenta.Click += new System.EventHandler(this.btnVenta_Click);
@@ -291,21 +303,21 @@
             this.btnProducto.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProducto.ForeColor = System.Drawing.Color.Black;
             this.btnProducto.Image = global::CpPizzeria.Properties.Resources._create_new_folder_90671;
-            this.btnProducto.Location = new System.Drawing.Point(493, 347);
-            this.btnProducto.Margin = new System.Windows.Forms.Padding(4);
+            this.btnProducto.Location = new System.Drawing.Point(473, 373);
+            this.btnProducto.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnProducto.Name = "btnProducto";
-            this.btnProducto.Size = new System.Drawing.Size(101, 35);
+            this.btnProducto.Size = new System.Drawing.Size(135, 43);
             this.btnProducto.TabIndex = 26;
             this.btnProducto.Text = "Producto";
             this.btnProducto.Click += new System.EventHandler(this.btnProducto_Click);
             // 
             // FrmPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BackgroundImage = global::CpPizzeria.Properties.Resources.pizzaback;
-            this.ClientSize = new System.Drawing.Size(636, 429);
+            this.ClientSize = new System.Drawing.Size(738, 528);
             this.Controls.Add(this.btnProducto);
             this.Controls.Add(this.btnVenta);
             this.Controls.Add(this.btnMenu1);
@@ -325,7 +337,7 @@
             this.Controls.Add(this.btnMenu);
             this.ForeColor = System.Drawing.Color.White;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FrmPrincipal";
             this.Text = "::: Pizza - Principal :::";
             ((System.ComponentModel.ISupportInitialize)(this.iconminimizar)).EndInit();

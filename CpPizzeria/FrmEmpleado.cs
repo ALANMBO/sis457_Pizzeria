@@ -203,10 +203,10 @@ namespace CpPizzeria
                 }
 
                 //aqui cambie btnCancelar por guardar para cuando quiera guardar un empleado
-                listar();
-                btnGuardar.PerformClick();
-                MessageBox.Show("Empleado guardado correctamente", "::: Pizza - Mensaje :::"
-                    , MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //listar();
+                ///btnGuardar.PerformClick();
+                //MessageBox.Show("Empleado guardado correctamente", "::: Pizza - Mensaje :::"
+                   // , MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
