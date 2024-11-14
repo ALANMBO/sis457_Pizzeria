@@ -78,3 +78,5 @@ D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\bin\Debug\C1.Win.C1Command
 D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\bin\Debug\Guna.UI2.dll
 D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\bin\Debug\C1.Win.C1Command.4.xml
 D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.FrmEmpleado.resources
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.FrmVenta.resources
+D:\Trabajo final de sis457\sis457_Pizzeria\CpPizzeria\obj\Debug\CpPizzeria.FrmMenu.resources

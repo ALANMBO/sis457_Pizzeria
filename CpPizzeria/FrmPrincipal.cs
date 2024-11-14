@@ -44,11 +44,6 @@ namespace CpPizzeria
             new FrmCliente().ShowDialog();
         }
 
-        private void btnProveedor_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void btnProducto_Click(object sender, EventArgs e)
         {
             new FrmProducto().ShowDialog();
@@ -61,7 +56,12 @@ namespace CpPizzeria
 
         private void btnVenta_Click(object sender, EventArgs e)
         {
+            new FrmVenta().ShowDialog();
+        }
 
+        private void btnMenu1_Click(object sender, EventArgs e)
+        {
+            new FrmMenu().ShowDialog();
         }
     }
 }

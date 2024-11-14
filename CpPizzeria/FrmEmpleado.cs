@@ -53,27 +53,38 @@ namespace CpPizzeria
         private void btnNuevo_Click(object sender, EventArgs e)
         {
             esNuevo = true;
-            //LimpiarFormulario();
+            ///LimpiarFormulario();
             txtNombre.Focus();
         }
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
             esNuevo = false;
-            CargarDatosEmpleado();
-        }
-
-        private void CargarDatosEmpleado()
-        {
+            Size = new Size();
             int index = dgvLista.CurrentCell.RowIndex;
-            int id = Convert.ToInt32(dgvLista.Rows[index].Cells["idEmpleado"].Value);
+            int id = Convert.ToInt32(dgvLista.Rows[index].Cells["id"].Value);
             var empleado = EmpleadoCln.get(id);
+
             txtNombre.Text = empleado.nombre;
             txtApellidos.Text = empleado.apellidos;
             txtTelefono.Text = empleado.telefono;
-            cbxCargo.Text = empleado.cargo;
-            nudSalario.Value = Convert.ToDecimal(empleado.salario);
+            cbxCargo.Items.Clear();
+            txtSalario.Text = empleado.salario
+            
         }
+
+        ///private void CargarDatosEmpleado()
+        /// <summary>
+        /// private void CargarDatosEmpleado()
+        /// </summary>ista.CurrentCell.RowIndex;
+           // int id = Convert.ToInt32(dgvLista.Rows[index].Cells["idEmpleado"].Value);
+           // var empleado = EmpleadoCln.get(id);
+            //txtNombre.Text = empleado.nombre;
+            //txtApellidos.Text = empleado.apellidos;
+            //txtTelefono.Text = empleado.telefono;
+            ///cbxCargo.Text = //empleado.cargo;
+           // nudSalario.Value = Convert.ToDecimal(empleado.salario);
+        ///}
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {

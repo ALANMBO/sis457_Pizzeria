@@ -43,7 +43,7 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.btnEmpleado = new Guna.UI2.WinForms.Guna2Button();
             this.btnCliente = new Guna.UI2.WinForms.Guna2Button();
-            this.btnProveedor = new Guna.UI2.WinForms.Guna2Button();
+            this.btnMenu1 = new Guna.UI2.WinForms.Guna2Button();
             this.btnVenta = new Guna.UI2.WinForms.Guna2Button();
             this.btnProducto = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.iconminimizar)).BeginInit();
@@ -239,25 +239,25 @@
             this.btnCliente.Text = "Cliente";
             this.btnCliente.Click += new System.EventHandler(this.btnCliente_Click);
             // 
-            // btnProveedor
+            // btnMenu1
             // 
-            this.btnProveedor.BackColor = System.Drawing.Color.Transparent;
-            this.btnProveedor.BorderRadius = 13;
-            this.btnProveedor.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnProveedor.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnProveedor.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnProveedor.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnProveedor.FillColor = System.Drawing.Color.White;
-            this.btnProveedor.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProveedor.ForeColor = System.Drawing.Color.Black;
-            this.btnProveedor.Image = global::CpPizzeria.Properties.Resources.distributorlogokorora_93658;
-            this.btnProveedor.Location = new System.Drawing.Point(483, 156);
-            this.btnProveedor.Margin = new System.Windows.Forms.Padding(4);
-            this.btnProveedor.Name = "btnProveedor";
-            this.btnProveedor.Size = new System.Drawing.Size(101, 35);
-            this.btnProveedor.TabIndex = 24;
-            this.btnProveedor.Text = "Proveedor";
-            this.btnProveedor.Click += new System.EventHandler(this.btnProveedor_Click);
+            this.btnMenu1.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenu1.BorderRadius = 13;
+            this.btnMenu1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnMenu1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnMenu1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnMenu1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnMenu1.FillColor = System.Drawing.Color.White;
+            this.btnMenu1.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenu1.ForeColor = System.Drawing.Color.Black;
+            this.btnMenu1.Image = global::CpPizzeria.Properties.Resources.distributorlogokorora_93658;
+            this.btnMenu1.Location = new System.Drawing.Point(483, 156);
+            this.btnMenu1.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMenu1.Name = "btnMenu1";
+            this.btnMenu1.Size = new System.Drawing.Size(101, 35);
+            this.btnMenu1.TabIndex = 24;
+            this.btnMenu1.Text = "Menu";
+            this.btnMenu1.Click += new System.EventHandler(this.btnMenu1_Click);
             // 
             // btnVenta
             // 
@@ -308,7 +308,7 @@
             this.ClientSize = new System.Drawing.Size(636, 429);
             this.Controls.Add(this.btnProducto);
             this.Controls.Add(this.btnVenta);
-            this.Controls.Add(this.btnProveedor);
+            this.Controls.Add(this.btnMenu1);
             this.Controls.Add(this.btnCliente);
             this.Controls.Add(this.btnEmpleado);
             this.Controls.Add(this.pictureBox5);
@@ -359,7 +359,7 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private Guna.UI2.WinForms.Guna2Button btnEmpleado;
         private Guna.UI2.WinForms.Guna2Button btnCliente;
-        private Guna.UI2.WinForms.Guna2Button btnProveedor;
+        private Guna.UI2.WinForms.Guna2Button btnMenu1;
         private Guna.UI2.WinForms.Guna2Button btnVenta;
         private Guna.UI2.WinForms.Guna2Button btnProducto;
     }
