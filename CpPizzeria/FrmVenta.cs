@@ -148,5 +148,97 @@ namespace CpPizzeria
                 limpiar(); 
             }
         }
+
+        private void btnRegistrarVenta_Click(object sender, EventArgs e)
+        {
+            if (dvgListaVenta.Rows.Count == 0)
+            {
+                MessageBox.Show("Debes agregar al menos un producto antes de crear la venta.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            
+            var cliente = new Cliente
+            {
+                razonSocial = txtrazonSocial.Text.Trim(),
+                cedulaIdentidad = txtNit.Text.Trim(),
+                usuarioRegistro = Util.usuario.usuario1,
+                fechaRegistro = DateTime.Now,
+                estado = 1
+            };
+            int idCliente = ClienteCln.insertar(cliente); 
+
+           
+            decimal totalVenta = 0;
+            if (!decimal.TryParse(txtTotal.Text.Trim(), out totalVenta))
+            {
+                MessageBox.Show("Total de la venta no es válido.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+           
+            var venta = new Venta
+            {
+                idUsuario = Util.usuario.idUsuario,
+                idCliente = idCliente,
+                totalVenta = totalVenta,
+                fechaVenta = DateTime.Now,
+                usuarioRegistro = Util.usuario.usuario1,
+                fechaRegistro = DateTime.Now,
+                estado = 1
+            };
+            int idVenta = VentaCln.insertar(venta); 
+
+           
+            foreach (DataGridViewRow row in dvgListaVenta.Rows)
+            {
+                int idProducto = Convert.ToInt32(row.Cells["dvgIdProducto"].Value);
+                int cantidad = Convert.ToInt32(row.Cells["dvgCantidad"].Value);
+                decimal precio = Convert.ToDecimal(row.Cells["dvgPrecio"].Value);
+                decimal subtotal = Convert.ToDecimal(row.Cells["dvgSubTotal"].Value);
+
+                var ventaDetalle = new VentaDetalle
+                {
+                    idVenta = idVenta,
+                    idProducto = idProducto,
+                    cantidad = cantidad,
+                    precioUnitario = precio,
+                    total = subtotal,
+                    usuarioRegistro = Util.usuario.usuario1,
+                    fechaRegistro = DateTime.Now,
+                    estado = 1
+                };
+
+                VentaDetalleCln.insertar(ventaDetalle);
+
+               
+                Producto producto = ProductoCln.obtener(idProducto);
+                if (producto != null)
+                {
+                    producto.stock -= cantidad;
+                    ProductoCln.actualizar(producto);
+                }
+            }
+
+            
+            txtTotal.Text = string.Empty;
+            sumaTotal = 0;
+            dvgListaVenta.Rows.Clear();
+            MessageBox.Show("Venta guardada exitosamente", "::: Pizza - Mensaje :::", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+
+            FrmProducto productoForm = new FrmProducto();
+
+            productoForm.ShowDialog();
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

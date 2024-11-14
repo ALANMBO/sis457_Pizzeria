@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmVenta));
             this.lblTotal = new System.Windows.Forms.Label();
             this.dvgListaVenta = new System.Windows.Forms.DataGridView();
             this.dvgIdProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -252,6 +253,7 @@
             this.btnBuscar.Size = new System.Drawing.Size(89, 33);
             this.btnBuscar.TabIndex = 29;
             this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // nudStock
             // 
@@ -563,6 +565,7 @@
             this.btnRegistrarVenta.Name = "btnRegistrarVenta";
             this.btnRegistrarVenta.Size = new System.Drawing.Size(51, 33);
             this.btnRegistrarVenta.TabIndex = 31;
+            this.btnRegistrarVenta.Click += new System.EventHandler(this.btnRegistrarVenta_Click);
             // 
             // btnVolver
             // 
@@ -582,6 +585,7 @@
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(49, 33);
             this.btnVolver.TabIndex = 32;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
             // erpNit
             // 
@@ -611,8 +615,9 @@
             this.Controls.Add(this.dvgListaVenta);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.gbxProducto);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmVenta";
-            this.Text = "FrmProveedor";
+            this.Text = "::: Ventas - Pizza :::";
             this.Load += new System.EventHandler(this.FrmVenta_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dvgListaVenta)).EndInit();
             this.gbxProducto.ResumeLayout(false);
