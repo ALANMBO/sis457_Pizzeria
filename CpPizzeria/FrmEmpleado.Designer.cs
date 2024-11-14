@@ -35,6 +35,10 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dgvLista = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnGuardar = new Guna.UI2.WinForms.Guna2Button();
+            this.btnEliminar = new Guna.UI2.WinForms.Guna2Button();
+            this.btnEditar = new Guna.UI2.WinForms.Guna2Button();
+            this.btnNuevo = new Guna.UI2.WinForms.Guna2Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.cbxCargo = new System.Windows.Forms.ComboBox();
             this.lblCargo = new System.Windows.Forms.Label();
@@ -53,11 +57,10 @@
             this.erpSalario = new System.Windows.Forms.ErrorProvider(this.components);
             this.btnSalir = new Guna.UI2.WinForms.Guna2Button();
             this.btnBuscar = new Guna.UI2.WinForms.Guna2Button();
-            this.btnGuardar = new Guna.UI2.WinForms.Guna2Button();
-            this.btnEliminar = new Guna.UI2.WinForms.Guna2Button();
-            this.btnEditar = new Guna.UI2.WinForms.Guna2Button();
-            this.btnNuevo = new Guna.UI2.WinForms.Guna2Button();
-            this.txtSalario = new System.Windows.Forms.TextBox();
+            this.nudSalario = new System.Windows.Forms.NumericUpDown();
+            this.chkUsuario = new System.Windows.Forms.CheckBox();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.erpUsuario = new System.Windows.Forms.ErrorProvider(this.components);
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLista)).BeginInit();
             this.panel1.SuspendLayout();
@@ -67,6 +70,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.erpApellidos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpNombre)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpSalario)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudSalario)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.erpUsuario)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -76,7 +81,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Cooper Black", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(0, 1);
+            this.label1.Location = new System.Drawing.Point(-1, 1);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(800, 37);
@@ -104,7 +109,7 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(5);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(5);
-            this.groupBox1.Size = new System.Drawing.Size(583, 210);
+            this.groupBox1.Size = new System.Drawing.Size(640, 210);
             this.groupBox1.TabIndex = 47;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Lista de Empleados";
@@ -124,7 +129,7 @@
             this.dgvLista.RowHeadersVisible = false;
             this.dgvLista.RowHeadersWidth = 51;
             this.dgvLista.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvLista.Size = new System.Drawing.Size(567, 179);
+            this.dgvLista.Size = new System.Drawing.Size(624, 179);
             this.dgvLista.TabIndex = 0;
             // 
             // panel1
@@ -134,217 +139,11 @@
             this.panel1.Controls.Add(this.btnEliminar);
             this.panel1.Controls.Add(this.btnEditar);
             this.panel1.Controls.Add(this.btnNuevo);
-            this.panel1.Location = new System.Drawing.Point(611, 84);
+            this.panel1.Location = new System.Drawing.Point(666, 84);
             this.panel1.Margin = new System.Windows.Forms.Padding(5);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(120, 214);
             this.panel1.TabIndex = 48;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.BackColor = System.Drawing.Color.Black;
-            this.groupBox2.Controls.Add(this.cbxCargo);
-            this.groupBox2.Controls.Add(this.lblCargo);
-            this.groupBox2.Controls.Add(this.txtTelefono);
-            this.groupBox2.Controls.Add(this.lblTelefono);
-            this.groupBox2.Controls.Add(this.lblSalario);
-            this.groupBox2.Controls.Add(this.txtApellidos);
-            this.groupBox2.Controls.Add(this.txtNombre);
-            this.groupBox2.Controls.Add(this.lblApellidos);
-            this.groupBox2.Controls.Add(this.lblNombre);
-            this.groupBox2.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.ForeColor = System.Drawing.Color.White;
-            this.groupBox2.Location = new System.Drawing.Point(18, 314);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(5);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(5);
-            this.groupBox2.Size = new System.Drawing.Size(672, 126);
-            this.groupBox2.TabIndex = 49;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Datos del Cliente";
-            // 
-            // cbxCargo
-            // 
-            this.cbxCargo.AutoCompleteCustomSource.AddRange(new string[] {
-            "Administrador",
-            "Contador",
-            "Gerente"});
-            this.cbxCargo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbxCargo.FormattingEnabled = true;
-            this.cbxCargo.Items.AddRange(new object[] {
-            "Administrador",
-            "Mesero/a",
-            "Cajero/a",
-            "Cocinero/a",
-            "Personal de Limpieza"});
-            this.cbxCargo.Location = new System.Drawing.Point(531, 39);
-            this.cbxCargo.Margin = new System.Windows.Forms.Padding(5);
-            this.cbxCargo.Name = "cbxCargo";
-            this.cbxCargo.Size = new System.Drawing.Size(122, 27);
-            this.cbxCargo.TabIndex = 6;
-            // 
-            // lblCargo
-            // 
-            this.lblCargo.AutoSize = true;
-            this.lblCargo.BackColor = System.Drawing.Color.Transparent;
-            this.lblCargo.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCargo.ForeColor = System.Drawing.Color.White;
-            this.lblCargo.Location = new System.Drawing.Point(454, 39);
-            this.lblCargo.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.lblCargo.Name = "lblCargo";
-            this.lblCargo.Size = new System.Drawing.Size(67, 19);
-            this.lblCargo.TabIndex = 17;
-            this.lblCargo.Text = "Cargo: ";
-            // 
-            // txtTelefono
-            // 
-            this.txtTelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefono.Location = new System.Drawing.Point(150, 95);
-            this.txtTelefono.Margin = new System.Windows.Forms.Padding(5);
-            this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(258, 21);
-            this.txtTelefono.TabIndex = 2;
-            // 
-            // lblTelefono
-            // 
-            this.lblTelefono.AutoSize = true;
-            this.lblTelefono.BackColor = System.Drawing.Color.Transparent;
-            this.lblTelefono.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTelefono.ForeColor = System.Drawing.Color.White;
-            this.lblTelefono.Location = new System.Drawing.Point(37, 92);
-            this.lblTelefono.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.lblTelefono.Name = "lblTelefono";
-            this.lblTelefono.Size = new System.Drawing.Size(80, 19);
-            this.lblTelefono.TabIndex = 13;
-            this.lblTelefono.Text = "Telefono";
-            // 
-            // lblSalario
-            // 
-            this.lblSalario.AutoSize = true;
-            this.lblSalario.BackColor = System.Drawing.Color.Transparent;
-            this.lblSalario.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSalario.ForeColor = System.Drawing.Color.White;
-            this.lblSalario.Location = new System.Drawing.Point(453, 85);
-            this.lblSalario.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.lblSalario.Name = "lblSalario";
-            this.lblSalario.Size = new System.Drawing.Size(73, 19);
-            this.lblSalario.TabIndex = 9;
-            this.lblSalario.Text = "Salario:";
-            // 
-            // txtApellidos
-            // 
-            this.txtApellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApellidos.Location = new System.Drawing.Point(150, 57);
-            this.txtApellidos.Margin = new System.Windows.Forms.Padding(5);
-            this.txtApellidos.Name = "txtApellidos";
-            this.txtApellidos.Size = new System.Drawing.Size(258, 21);
-            this.txtApellidos.TabIndex = 1;
-            // 
-            // txtNombre
-            // 
-            this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombre.Location = new System.Drawing.Point(150, 20);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(5);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(258, 21);
-            this.txtNombre.TabIndex = 0;
-            // 
-            // lblApellidos
-            // 
-            this.lblApellidos.AutoSize = true;
-            this.lblApellidos.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblApellidos.ForeColor = System.Drawing.Color.White;
-            this.lblApellidos.Location = new System.Drawing.Point(37, 57);
-            this.lblApellidos.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.lblApellidos.Name = "lblApellidos";
-            this.lblApellidos.Size = new System.Drawing.Size(87, 19);
-            this.lblApellidos.TabIndex = 6;
-            this.lblApellidos.Text = "Apellidos";
-            // 
-            // lblNombre
-            // 
-            this.lblNombre.AutoSize = true;
-            this.lblNombre.BackColor = System.Drawing.Color.Transparent;
-            this.lblNombre.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre.ForeColor = System.Drawing.Color.White;
-            this.lblNombre.Location = new System.Drawing.Point(37, 20);
-            this.lblNombre.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(74, 19);
-            this.lblNombre.TabIndex = 5;
-            this.lblNombre.Text = "Nombre";
-            // 
-            // lblNombreEmpleado
-            // 
-            this.lblNombreEmpleado.AutoSize = true;
-            this.lblNombreEmpleado.BackColor = System.Drawing.Color.Transparent;
-            this.lblNombreEmpleado.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombreEmpleado.ForeColor = System.Drawing.Color.White;
-            this.lblNombreEmpleado.Location = new System.Drawing.Point(14, 51);
-            this.lblNombreEmpleado.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.lblNombreEmpleado.Name = "lblNombreEmpleado";
-            this.lblNombreEmpleado.Size = new System.Drawing.Size(186, 19);
-            this.lblNombreEmpleado.TabIndex = 19;
-            this.lblNombreEmpleado.Text = "Nombre del Empleado";
-            // 
-            // erpCargo
-            // 
-            this.erpCargo.ContainerControl = this;
-            // 
-            // erpTelefono
-            // 
-            this.erpTelefono.ContainerControl = this;
-            // 
-            // erpApellidos
-            // 
-            this.erpApellidos.ContainerControl = this;
-            // 
-            // erpNombre
-            // 
-            this.erpNombre.ContainerControl = this;
-            // 
-            // erpSalario
-            // 
-            this.erpSalario.ContainerControl = this;
-            // 
-            // btnSalir
-            // 
-            this.btnSalir.BackColor = System.Drawing.Color.Transparent;
-            this.btnSalir.BorderRadius = 13;
-            this.btnSalir.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnSalir.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnSalir.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnSalir.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnSalir.FillColor = System.Drawing.Color.White;
-            this.btnSalir.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnSalir.ForeColor = System.Drawing.Color.Black;
-            this.btnSalir.Image = global::CpPizzeria.Properties.Resources.canceltheapplication_cancelar_2901;
-            this.btnSalir.Location = new System.Drawing.Point(694, 399);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(68, 35);
-            this.btnSalir.TabIndex = 52;
-            this.btnSalir.Text = "Salir";
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
-            // 
-            // btnBuscar
-            // 
-            this.btnBuscar.BackColor = System.Drawing.Color.Transparent;
-            this.btnBuscar.BorderRadius = 13;
-            this.btnBuscar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnBuscar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnBuscar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnBuscar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnBuscar.FillColor = System.Drawing.Color.White;
-            this.btnBuscar.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnBuscar.ForeColor = System.Drawing.Color.Black;
-            this.btnBuscar.Image = global::CpPizzeria.Properties.Resources.searcher_magnifyng_glass_search_locate_find_icon_123813;
-            this.btnBuscar.Location = new System.Drawing.Point(727, 42);
-            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(50, 35);
-            this.btnBuscar.TabIndex = 51;
-            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // btnGuardar
             // 
@@ -426,14 +225,251 @@
             this.btnNuevo.Text = "Nuevo";
             this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
-            // txtSalario
+            // groupBox2
             // 
-            this.txtSalario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSalario.Location = new System.Drawing.Point(542, 399);
-            this.txtSalario.Margin = new System.Windows.Forms.Padding(5);
-            this.txtSalario.Name = "txtSalario";
-            this.txtSalario.Size = new System.Drawing.Size(129, 21);
-            this.txtSalario.TabIndex = 18;
+            this.groupBox2.BackColor = System.Drawing.Color.Black;
+            this.groupBox2.Controls.Add(this.chkUsuario);
+            this.groupBox2.Controls.Add(this.nudSalario);
+            this.groupBox2.Controls.Add(this.cbxCargo);
+            this.groupBox2.Controls.Add(this.lblCargo);
+            this.groupBox2.Controls.Add(this.txtTelefono);
+            this.groupBox2.Controls.Add(this.lblTelefono);
+            this.groupBox2.Controls.Add(this.lblSalario);
+            this.groupBox2.Controls.Add(this.txtApellidos);
+            this.groupBox2.Controls.Add(this.txtNombre);
+            this.groupBox2.Controls.Add(this.lblApellidos);
+            this.groupBox2.Controls.Add(this.lblNombre);
+            this.groupBox2.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.ForeColor = System.Drawing.Color.White;
+            this.groupBox2.Location = new System.Drawing.Point(18, 314);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(5);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(5);
+            this.groupBox2.Size = new System.Drawing.Size(759, 126);
+            this.groupBox2.TabIndex = 49;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Datos del Cliente";
+            // 
+            // cbxCargo
+            // 
+            this.cbxCargo.AutoCompleteCustomSource.AddRange(new string[] {
+            "Administrador",
+            "Contador",
+            "Gerente"});
+            this.cbxCargo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxCargo.FormattingEnabled = true;
+            this.cbxCargo.Items.AddRange(new object[] {
+            "Administrador",
+            "Mesero/a",
+            "Cajero/a",
+            "Cocinero/a",
+            "Personal de Limpieza"});
+            this.cbxCargo.Location = new System.Drawing.Point(540, 22);
+            this.cbxCargo.Margin = new System.Windows.Forms.Padding(5);
+            this.cbxCargo.Name = "cbxCargo";
+            this.cbxCargo.Size = new System.Drawing.Size(209, 27);
+            this.cbxCargo.TabIndex = 6;
+            // 
+            // lblCargo
+            // 
+            this.lblCargo.AutoSize = true;
+            this.lblCargo.BackColor = System.Drawing.Color.Transparent;
+            this.lblCargo.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCargo.ForeColor = System.Drawing.Color.White;
+            this.lblCargo.Location = new System.Drawing.Point(463, 24);
+            this.lblCargo.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblCargo.Name = "lblCargo";
+            this.lblCargo.Size = new System.Drawing.Size(67, 19);
+            this.lblCargo.TabIndex = 17;
+            this.lblCargo.Text = "Cargo: ";
+            // 
+            // txtTelefono
+            // 
+            this.txtTelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefono.Location = new System.Drawing.Point(97, 95);
+            this.txtTelefono.Margin = new System.Windows.Forms.Padding(5);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(258, 21);
+            this.txtTelefono.TabIndex = 2;
+            // 
+            // lblTelefono
+            // 
+            this.lblTelefono.AutoSize = true;
+            this.lblTelefono.BackColor = System.Drawing.Color.Transparent;
+            this.lblTelefono.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTelefono.ForeColor = System.Drawing.Color.White;
+            this.lblTelefono.Location = new System.Drawing.Point(17, 95);
+            this.lblTelefono.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblTelefono.Name = "lblTelefono";
+            this.lblTelefono.Size = new System.Drawing.Size(80, 19);
+            this.lblTelefono.TabIndex = 13;
+            this.lblTelefono.Text = "Telefono";
+            // 
+            // lblSalario
+            // 
+            this.lblSalario.AutoSize = true;
+            this.lblSalario.BackColor = System.Drawing.Color.Transparent;
+            this.lblSalario.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSalario.ForeColor = System.Drawing.Color.White;
+            this.lblSalario.Location = new System.Drawing.Point(448, 60);
+            this.lblSalario.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblSalario.Name = "lblSalario";
+            this.lblSalario.Size = new System.Drawing.Size(73, 19);
+            this.lblSalario.TabIndex = 9;
+            this.lblSalario.Text = "Salario:";
+            // 
+            // txtApellidos
+            // 
+            this.txtApellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtApellidos.Location = new System.Drawing.Point(97, 58);
+            this.txtApellidos.Margin = new System.Windows.Forms.Padding(5);
+            this.txtApellidos.Name = "txtApellidos";
+            this.txtApellidos.Size = new System.Drawing.Size(258, 21);
+            this.txtApellidos.TabIndex = 1;
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombre.Location = new System.Drawing.Point(97, 24);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(5);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(258, 21);
+            this.txtNombre.TabIndex = 0;
+            // 
+            // lblApellidos
+            // 
+            this.lblApellidos.AutoSize = true;
+            this.lblApellidos.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblApellidos.ForeColor = System.Drawing.Color.White;
+            this.lblApellidos.Location = new System.Drawing.Point(10, 59);
+            this.lblApellidos.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblApellidos.Name = "lblApellidos";
+            this.lblApellidos.Size = new System.Drawing.Size(87, 19);
+            this.lblApellidos.TabIndex = 6;
+            this.lblApellidos.Text = "Apellidos";
+            // 
+            // lblNombre
+            // 
+            this.lblNombre.AutoSize = true;
+            this.lblNombre.BackColor = System.Drawing.Color.Transparent;
+            this.lblNombre.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombre.ForeColor = System.Drawing.Color.White;
+            this.lblNombre.Location = new System.Drawing.Point(23, 25);
+            this.lblNombre.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(74, 19);
+            this.lblNombre.TabIndex = 5;
+            this.lblNombre.Text = "Nombre";
+            // 
+            // lblNombreEmpleado
+            // 
+            this.lblNombreEmpleado.AutoSize = true;
+            this.lblNombreEmpleado.BackColor = System.Drawing.Color.Transparent;
+            this.lblNombreEmpleado.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombreEmpleado.ForeColor = System.Drawing.Color.White;
+            this.lblNombreEmpleado.Location = new System.Drawing.Point(14, 51);
+            this.lblNombreEmpleado.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblNombreEmpleado.Name = "lblNombreEmpleado";
+            this.lblNombreEmpleado.Size = new System.Drawing.Size(186, 19);
+            this.lblNombreEmpleado.TabIndex = 19;
+            this.lblNombreEmpleado.Text = "Nombre del Empleado";
+            // 
+            // erpCargo
+            // 
+            this.erpCargo.ContainerControl = this;
+            // 
+            // erpTelefono
+            // 
+            this.erpTelefono.ContainerControl = this;
+            // 
+            // erpApellidos
+            // 
+            this.erpApellidos.ContainerControl = this;
+            // 
+            // erpNombre
+            // 
+            this.erpNombre.ContainerControl = this;
+            // 
+            // erpSalario
+            // 
+            this.erpSalario.ContainerControl = this;
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.BackColor = System.Drawing.Color.Transparent;
+            this.btnSalir.BorderRadius = 13;
+            this.btnSalir.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnSalir.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnSalir.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSalir.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnSalir.FillColor = System.Drawing.Color.White;
+            this.btnSalir.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnSalir.ForeColor = System.Drawing.Color.Black;
+            this.btnSalir.Image = global::CpPizzeria.Properties.Resources.canceltheapplication_cancelar_2901;
+            this.btnSalir.Location = new System.Drawing.Point(756, 3);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(43, 31);
+            this.btnSalir.TabIndex = 52;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.BackColor = System.Drawing.Color.Transparent;
+            this.btnBuscar.BorderRadius = 13;
+            this.btnBuscar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnBuscar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnBuscar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnBuscar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnBuscar.FillColor = System.Drawing.Color.White;
+            this.btnBuscar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnBuscar.ForeColor = System.Drawing.Color.Black;
+            this.btnBuscar.Image = global::CpPizzeria.Properties.Resources.searcher_magnifyng_glass_search_locate_find_icon_123813;
+            this.btnBuscar.Location = new System.Drawing.Point(727, 42);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(50, 35);
+            this.btnBuscar.TabIndex = 51;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
+            // nudSalario
+            // 
+            this.nudSalario.Location = new System.Drawing.Point(540, 57);
+            this.nudSalario.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.nudSalario.Maximum = new decimal(new int[] {
+            5000,
+            0,
+            0,
+            0});
+            this.nudSalario.Name = "nudSalario";
+            this.nudSalario.Size = new System.Drawing.Size(209, 26);
+            this.nudSalario.TabIndex = 53;
+            // 
+            // chkUsuario
+            // 
+            this.chkUsuario.AutoSize = true;
+            this.chkUsuario.Location = new System.Drawing.Point(365, 92);
+            this.chkUsuario.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.chkUsuario.Name = "chkUsuario";
+            this.chkUsuario.Size = new System.Drawing.Size(179, 23);
+            this.chkUsuario.TabIndex = 54;
+            this.chkUsuario.Text = "¿Asignar Usuario?";
+            this.chkUsuario.UseVisualStyleBackColor = true;
+            this.chkUsuario.CheckedChanged += new System.EventHandler(this.chkUsuario_CheckedChanged);
+            // 
+            // txtUsuario
+            // 
+            this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsuario.Location = new System.Drawing.Point(558, 403);
+            this.txtUsuario.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(209, 29);
+            this.txtUsuario.TabIndex = 55;
+            this.txtUsuario.Visible = false;
+            // 
+            // erpUsuario
+            // 
+            this.erpUsuario.ContainerControl = this;
             // 
             // FrmEmpleado
             // 
@@ -441,7 +477,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::CpPizzeria.Properties.Resources.pizzaback;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.txtSalario);
+            this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.panel1);
@@ -464,6 +500,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.erpApellidos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpNombre)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpSalario)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudSalario)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.erpUsuario)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -498,6 +536,9 @@
         private System.Windows.Forms.ErrorProvider erpApellidos;
         private System.Windows.Forms.ErrorProvider erpNombre;
         private System.Windows.Forms.ErrorProvider erpSalario;
-        private System.Windows.Forms.TextBox txtSalario;
+        private System.Windows.Forms.NumericUpDown nudSalario;
+        private System.Windows.Forms.CheckBox chkUsuario;
+        private System.Windows.Forms.TextBox txtUsuario;
+        private System.Windows.Forms.ErrorProvider erpUsuario;
     }
 }
