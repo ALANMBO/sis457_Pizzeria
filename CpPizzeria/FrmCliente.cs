@@ -77,52 +77,10 @@ namespace CpPizzeria
                 dgvLista.Rows[0].Cells["razonSocial"].Selected = true;
         }
 
-        
 
-        private void btnEditar_Click(object sender, EventArgs e)
-        {
-            esNuevo = false; 
-            Size = new Size(); 
-            int index = dgvLista.CurrentCell.RowIndex; 
-            int id = Convert.ToInt32(dgvLista.Rows[index].Cells["id"].Value); 
-            var cliente = ClienteCln.get(id); 
+      
 
-            txtRazon.Text = cliente.razonSocial;
-            txtCedula.Text = cliente.cedulaIdentidad;
-            txtCelular.Text = cliente.celular;
-        }
-
-        private void btnEliminar_Click(object sender, EventArgs e)
-        {
-            int index = dgvLista.CurrentCell.RowIndex; 
-            int id = Convert.ToInt32(dgvLista.Rows[index].Cells["id"].Value); 
-            string razonSocial = dgvLista.Rows[index].Cells["razonSocial"].Value.ToString(); 
-
-            
-            DialogResult dialog = MessageBox.Show($"¿Está seguro que desea dar de baja el cliente {razonSocial}?",
-                "::: Pizzeria - Mensaje :::", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
-
-            
-            if (dialog == DialogResult.OK)
-            {
-                ClienteCln.eliminar(id, "SIS457"); 
-                listar(); 
-                MessageBox.Show("Cliente dado de baja correctamente", "::: Pizzeria - Mensaje :::",
-                    MessageBoxButtons.OK, MessageBoxIcon.Information); 
-            }
-        }
-
-        private void btnVolver_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void btnNuevo_Click(object sender, EventArgs e)
-        {
-            esNuevo = true; 
-            //Size = new Size(955, 487); 
-            limpiar();
-        }
+       
 
         private void limpiar()
         {
@@ -139,37 +97,6 @@ namespace CpPizzeria
         private void txtBuscar_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)Keys.Enter) listar();
-        }
-
-        private void btnGuardar_Click(object sender, EventArgs e)
-        {
-            if (Validar()) 
-            {
-                var cliente = new Cliente
-                {
-                    razonSocial = txtRazon.Text.Trim(),
-                    cedulaIdentidad = txtCedula.Text.Trim(),
-                    celular = txtCelular.Text,
-                    usuarioRegistro = Util.usuario.usuario1
-                };
-
-                if (esNuevo) 
-                {
-                    cliente.fechaRegistro = DateTime.Now;
-                    cliente.estado = 1;
-                    ClienteCln.insertar(cliente); 
-                }
-                else
-                {
-                    int index = dgvLista.CurrentCell.RowIndex; 
-                    cliente.id = Convert.ToInt32(dgvLista.Rows[index].Cells["id"].Value); 
-                    ClienteCln.actualizar(cliente); 
-                }
-
-                listar(); 
-               // Size = new Size(678, 487); 
-                limpiar(); 
-            }
         }
 
         private bool Validar()
@@ -202,10 +129,86 @@ namespace CpPizzeria
             return esValido; 
         }
 
-        private void btnBuscar_Click_1(object sender, EventArgs e)
+        private void btnNuevo_Click(object sender, EventArgs e)
         {
-            listar(); 
+            esNuevo = true;
+            //Size = new Size(955, 487); 
+            limpiar();
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            esNuevo = false;
+            Size = new Size();
+            int index = dgvLista.CurrentCell.RowIndex;
+            int id = Convert.ToInt32(dgvLista.Rows[index].Cells["id"].Value);
+            var cliente = ClienteCln.get(id);
+
+            txtRazon.Text = cliente.razonSocial;
+            txtCedula.Text = cliente.cedulaIdentidad;
+            txtCelular.Text = cliente.celular;
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            int index = dgvLista.CurrentCell.RowIndex;
+            int id = Convert.ToInt32(dgvLista.Rows[index].Cells["id"].Value);
+            string razonSocial = dgvLista.Rows[index].Cells["razonSocial"].Value.ToString();
+
+
+            DialogResult dialog = MessageBox.Show($"¿Está seguro que desea dar de baja el cliente {razonSocial}?",
+                "::: Pizzeria - Mensaje :::", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+
+
+            if (dialog == DialogResult.OK)
+            {
+                ClienteCln.eliminar(id, "SIS457");
+                listar();
+                MessageBox.Show("Cliente dado de baja correctamente", "::: Pizzeria - Mensaje :::",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            listar();
             txtBuscar.Clear();
+        }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            if (Validar())
+            {
+                var cliente = new Cliente
+                {
+                    razonSocial = txtRazon.Text.Trim(),
+                    cedulaIdentidad = txtCedula.Text.Trim(),
+                    celular = txtCelular.Text,
+                    usuarioRegistro = Util.usuario.usuario1
+                };
+
+                if (esNuevo)
+                {
+                    cliente.fechaRegistro = DateTime.Now;
+                    cliente.estado = 1;
+                    ClienteCln.insertar(cliente);
+                }
+                else
+                {
+                    int index = dgvLista.CurrentCell.RowIndex;
+                    cliente.id = Convert.ToInt32(dgvLista.Rows[index].Cells["id"].Value);
+                    ClienteCln.actualizar(cliente);
+                }
+
+                listar();
+                // Size = new Size(678, 487); 
+                limpiar();
+            }
         }
     }
 }

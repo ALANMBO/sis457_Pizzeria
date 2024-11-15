@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmEmpleado));
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblTitulo = new System.Windows.Forms.Label();
             this.txtParametro = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dgvLista = new System.Windows.Forms.DataGridView();
@@ -40,6 +40,8 @@
             this.btnEditar = new Guna.UI2.WinForms.Guna2Button();
             this.btnNuevo = new Guna.UI2.WinForms.Guna2Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.chkUsuario = new System.Windows.Forms.CheckBox();
+            this.nudSalario = new System.Windows.Forms.NumericUpDown();
             this.cbxCargo = new System.Windows.Forms.ComboBox();
             this.lblCargo = new System.Windows.Forms.Label();
             this.txtTelefono = new System.Windows.Forms.TextBox();
@@ -57,40 +59,41 @@
             this.erpSalario = new System.Windows.Forms.ErrorProvider(this.components);
             this.btnSalir = new Guna.UI2.WinForms.Guna2Button();
             this.btnBuscar = new Guna.UI2.WinForms.Guna2Button();
-            this.nudSalario = new System.Windows.Forms.NumericUpDown();
-            this.chkUsuario = new System.Windows.Forms.CheckBox();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.erpUsuario = new System.Windows.Forms.ErrorProvider(this.components);
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLista)).BeginInit();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudSalario)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpCargo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpTelefono)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpApellidos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpNombre)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpSalario)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudSalario)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpUsuario)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // lblTitulo
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblTitulo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Cooper Black", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(-1, 1);
-            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(800, 37);
-            this.label1.TabIndex = 50;
-            this.label1.Text = "Empleados";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblTitulo.BackColor = System.Drawing.Color.Transparent;
+            this.lblTitulo.Font = new System.Drawing.Font("Cooper Black", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.ForeColor = System.Drawing.Color.White;
+            this.lblTitulo.Location = new System.Drawing.Point(-1, 1);
+            this.lblTitulo.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(800, 37);
+            this.lblTitulo.TabIndex = 50;
+            this.lblTitulo.Text = "Empleados";
+            this.lblTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtParametro
             // 
+            this.txtParametro.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtParametro.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtParametro.Location = new System.Drawing.Point(210, 48);
             this.txtParametro.Margin = new System.Windows.Forms.Padding(5);
@@ -109,7 +112,7 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(5);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(5);
-            this.groupBox1.Size = new System.Drawing.Size(640, 210);
+            this.groupBox1.Size = new System.Drawing.Size(640, 145);
             this.groupBox1.TabIndex = 47;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Lista de Empleados";
@@ -129,24 +132,27 @@
             this.dgvLista.RowHeadersVisible = false;
             this.dgvLista.RowHeadersWidth = 51;
             this.dgvLista.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvLista.Size = new System.Drawing.Size(624, 179);
+            this.dgvLista.Size = new System.Drawing.Size(624, 114);
             this.dgvLista.TabIndex = 0;
             // 
             // panel1
             // 
             this.panel1.BackgroundImage = global::CpPizzeria.Properties.Resources.images23;
             this.panel1.Controls.Add(this.btnGuardar);
+            this.panel1.Controls.Add(this.btnSalir);
             this.panel1.Controls.Add(this.btnEliminar);
             this.panel1.Controls.Add(this.btnEditar);
             this.panel1.Controls.Add(this.btnNuevo);
             this.panel1.Location = new System.Drawing.Point(666, 84);
             this.panel1.Margin = new System.Windows.Forms.Padding(5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(120, 214);
+            this.panel1.Size = new System.Drawing.Size(120, 229);
             this.panel1.TabIndex = 48;
             // 
             // btnGuardar
             // 
+            this.btnGuardar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnGuardar.BackColor = System.Drawing.Color.Transparent;
             this.btnGuardar.BorderRadius = 13;
             this.btnGuardar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -157,7 +163,7 @@
             this.btnGuardar.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnGuardar.ForeColor = System.Drawing.Color.Black;
             this.btnGuardar.Image = global::CpPizzeria.Properties.Resources.savetheapplication_guardar_2958;
-            this.btnGuardar.Location = new System.Drawing.Point(6, 146);
+            this.btnGuardar.Location = new System.Drawing.Point(6, 140);
             this.btnGuardar.Margin = new System.Windows.Forms.Padding(4);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(101, 35);
@@ -167,6 +173,8 @@
             // 
             // btnEliminar
             // 
+            this.btnEliminar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnEliminar.BackColor = System.Drawing.Color.Transparent;
             this.btnEliminar.BorderRadius = 13;
             this.btnEliminar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -177,7 +185,7 @@
             this.btnEliminar.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnEliminar.ForeColor = System.Drawing.Color.Black;
             this.btnEliminar.Image = global::CpPizzeria.Properties.Resources.delete_4219;
-            this.btnEliminar.Location = new System.Drawing.Point(6, 103);
+            this.btnEliminar.Location = new System.Drawing.Point(6, 96);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(4);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(101, 35);
@@ -187,6 +195,8 @@
             // 
             // btnEditar
             // 
+            this.btnEditar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnEditar.BackColor = System.Drawing.Color.Transparent;
             this.btnEditar.BorderRadius = 13;
             this.btnEditar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -197,7 +207,7 @@
             this.btnEditar.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnEditar.ForeColor = System.Drawing.Color.Black;
             this.btnEditar.Image = global::CpPizzeria.Properties.Resources.create_icon_235108;
-            this.btnEditar.Location = new System.Drawing.Point(6, 60);
+            this.btnEditar.Location = new System.Drawing.Point(6, 54);
             this.btnEditar.Margin = new System.Windows.Forms.Padding(4);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(101, 35);
@@ -207,6 +217,8 @@
             // 
             // btnNuevo
             // 
+            this.btnNuevo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnNuevo.BackColor = System.Drawing.Color.Transparent;
             this.btnNuevo.BorderRadius = 13;
             this.btnNuevo.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -217,7 +229,7 @@
             this.btnNuevo.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnNuevo.ForeColor = System.Drawing.Color.Black;
             this.btnNuevo.Image = global::CpPizzeria.Properties.Resources._1490129329_rounded38_82203;
-            this.btnNuevo.Location = new System.Drawing.Point(6, 16);
+            this.btnNuevo.Location = new System.Drawing.Point(6, 11);
             this.btnNuevo.Margin = new System.Windows.Forms.Padding(4);
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(101, 35);
@@ -227,6 +239,9 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.BackColor = System.Drawing.Color.Black;
             this.groupBox2.Controls.Add(this.chkUsuario);
             this.groupBox2.Controls.Add(this.nudSalario);
@@ -249,6 +264,31 @@
             this.groupBox2.TabIndex = 49;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Datos del Cliente";
+            // 
+            // chkUsuario
+            // 
+            this.chkUsuario.AutoSize = true;
+            this.chkUsuario.Location = new System.Drawing.Point(365, 92);
+            this.chkUsuario.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.chkUsuario.Name = "chkUsuario";
+            this.chkUsuario.Size = new System.Drawing.Size(179, 23);
+            this.chkUsuario.TabIndex = 54;
+            this.chkUsuario.Text = "¿Asignar Usuario?";
+            this.chkUsuario.UseVisualStyleBackColor = true;
+            this.chkUsuario.CheckedChanged += new System.EventHandler(this.chkUsuario_CheckedChanged);
+            // 
+            // nudSalario
+            // 
+            this.nudSalario.Location = new System.Drawing.Point(540, 57);
+            this.nudSalario.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.nudSalario.Maximum = new decimal(new int[] {
+            5000,
+            0,
+            0,
+            0});
+            this.nudSalario.Name = "nudSalario";
+            this.nudSalario.Size = new System.Drawing.Size(209, 26);
+            this.nudSalario.TabIndex = 53;
             // 
             // cbxCargo
             // 
@@ -396,6 +436,8 @@
             // 
             // btnSalir
             // 
+            this.btnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSalir.BackColor = System.Drawing.Color.Transparent;
             this.btnSalir.BorderRadius = 13;
             this.btnSalir.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -406,15 +448,19 @@
             this.btnSalir.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnSalir.ForeColor = System.Drawing.Color.Black;
             this.btnSalir.Image = global::CpPizzeria.Properties.Resources.canceltheapplication_cancelar_2901;
-            this.btnSalir.Location = new System.Drawing.Point(756, 3);
+            this.btnSalir.Location = new System.Drawing.Point(10, 184);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(43, 31);
+            this.btnSalir.Size = new System.Drawing.Size(95, 31);
             this.btnSalir.TabIndex = 52;
+            this.btnSalir.Text = "Salir";
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnBuscar
             // 
+            this.btnBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnBuscar.BackColor = System.Drawing.Color.Transparent;
             this.btnBuscar.BorderRadius = 13;
             this.btnBuscar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -431,31 +477,6 @@
             this.btnBuscar.Size = new System.Drawing.Size(50, 35);
             this.btnBuscar.TabIndex = 51;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
-            // 
-            // nudSalario
-            // 
-            this.nudSalario.Location = new System.Drawing.Point(540, 57);
-            this.nudSalario.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.nudSalario.Maximum = new decimal(new int[] {
-            5000,
-            0,
-            0,
-            0});
-            this.nudSalario.Name = "nudSalario";
-            this.nudSalario.Size = new System.Drawing.Size(209, 26);
-            this.nudSalario.TabIndex = 53;
-            // 
-            // chkUsuario
-            // 
-            this.chkUsuario.AutoSize = true;
-            this.chkUsuario.Location = new System.Drawing.Point(365, 92);
-            this.chkUsuario.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.chkUsuario.Name = "chkUsuario";
-            this.chkUsuario.Size = new System.Drawing.Size(179, 23);
-            this.chkUsuario.TabIndex = 54;
-            this.chkUsuario.Text = "¿Asignar Usuario?";
-            this.chkUsuario.UseVisualStyleBackColor = true;
-            this.chkUsuario.CheckedChanged += new System.EventHandler(this.chkUsuario_CheckedChanged);
             // 
             // txtUsuario
             // 
@@ -478,11 +499,10 @@
             this.BackgroundImage = global::CpPizzeria.Properties.Resources.pizzaback;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.txtUsuario);
-            this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblNombreEmpleado);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.txtParametro);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
@@ -495,12 +515,12 @@
             this.panel1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudSalario)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpCargo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpTelefono)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpApellidos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpNombre)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpSalario)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudSalario)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpUsuario)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -509,7 +529,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.TextBox txtParametro;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridView dgvLista;

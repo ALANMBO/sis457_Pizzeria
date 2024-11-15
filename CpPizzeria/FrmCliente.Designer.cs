@@ -33,27 +33,27 @@
             this.gbxDatos = new System.Windows.Forms.GroupBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblRazon = new System.Windows.Forms.Label();
-            this.btnGuardar = new System.Windows.Forms.Button();
             this.txtCelular = new System.Windows.Forms.TextBox();
             this.txtRazon = new System.Windows.Forms.TextBox();
             this.lblCelular = new System.Windows.Forms.Label();
             this.lblCedula = new System.Windows.Forms.Label();
             this.txtCedula = new System.Windows.Forms.TextBox();
             this.pnlAcciones = new System.Windows.Forms.Panel();
-            this.btnVolver = new System.Windows.Forms.Button();
-            this.btnLimpiar = new System.Windows.Forms.Button();
-            this.btnEditar = new System.Windows.Forms.Button();
-            this.btnEliminar = new System.Windows.Forms.Button();
-            this.btnNuevo = new System.Windows.Forms.Button();
+            this.btnSalir = new Guna.UI2.WinForms.Guna2Button();
+            this.btnEliminar = new Guna.UI2.WinForms.Guna2Button();
+            this.btnEditar = new Guna.UI2.WinForms.Guna2Button();
+            this.btnNuevo = new Guna.UI2.WinForms.Guna2Button();
             this.gbxLista = new System.Windows.Forms.GroupBox();
             this.dgvLista = new System.Windows.Forms.DataGridView();
-            this.btnBuscar = new System.Windows.Forms.Button();
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.lblBuscar = new System.Windows.Forms.Label();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.erpRazonsocial = new System.Windows.Forms.ErrorProvider(this.components);
             this.erpCedula = new System.Windows.Forms.ErrorProvider(this.components);
             this.erpCelular = new System.Windows.Forms.ErrorProvider(this.components);
+            this.brnLimpiar = new Guna.UI2.WinForms.Guna2Button();
+            this.btnBuscar = new Guna.UI2.WinForms.Guna2Button();
+            this.btnGuardar = new Guna.UI2.WinForms.Guna2Button();
             this.gbxDatos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlAcciones.SuspendLayout();
@@ -67,9 +67,9 @@
             // gbxDatos
             // 
             this.gbxDatos.BackgroundImage = global::CpPizzeria.Properties.Resources.pizzaback;
+            this.gbxDatos.Controls.Add(this.btnGuardar);
             this.gbxDatos.Controls.Add(this.pictureBox1);
             this.gbxDatos.Controls.Add(this.lblRazon);
-            this.gbxDatos.Controls.Add(this.btnGuardar);
             this.gbxDatos.Controls.Add(this.txtCelular);
             this.gbxDatos.Controls.Add(this.txtRazon);
             this.gbxDatos.Controls.Add(this.lblCelular);
@@ -108,21 +108,6 @@
             this.lblRazon.Size = new System.Drawing.Size(117, 19);
             this.lblRazon.TabIndex = 15;
             this.lblRazon.Text = "Razon Social:";
-            // 
-            // btnGuardar
-            // 
-            this.btnGuardar.BackColor = System.Drawing.Color.Transparent;
-            this.btnGuardar.ForeColor = System.Drawing.Color.Black;
-            this.btnGuardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuardar.Location = new System.Drawing.Point(324, 133);
-            this.btnGuardar.Margin = new System.Windows.Forms.Padding(4);
-            this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(89, 37);
-            this.btnGuardar.TabIndex = 13;
-            this.btnGuardar.Text = "Guardar";
-            this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnGuardar.UseVisualStyleBackColor = false;
-            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // txtCelular
             // 
@@ -176,101 +161,110 @@
             // 
             this.pnlAcciones.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlAcciones.BackgroundImage = global::CpPizzeria.Properties.Resources.pizzaback;
             this.pnlAcciones.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pnlAcciones.Controls.Add(this.btnVolver);
-            this.pnlAcciones.Controls.Add(this.btnLimpiar);
-            this.pnlAcciones.Controls.Add(this.btnEditar);
+            this.pnlAcciones.Controls.Add(this.brnLimpiar);
+            this.pnlAcciones.Controls.Add(this.btnSalir);
             this.pnlAcciones.Controls.Add(this.btnEliminar);
+            this.pnlAcciones.Controls.Add(this.btnEditar);
             this.pnlAcciones.Controls.Add(this.btnNuevo);
             this.pnlAcciones.Font = new System.Drawing.Font("Cooper Black", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnlAcciones.Location = new System.Drawing.Point(593, 84);
             this.pnlAcciones.Margin = new System.Windows.Forms.Padding(4);
             this.pnlAcciones.Name = "pnlAcciones";
-            this.pnlAcciones.Size = new System.Drawing.Size(185, 208);
+            this.pnlAcciones.Size = new System.Drawing.Size(172, 208);
             this.pnlAcciones.TabIndex = 20;
             this.pnlAcciones.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlAcciones_Paint);
             // 
-            // btnVolver
+            // btnSalir
             // 
-            this.btnVolver.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnVolver.BackColor = System.Drawing.Color.Black;
-            this.btnVolver.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
-            this.btnVolver.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
-            this.btnVolver.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
-            this.btnVolver.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolver.ForeColor = System.Drawing.Color.White;
-            this.btnVolver.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVolver.Location = new System.Drawing.Point(109, 130);
-            this.btnVolver.Margin = new System.Windows.Forms.Padding(4);
-            this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(68, 27);
-            this.btnVolver.TabIndex = 4;
-            this.btnVolver.Text = "Volver";
-            this.btnVolver.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVolver.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnVolver.UseVisualStyleBackColor = false;
-            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
-            // 
-            // btnLimpiar
-            // 
-            this.btnLimpiar.BackColor = System.Drawing.Color.LightGray;
-            this.btnLimpiar.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
-            this.btnLimpiar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
-            this.btnLimpiar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
-            this.btnLimpiar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLimpiar.Location = new System.Drawing.Point(4, 152);
-            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(4);
-            this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(94, 42);
-            this.btnLimpiar.TabIndex = 3;
-            this.btnLimpiar.Text = "Limpiar";
-            this.btnLimpiar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLimpiar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnLimpiar.UseVisualStyleBackColor = false;
-            // 
-            // btnEditar
-            // 
-            this.btnEditar.BackColor = System.Drawing.Color.LightGray;
-            this.btnEditar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEditar.Location = new System.Drawing.Point(4, 41);
-            this.btnEditar.Margin = new System.Windows.Forms.Padding(4);
-            this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(94, 40);
-            this.btnEditar.TabIndex = 2;
-            this.btnEditar.Text = "Editar";
-            this.btnEditar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEditar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnEditar.UseVisualStyleBackColor = false;
-            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
+            this.btnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSalir.BackColor = System.Drawing.Color.Transparent;
+            this.btnSalir.BorderRadius = 13;
+            this.btnSalir.BorderThickness = 1;
+            this.btnSalir.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnSalir.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnSalir.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSalir.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnSalir.FillColor = System.Drawing.Color.White;
+            this.btnSalir.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnSalir.ForeColor = System.Drawing.Color.Black;
+            this.btnSalir.Image = global::CpPizzeria.Properties.Resources.canceltheapplication_cancelar_2901;
+            this.btnSalir.Location = new System.Drawing.Point(104, 83);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(36, 31);
+            this.btnSalir.TabIndex = 53;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnEliminar
             // 
-            this.btnEliminar.BackColor = System.Drawing.Color.LightGray;
-            this.btnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEliminar.Location = new System.Drawing.Point(4, 89);
+            this.btnEliminar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnEliminar.BackColor = System.Drawing.Color.Transparent;
+            this.btnEliminar.BorderRadius = 13;
+            this.btnEliminar.BorderThickness = 1;
+            this.btnEliminar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnEliminar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnEliminar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnEliminar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnEliminar.FillColor = System.Drawing.Color.White;
+            this.btnEliminar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnEliminar.ForeColor = System.Drawing.Color.Black;
+            this.btnEliminar.Image = global::CpPizzeria.Properties.Resources.delete_4219;
+            this.btnEliminar.Location = new System.Drawing.Point(4, 109);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(4);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(94, 45);
-            this.btnEliminar.TabIndex = 1;
+            this.btnEliminar.Size = new System.Drawing.Size(88, 35);
+            this.btnEliminar.TabIndex = 39;
             this.btnEliminar.Text = "Eliminar";
-            this.btnEliminar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEliminar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnEliminar.UseVisualStyleBackColor = false;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
+            // btnEditar
+            // 
+            this.btnEditar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnEditar.BackColor = System.Drawing.Color.Transparent;
+            this.btnEditar.BorderRadius = 13;
+            this.btnEditar.BorderThickness = 1;
+            this.btnEditar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnEditar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnEditar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnEditar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnEditar.FillColor = System.Drawing.Color.White;
+            this.btnEditar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnEditar.ForeColor = System.Drawing.Color.Black;
+            this.btnEditar.Image = global::CpPizzeria.Properties.Resources.create_icon_235108;
+            this.btnEditar.Location = new System.Drawing.Point(4, 59);
+            this.btnEditar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(88, 35);
+            this.btnEditar.TabIndex = 38;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // btnNuevo
             // 
-            this.btnNuevo.BackColor = System.Drawing.Color.LightGray;
-            this.btnNuevo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNuevo.Location = new System.Drawing.Point(4, 4);
+            this.btnNuevo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnNuevo.BackColor = System.Drawing.Color.Transparent;
+            this.btnNuevo.BorderRadius = 13;
+            this.btnNuevo.BorderThickness = 1;
+            this.btnNuevo.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnNuevo.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnNuevo.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnNuevo.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnNuevo.FillColor = System.Drawing.Color.White;
+            this.btnNuevo.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnNuevo.ForeColor = System.Drawing.Color.Black;
+            this.btnNuevo.Image = global::CpPizzeria.Properties.Resources._1490129329_rounded38_82203;
+            this.btnNuevo.Location = new System.Drawing.Point(4, 9);
             this.btnNuevo.Margin = new System.Windows.Forms.Padding(4);
             this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(94, 29);
-            this.btnNuevo.TabIndex = 0;
+            this.btnNuevo.Size = new System.Drawing.Size(88, 35);
+            this.btnNuevo.TabIndex = 37;
             this.btnNuevo.Text = "Nuevo";
-            this.btnNuevo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNuevo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnNuevo.UseVisualStyleBackColor = false;
             this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // gbxLista
@@ -307,24 +301,6 @@
             this.dgvLista.Size = new System.Drawing.Size(557, 173);
             this.dgvLista.TabIndex = 0;
             this.dgvLista.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLista_CellContentClick);
-            // 
-            // btnBuscar
-            // 
-            this.btnBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnBuscar.BackColor = System.Drawing.Color.White;
-            this.btnBuscar.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBuscar.Location = new System.Drawing.Point(640, 35);
-            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(100, 41);
-            this.btnBuscar.TabIndex = 18;
-            this.btnBuscar.Text = "Buscar";
-            this.btnBuscar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBuscar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnBuscar.UseVisualStyleBackColor = false;
-            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click_1);
             // 
             // txtBuscar
             // 
@@ -379,16 +355,82 @@
             // 
             this.erpCelular.ContainerControl = this;
             // 
+            // brnLimpiar
+            // 
+            this.brnLimpiar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.brnLimpiar.BackColor = System.Drawing.Color.Transparent;
+            this.brnLimpiar.BorderRadius = 13;
+            this.brnLimpiar.BorderThickness = 1;
+            this.brnLimpiar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.brnLimpiar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.brnLimpiar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.brnLimpiar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.brnLimpiar.FillColor = System.Drawing.Color.White;
+            this.brnLimpiar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.brnLimpiar.ForeColor = System.Drawing.Color.Black;
+            this.brnLimpiar.Image = global::CpPizzeria.Properties.Resources.iconfinder_broom_clean_service_labor_website_4622511_122412;
+            this.brnLimpiar.Location = new System.Drawing.Point(4, 159);
+            this.brnLimpiar.Margin = new System.Windows.Forms.Padding(4);
+            this.brnLimpiar.Name = "brnLimpiar";
+            this.brnLimpiar.Size = new System.Drawing.Size(88, 35);
+            this.brnLimpiar.TabIndex = 54;
+            this.brnLimpiar.Text = "Limpiar";
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnBuscar.BackColor = System.Drawing.Color.Transparent;
+            this.btnBuscar.BorderRadius = 13;
+            this.btnBuscar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnBuscar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnBuscar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnBuscar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnBuscar.FillColor = System.Drawing.Color.White;
+            this.btnBuscar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnBuscar.ForeColor = System.Drawing.Color.Black;
+            this.btnBuscar.Image = global::CpPizzeria.Properties.Resources.searcher_magnifyng_glass_search_locate_find_icon_123813;
+            this.btnBuscar.Location = new System.Drawing.Point(641, 39);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(50, 35);
+            this.btnBuscar.TabIndex = 52;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
+            // btnGuardar
+            // 
+            this.btnGuardar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnGuardar.BackColor = System.Drawing.Color.Transparent;
+            this.btnGuardar.BorderRadius = 13;
+            this.btnGuardar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnGuardar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnGuardar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnGuardar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnGuardar.FillColor = System.Drawing.Color.White;
+            this.btnGuardar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnGuardar.ForeColor = System.Drawing.Color.Black;
+            this.btnGuardar.Image = global::CpPizzeria.Properties.Resources.savetheapplication_guardar_2958;
+            this.btnGuardar.Location = new System.Drawing.Point(318, 135);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(101, 35);
+            this.btnGuardar.TabIndex = 40;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
+            // 
             // FrmCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::CpPizzeria.Properties.Resources.pizzaback;
             this.ClientSize = new System.Drawing.Size(800, 486);
+            this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.gbxDatos);
             this.Controls.Add(this.pnlAcciones);
             this.Controls.Add(this.gbxLista);
-            this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.txtBuscar);
             this.Controls.Add(this.lblBuscar);
             this.Controls.Add(this.lblTitulo);
@@ -414,27 +456,27 @@
 
         private System.Windows.Forms.GroupBox gbxDatos;
         private System.Windows.Forms.Label lblRazon;
-        private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.TextBox txtCelular;
         private System.Windows.Forms.TextBox txtRazon;
         private System.Windows.Forms.Label lblCelular;
         private System.Windows.Forms.Label lblCedula;
         private System.Windows.Forms.TextBox txtCedula;
         private System.Windows.Forms.Panel pnlAcciones;
-        private System.Windows.Forms.Button btnLimpiar;
-        private System.Windows.Forms.Button btnEditar;
-        private System.Windows.Forms.Button btnEliminar;
-        private System.Windows.Forms.Button btnNuevo;
         private System.Windows.Forms.GroupBox gbxLista;
         private System.Windows.Forms.DataGridView dgvLista;
-        private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.TextBox txtBuscar;
         private System.Windows.Forms.Label lblBuscar;
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.ErrorProvider erpRazonsocial;
         private System.Windows.Forms.ErrorProvider erpCedula;
         private System.Windows.Forms.ErrorProvider erpCelular;
-        private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private Guna.UI2.WinForms.Guna2Button btnNuevo;
+        private Guna.UI2.WinForms.Guna2Button btnEditar;
+        private Guna.UI2.WinForms.Guna2Button btnEliminar;
+        private Guna.UI2.WinForms.Guna2Button btnSalir;
+        private Guna.UI2.WinForms.Guna2Button brnLimpiar;
+        private Guna.UI2.WinForms.Guna2Button btnBuscar;
+        private Guna.UI2.WinForms.Guna2Button btnGuardar;
     }
 }
