@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCliente));
             this.gbxDatos = new System.Windows.Forms.GroupBox();
+            this.btnGuardar = new Guna.UI2.WinForms.Guna2Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblRazon = new System.Windows.Forms.Label();
             this.txtCelular = new System.Windows.Forms.TextBox();
@@ -39,6 +40,7 @@
             this.lblCedula = new System.Windows.Forms.Label();
             this.txtCedula = new System.Windows.Forms.TextBox();
             this.pnlAcciones = new System.Windows.Forms.Panel();
+            this.brnLimpiar = new Guna.UI2.WinForms.Guna2Button();
             this.btnSalir = new Guna.UI2.WinForms.Guna2Button();
             this.btnEliminar = new Guna.UI2.WinForms.Guna2Button();
             this.btnEditar = new Guna.UI2.WinForms.Guna2Button();
@@ -51,9 +53,7 @@
             this.erpRazonsocial = new System.Windows.Forms.ErrorProvider(this.components);
             this.erpCedula = new System.Windows.Forms.ErrorProvider(this.components);
             this.erpCelular = new System.Windows.Forms.ErrorProvider(this.components);
-            this.brnLimpiar = new Guna.UI2.WinForms.Guna2Button();
             this.btnBuscar = new Guna.UI2.WinForms.Guna2Button();
-            this.btnGuardar = new Guna.UI2.WinForms.Guna2Button();
             this.gbxDatos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlAcciones.SuspendLayout();
@@ -86,6 +86,28 @@
             this.gbxDatos.TabStop = false;
             this.gbxDatos.Text = "Datos del Cliente ";
             this.gbxDatos.Enter += new System.EventHandler(this.gbxDatos_Enter);
+            // 
+            // btnGuardar
+            // 
+            this.btnGuardar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnGuardar.BackColor = System.Drawing.Color.Transparent;
+            this.btnGuardar.BorderRadius = 13;
+            this.btnGuardar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnGuardar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnGuardar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnGuardar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnGuardar.FillColor = System.Drawing.Color.White;
+            this.btnGuardar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnGuardar.ForeColor = System.Drawing.Color.Black;
+            this.btnGuardar.Image = global::CpPizzeria.Properties.Resources.savetheapplication_guardar_2958;
+            this.btnGuardar.Location = new System.Drawing.Point(318, 135);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(101, 35);
+            this.btnGuardar.TabIndex = 40;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // pictureBox1
             // 
@@ -175,6 +197,28 @@
             this.pnlAcciones.Size = new System.Drawing.Size(172, 208);
             this.pnlAcciones.TabIndex = 20;
             this.pnlAcciones.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlAcciones_Paint);
+            // 
+            // brnLimpiar
+            // 
+            this.brnLimpiar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.brnLimpiar.BackColor = System.Drawing.Color.Transparent;
+            this.brnLimpiar.BorderRadius = 13;
+            this.brnLimpiar.BorderThickness = 1;
+            this.brnLimpiar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.brnLimpiar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.brnLimpiar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.brnLimpiar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.brnLimpiar.FillColor = System.Drawing.Color.White;
+            this.brnLimpiar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.brnLimpiar.ForeColor = System.Drawing.Color.Black;
+            this.brnLimpiar.Image = global::CpPizzeria.Properties.Resources.iconfinder_broom_clean_service_labor_website_4622511_122412;
+            this.brnLimpiar.Location = new System.Drawing.Point(4, 159);
+            this.brnLimpiar.Margin = new System.Windows.Forms.Padding(4);
+            this.brnLimpiar.Name = "brnLimpiar";
+            this.brnLimpiar.Size = new System.Drawing.Size(88, 35);
+            this.brnLimpiar.TabIndex = 54;
+            this.brnLimpiar.Text = "Limpiar";
             // 
             // btnSalir
             // 
@@ -271,11 +315,11 @@
             // 
             this.gbxLista.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gbxLista.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.gbxLista.BackgroundImage = global::CpPizzeria.Properties.Resources.pizzaback;
+            this.gbxLista.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.gbxLista.BackgroundImage = global::CpPizzeria.Properties.Resources.descarga1;
             this.gbxLista.Controls.Add(this.dgvLista);
             this.gbxLista.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbxLista.ForeColor = System.Drawing.Color.White;
+            this.gbxLista.ForeColor = System.Drawing.Color.Black;
             this.gbxLista.Location = new System.Drawing.Point(6, 84);
             this.gbxLista.Margin = new System.Windows.Forms.Padding(4);
             this.gbxLista.Name = "gbxLista";
@@ -290,6 +334,7 @@
             // 
             this.dgvLista.AllowUserToAddRows = false;
             this.dgvLista.AllowUserToDeleteRows = false;
+            this.dgvLista.BackgroundColor = System.Drawing.Color.White;
             this.dgvLista.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvLista.Location = new System.Drawing.Point(8, 23);
             this.dgvLista.Margin = new System.Windows.Forms.Padding(4);
@@ -355,28 +400,6 @@
             // 
             this.erpCelular.ContainerControl = this;
             // 
-            // brnLimpiar
-            // 
-            this.brnLimpiar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.brnLimpiar.BackColor = System.Drawing.Color.Transparent;
-            this.brnLimpiar.BorderRadius = 13;
-            this.brnLimpiar.BorderThickness = 1;
-            this.brnLimpiar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.brnLimpiar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.brnLimpiar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.brnLimpiar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.brnLimpiar.FillColor = System.Drawing.Color.White;
-            this.brnLimpiar.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.brnLimpiar.ForeColor = System.Drawing.Color.Black;
-            this.brnLimpiar.Image = global::CpPizzeria.Properties.Resources.iconfinder_broom_clean_service_labor_website_4622511_122412;
-            this.brnLimpiar.Location = new System.Drawing.Point(4, 159);
-            this.brnLimpiar.Margin = new System.Windows.Forms.Padding(4);
-            this.brnLimpiar.Name = "brnLimpiar";
-            this.brnLimpiar.Size = new System.Drawing.Size(88, 35);
-            this.brnLimpiar.TabIndex = 54;
-            this.brnLimpiar.Text = "Limpiar";
-            // 
             // btnBuscar
             // 
             this.btnBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -398,28 +421,6 @@
             this.btnBuscar.Size = new System.Drawing.Size(50, 35);
             this.btnBuscar.TabIndex = 52;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
-            // 
-            // btnGuardar
-            // 
-            this.btnGuardar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnGuardar.BackColor = System.Drawing.Color.Transparent;
-            this.btnGuardar.BorderRadius = 13;
-            this.btnGuardar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnGuardar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnGuardar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnGuardar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnGuardar.FillColor = System.Drawing.Color.White;
-            this.btnGuardar.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnGuardar.ForeColor = System.Drawing.Color.Black;
-            this.btnGuardar.Image = global::CpPizzeria.Properties.Resources.savetheapplication_guardar_2958;
-            this.btnGuardar.Location = new System.Drawing.Point(318, 135);
-            this.btnGuardar.Margin = new System.Windows.Forms.Padding(4);
-            this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(101, 35);
-            this.btnGuardar.TabIndex = 40;
-            this.btnGuardar.Text = "Guardar";
-            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // FrmCliente
             // 

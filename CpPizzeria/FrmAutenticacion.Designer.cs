@@ -48,11 +48,11 @@
             this.lblclave.BackColor = System.Drawing.Color.Transparent;
             this.lblclave.Font = new System.Drawing.Font("Cooper Black", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblclave.ForeColor = System.Drawing.Color.White;
-            this.lblclave.Location = new System.Drawing.Point(-1, 119);
+            this.lblclave.Location = new System.Drawing.Point(-1, 125);
             this.lblclave.Name = "lblclave";
-            this.lblclave.Size = new System.Drawing.Size(156, 21);
+            this.lblclave.Size = new System.Drawing.Size(162, 21);
             this.lblclave.TabIndex = 35;
-            this.lblclave.Text = "CONTRASEÑA";
+            this.lblclave.Text = "CONTRASEÑA:";
             // 
             // lblUsuario
             // 
@@ -61,11 +61,11 @@
             this.lblUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblUsuario.Font = new System.Drawing.Font("Cooper Black", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsuario.ForeColor = System.Drawing.Color.White;
-            this.lblUsuario.Location = new System.Drawing.Point(47, 72);
+            this.lblUsuario.Location = new System.Drawing.Point(47, 67);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(108, 21);
+            this.lblUsuario.Size = new System.Drawing.Size(114, 21);
             this.lblUsuario.TabIndex = 34;
-            this.lblUsuario.Text = "USUARIO";
+            this.lblUsuario.Text = "USUARIO:";
             // 
             // lblTitulo
             // 

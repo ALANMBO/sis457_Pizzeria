@@ -140,15 +140,13 @@
             // 
             // lblTitulo
             // 
-            this.lblTitulo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Cooper Black", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(183, 7);
+            this.lblTitulo.Location = new System.Drawing.Point(95, 5);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(260, 36);
+            this.lblTitulo.Size = new System.Drawing.Size(339, 36);
             this.lblTitulo.TabIndex = 12;
-            this.lblTitulo.Text = "Menu Principal";
+            this.lblTitulo.Text = "Contenido Principal";
             // 
             // pictureBox1
             // 
@@ -212,7 +210,7 @@
             this.btnEmpleado.ForeColor = System.Drawing.Color.Black;
             this.btnEmpleado.Image = global::CpPizzeria.Properties.Resources._1490129329_rounded38_82203;
             this.btnEmpleado.Location = new System.Drawing.Point(30, 156);
-            this.btnEmpleado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEmpleado.Margin = new System.Windows.Forms.Padding(4);
             this.btnEmpleado.Name = "btnEmpleado";
             this.btnEmpleado.Size = new System.Drawing.Size(101, 35);
             this.btnEmpleado.TabIndex = 22;
@@ -232,7 +230,7 @@
             this.btnCliente.ForeColor = System.Drawing.Color.Black;
             this.btnCliente.Image = global::CpPizzeria.Properties.Resources.user_84308;
             this.btnCliente.Location = new System.Drawing.Point(200, 156);
-            this.btnCliente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCliente.Margin = new System.Windows.Forms.Padding(4);
             this.btnCliente.Name = "btnCliente";
             this.btnCliente.Size = new System.Drawing.Size(101, 35);
             this.btnCliente.TabIndex = 23;
@@ -252,7 +250,7 @@
             this.btnMenu1.ForeColor = System.Drawing.Color.Black;
             this.btnMenu1.Image = global::CpPizzeria.Properties.Resources.distributorlogokorora_93658;
             this.btnMenu1.Location = new System.Drawing.Point(355, 156);
-            this.btnMenu1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMenu1.Margin = new System.Windows.Forms.Padding(4);
             this.btnMenu1.Name = "btnMenu1";
             this.btnMenu1.Size = new System.Drawing.Size(101, 35);
             this.btnMenu1.TabIndex = 24;
@@ -272,7 +270,7 @@
             this.btnVenta.ForeColor = System.Drawing.Color.Black;
             this.btnVenta.Image = global::CpPizzeria.Properties.Resources.concertticket_83678;
             this.btnVenta.Location = new System.Drawing.Point(200, 303);
-            this.btnVenta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnVenta.Margin = new System.Windows.Forms.Padding(4);
             this.btnVenta.Name = "btnVenta";
             this.btnVenta.Size = new System.Drawing.Size(101, 35);
             this.btnVenta.TabIndex = 25;
@@ -292,7 +290,7 @@
             this.btnProducto.ForeColor = System.Drawing.Color.Black;
             this.btnProducto.Image = global::CpPizzeria.Properties.Resources._create_new_folder_90671;
             this.btnProducto.Location = new System.Drawing.Point(355, 303);
-            this.btnProducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnProducto.Margin = new System.Windows.Forms.Padding(4);
             this.btnProducto.Name = "btnProducto";
             this.btnProducto.Size = new System.Drawing.Size(101, 35);
             this.btnProducto.TabIndex = 26;
@@ -325,7 +323,7 @@
             this.Controls.Add(this.btnMenu);
             this.ForeColor = System.Drawing.Color.White;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmPrincipal";
             this.Text = "::: Pizza - Principal :::";
             ((System.ComponentModel.ISupportInitialize)(this.iconminimizar)).EndInit();

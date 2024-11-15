@@ -233,6 +233,16 @@ namespace CpPizzeria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap descarga3 {
+            get {
+                object obj = ResourceManager.GetObject("descarga3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap distributorlogokorora_93658 {
             get {
                 object obj = ResourceManager.GetObject("distributorlogokorora_93658", resourceCulture);
@@ -276,6 +286,16 @@ namespace CpPizzeria.Properties {
         internal static System.Drawing.Bitmap images1 {
             get {
                 object obj = ResourceManager.GetObject("images1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images2 {
+            get {
+                object obj = ResourceManager.GetObject("images2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -356,6 +376,16 @@ namespace CpPizzeria.Properties {
         internal static System.Drawing.Bitmap pizza_pizzadeliverypersonpeopleman_pizza_repartidordepizzas_person_16461 {
             get {
                 object obj = ResourceManager.GetObject("pizza_pizzadeliverypersonpeopleman_pizza_repartidordepizzas_person_16461", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pizza121 {
+            get {
+                object obj = ResourceManager.GetObject("pizza121", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
