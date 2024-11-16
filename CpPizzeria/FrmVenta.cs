@@ -240,5 +240,10 @@ namespace CpPizzeria
         {
             Close();
         }
+
+        private void lblRazonSocial_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

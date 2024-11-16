@@ -104,6 +104,7 @@
             // 
             this.btnGuardar.BackColor = System.Drawing.Color.Transparent;
             this.btnGuardar.BorderRadius = 13;
+            this.btnGuardar.BorderThickness = 1;
             this.btnGuardar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnGuardar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnGuardar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -261,6 +262,7 @@
             // 
             this.btnSalir.BackColor = System.Drawing.Color.Transparent;
             this.btnSalir.BorderRadius = 13;
+            this.btnSalir.BorderThickness = 1;
             this.btnSalir.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnSalir.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnSalir.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -268,7 +270,7 @@
             this.btnSalir.FillColor = System.Drawing.Color.White;
             this.btnSalir.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnSalir.ForeColor = System.Drawing.Color.Black;
-            this.btnSalir.Image = global::CpPizzeria.Properties.Resources.canceltheapplication_cancelar_2901;
+            this.btnSalir.Image = global::CpPizzeria.Properties.Resources.seo_social_web_network_internet_322_icon_icons_com_61532;
             this.btnSalir.Location = new System.Drawing.Point(81, 122);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalir.Name = "btnSalir";
@@ -281,6 +283,7 @@
             // 
             this.btnVaciar.BackColor = System.Drawing.Color.Transparent;
             this.btnVaciar.BorderRadius = 13;
+            this.btnVaciar.BorderThickness = 1;
             this.btnVaciar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnVaciar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnVaciar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -301,6 +304,7 @@
             // 
             this.btnEditar.BackColor = System.Drawing.Color.Transparent;
             this.btnEditar.BorderRadius = 13;
+            this.btnEditar.BorderThickness = 1;
             this.btnEditar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnEditar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnEditar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -308,7 +312,7 @@
             this.btnEditar.FillColor = System.Drawing.Color.White;
             this.btnEditar.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnEditar.ForeColor = System.Drawing.Color.Black;
-            this.btnEditar.Image = global::CpPizzeria.Properties.Resources.create_icon_235108;
+            this.btnEditar.Image = global::CpPizzeria.Properties.Resources.create_icon_2351081;
             this.btnEditar.Location = new System.Drawing.Point(149, 16);
             this.btnEditar.Margin = new System.Windows.Forms.Padding(4);
             this.btnEditar.Name = "btnEditar";
@@ -321,6 +325,7 @@
             // 
             this.btnEliminar.BackColor = System.Drawing.Color.Transparent;
             this.btnEliminar.BorderRadius = 13;
+            this.btnEliminar.BorderThickness = 1;
             this.btnEliminar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnEliminar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnEliminar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -341,6 +346,7 @@
             // 
             this.btnNuevo.BackColor = System.Drawing.Color.Transparent;
             this.btnNuevo.BorderRadius = 13;
+            this.btnNuevo.BorderThickness = 1;
             this.btnNuevo.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnNuevo.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnNuevo.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -348,7 +354,7 @@
             this.btnNuevo.FillColor = System.Drawing.Color.White;
             this.btnNuevo.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnNuevo.ForeColor = System.Drawing.Color.Black;
-            this.btnNuevo.Image = global::CpPizzeria.Properties.Resources._1490129329_rounded38_82203;
+            this.btnNuevo.Image = global::CpPizzeria.Properties.Resources._create_new_folder_90671;
             this.btnNuevo.Location = new System.Drawing.Point(13, 16);
             this.btnNuevo.Margin = new System.Windows.Forms.Padding(4);
             this.btnNuevo.Name = "btnNuevo";
@@ -360,7 +366,6 @@
             // gbxLista
             // 
             this.gbxLista.BackColor = System.Drawing.Color.White;
-            this.gbxLista.BackgroundImage = global::CpPizzeria.Properties.Resources.food_pizza_folder_993901;
             this.gbxLista.Controls.Add(this.dgvLista);
             this.gbxLista.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbxLista.ForeColor = System.Drawing.Color.Black;
@@ -431,6 +436,7 @@
             // btnBuscar
             // 
             this.btnBuscar.BackColor = System.Drawing.Color.Transparent;
+            this.btnBuscar.BackgroundImage = global::CpPizzeria.Properties.Resources.searcher_magnifyng_glass_search_locate_find_icon_123813;
             this.btnBuscar.BorderRadius = 13;
             this.btnBuscar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnBuscar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;

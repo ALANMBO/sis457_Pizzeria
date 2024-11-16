@@ -168,18 +168,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\food-pizza-folder_99390.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pizza_pizzadeliverypersonpeopleman_pizza_repartidordepizzas_person_1646.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pizza_pizzadeliverypersonpeopleman_pizza_repartidordepizzas_person_16461.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pizza_food_20620.ico" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\descarga.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -219,25 +207,10 @@
     <None Include="Resources\images1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\descarga1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\images23.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\3592854-add-user-business-man-employee-general-human-member-office_107767.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\1486485581-account-audience-person-customer-profile-user_81164.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\add_box_item_product_icon_179239.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\distributorlogokorora_93658.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\sales_bag_shopping_bargain_retail_icon-icons.com_55340.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bigpicturewithlandscape_121963.png" />

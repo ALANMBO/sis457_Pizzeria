@@ -39,9 +39,7 @@
             this.dvgSubTotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.gbxProducto = new System.Windows.Forms.GroupBox();
-            this.btnAgregar = new Guna.UI2.WinForms.Guna2Button();
             this.txtPrecio1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btnBuscar = new Guna.UI2.WinForms.Guna2Button();
             this.nudStock = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.nudCantidadP = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.txtCodigo = new Guna.UI2.WinForms.Guna2TextBox();
@@ -62,12 +60,14 @@
             this.lblNombre = new System.Windows.Forms.Label();
             this.lblPrecio = new System.Windows.Forms.Label();
             this.txtTotal = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btnRegistrarVenta = new Guna.UI2.WinForms.Guna2Button();
-            this.btnVolver = new Guna.UI2.WinForms.Guna2Button();
             this.erpNit = new System.Windows.Forms.ErrorProvider(this.components);
             this.erpRazonSocial = new System.Windows.Forms.ErrorProvider(this.components);
             this.erpCelular = new System.Windows.Forms.ErrorProvider(this.components);
             this.erpProducto = new System.Windows.Forms.ErrorProvider(this.components);
+            this.btnVolver = new Guna.UI2.WinForms.Guna2Button();
+            this.btnRegistrarVenta = new Guna.UI2.WinForms.Guna2Button();
+            this.btnAgregar = new Guna.UI2.WinForms.Guna2Button();
+            this.btnBuscar = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.dvgListaVenta)).BeginInit();
             this.gbxProducto.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudStock)).BeginInit();
@@ -83,12 +83,13 @@
             // lblTotal
             // 
             this.lblTotal.AutoSize = true;
-            this.lblTotal.BackColor = System.Drawing.Color.LightGray;
+            this.lblTotal.BackColor = System.Drawing.Color.Transparent;
             this.lblTotal.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotal.Location = new System.Drawing.Point(20, 560);
-            this.lblTotal.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblTotal.ForeColor = System.Drawing.Color.White;
+            this.lblTotal.Location = new System.Drawing.Point(15, 455);
+            this.lblTotal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(63, 23);
+            this.lblTotal.Size = new System.Drawing.Size(52, 19);
             this.lblTotal.TabIndex = 25;
             this.lblTotal.Text = "Total";
             // 
@@ -103,12 +104,12 @@
             this.dvgPrecio,
             this.dvgCantidad,
             this.dvgSubTotal});
-            this.dvgListaVenta.Location = new System.Drawing.Point(7, 350);
-            this.dvgListaVenta.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.dvgListaVenta.Location = new System.Drawing.Point(5, 284);
+            this.dvgListaVenta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dvgListaVenta.Name = "dvgListaVenta";
             this.dvgListaVenta.ReadOnly = true;
             this.dvgListaVenta.RowHeadersWidth = 51;
-            this.dvgListaVenta.Size = new System.Drawing.Size(963, 180);
+            this.dvgListaVenta.Size = new System.Drawing.Size(722, 146);
             this.dvgListaVenta.TabIndex = 24;
             // 
             // dvgIdProducto
@@ -154,18 +155,21 @@
             // 
             // lblTitulo
             // 
-            this.lblTitulo.BackColor = System.Drawing.Color.LightGray;
+            this.lblTitulo.BackColor = System.Drawing.Color.Black;
             this.lblTitulo.Font = new System.Drawing.Font("Britannic Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.ForeColor = System.Drawing.Color.White;
             this.lblTitulo.Location = new System.Drawing.Point(-1, 1);
-            this.lblTitulo.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblTitulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(971, 47);
+            this.lblTitulo.Size = new System.Drawing.Size(728, 38);
             this.lblTitulo.TabIndex = 22;
             this.lblTitulo.Text = "Ventas";
             this.lblTitulo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // gbxProducto
             // 
+            this.gbxProducto.BackColor = System.Drawing.Color.Black;
+            this.gbxProducto.BackgroundImage = global::CpPizzeria.Properties.Resources.pizzaback;
             this.gbxProducto.Controls.Add(this.btnAgregar);
             this.gbxProducto.Controls.Add(this.txtPrecio1);
             this.gbxProducto.Controls.Add(this.btnBuscar);
@@ -182,35 +186,17 @@
             this.gbxProducto.Controls.Add(this.tbxIdProducto);
             this.gbxProducto.Controls.Add(this.lblNombre);
             this.gbxProducto.Controls.Add(this.lblPrecio);
-            this.gbxProducto.Location = new System.Drawing.Point(7, 53);
-            this.gbxProducto.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.gbxProducto.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbxProducto.ForeColor = System.Drawing.Color.White;
+            this.gbxProducto.Location = new System.Drawing.Point(5, 43);
+            this.gbxProducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gbxProducto.Name = "gbxProducto";
-            this.gbxProducto.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.gbxProducto.Size = new System.Drawing.Size(963, 277);
+            this.gbxProducto.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbxProducto.Size = new System.Drawing.Size(722, 225);
             this.gbxProducto.TabIndex = 21;
             this.gbxProducto.TabStop = false;
             this.gbxProducto.Text = "Información del Producto";
             this.gbxProducto.Enter += new System.EventHandler(this.gbxProducto_Enter);
-            // 
-            // btnAgregar
-            // 
-            this.btnAgregar.BackColor = System.Drawing.Color.Transparent;
-            this.btnAgregar.BorderRadius = 13;
-            this.btnAgregar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnAgregar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnAgregar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnAgregar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnAgregar.FillColor = System.Drawing.Color.White;
-            this.btnAgregar.Font = new System.Drawing.Font("Cooper Black", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.ForeColor = System.Drawing.Color.Black;
-            this.btnAgregar.Image = global::CpPizzeria.Properties.Resources.add_icon_icons_com_65126;
-            this.btnAgregar.Location = new System.Drawing.Point(773, 202);
-            this.btnAgregar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(119, 44);
-            this.btnAgregar.TabIndex = 30;
-            this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // txtPrecio1
             // 
@@ -226,34 +212,15 @@
             this.txtPrecio1.Font = new System.Drawing.Font("Constantia", 9.75F);
             this.txtPrecio1.ForeColor = System.Drawing.Color.Black;
             this.txtPrecio1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPrecio1.Location = new System.Drawing.Point(569, 172);
-            this.txtPrecio1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtPrecio1.Location = new System.Drawing.Point(427, 140);
+            this.txtPrecio1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtPrecio1.Name = "txtPrecio1";
             this.txtPrecio1.PasswordChar = '\0';
+            this.txtPrecio1.PlaceholderForeColor = System.Drawing.Color.Black;
             this.txtPrecio1.PlaceholderText = "";
             this.txtPrecio1.SelectedText = "";
-            this.txtPrecio1.Size = new System.Drawing.Size(143, 37);
+            this.txtPrecio1.Size = new System.Drawing.Size(107, 30);
             this.txtPrecio1.TabIndex = 20;
-            // 
-            // btnBuscar
-            // 
-            this.btnBuscar.BackColor = System.Drawing.Color.Transparent;
-            this.btnBuscar.BorderRadius = 13;
-            this.btnBuscar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnBuscar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnBuscar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnBuscar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnBuscar.FillColor = System.Drawing.Color.White;
-            this.btnBuscar.Font = new System.Drawing.Font("Cooper Black", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscar.ForeColor = System.Drawing.Color.Black;
-            this.btnBuscar.Image = global::CpPizzeria.Properties.Resources.searcher_magnifyng_glass_search_locate_find_icon_123813;
-            this.btnBuscar.Location = new System.Drawing.Point(773, 139);
-            this.btnBuscar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(119, 41);
-            this.btnBuscar.TabIndex = 29;
-            this.btnBuscar.Text = "Buscar";
-            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // nudStock
             // 
@@ -261,13 +228,13 @@
             this.nudStock.BorderColor = System.Drawing.Color.Black;
             this.nudStock.BorderRadius = 13;
             this.nudStock.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.nudStock.Font = new System.Drawing.Font("Constantia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudStock.Location = new System.Drawing.Point(323, 209);
-            this.nudStock.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.nudStock.Font = new System.Drawing.Font("Constantia", 9.75F);
+            this.nudStock.Location = new System.Drawing.Point(242, 176);
+            this.nudStock.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.nudStock.Name = "nudStock";
-            this.nudStock.Size = new System.Drawing.Size(199, 41);
+            this.nudStock.Size = new System.Drawing.Size(149, 33);
             this.nudStock.TabIndex = 19;
-            this.nudStock.UpDownButtonFillColor = System.Drawing.Color.Transparent;
+            this.nudStock.UpDownButtonFillColor = System.Drawing.Color.White;
             this.nudStock.UpDownButtonForeColor = System.Drawing.Color.Black;
             // 
             // nudCantidadP
@@ -276,13 +243,13 @@
             this.nudCantidadP.BorderColor = System.Drawing.Color.Black;
             this.nudCantidadP.BorderRadius = 13;
             this.nudCantidadP.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.nudCantidadP.Font = new System.Drawing.Font("Constantia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudCantidadP.Location = new System.Drawing.Point(324, 139);
-            this.nudCantidadP.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.nudCantidadP.Font = new System.Drawing.Font("Constantia", 9.75F);
+            this.nudCantidadP.Location = new System.Drawing.Point(243, 114);
+            this.nudCantidadP.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.nudCantidadP.Name = "nudCantidadP";
-            this.nudCantidadP.Size = new System.Drawing.Size(199, 41);
+            this.nudCantidadP.Size = new System.Drawing.Size(149, 33);
             this.nudCantidadP.TabIndex = 18;
-            this.nudCantidadP.UpDownButtonFillColor = System.Drawing.Color.Transparent;
+            this.nudCantidadP.UpDownButtonFillColor = System.Drawing.Color.White;
             this.nudCantidadP.UpDownButtonForeColor = System.Drawing.Color.Black;
             // 
             // txtCodigo
@@ -296,16 +263,17 @@
             this.txtCodigo.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtCodigo.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtCodigo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtCodigo.Font = new System.Drawing.Font("Constantia", 9.75F);
-            this.txtCodigo.ForeColor = System.Drawing.Color.Black;
+            this.txtCodigo.Font = new System.Drawing.Font("Constantia", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCodigo.ForeColor = System.Drawing.Color.White;
             this.txtCodigo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtCodigo.Location = new System.Drawing.Point(9, 124);
-            this.txtCodigo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtCodigo.Location = new System.Drawing.Point(7, 101);
+            this.txtCodigo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.PasswordChar = '\0';
+            this.txtCodigo.PlaceholderForeColor = System.Drawing.Color.Black;
             this.txtCodigo.PlaceholderText = "";
             this.txtCodigo.SelectedText = "";
-            this.txtCodigo.Size = new System.Drawing.Size(177, 37);
+            this.txtCodigo.Size = new System.Drawing.Size(133, 30);
             this.txtCodigo.TabIndex = 17;
             // 
             // CbxProducto
@@ -320,25 +288,26 @@
             this.CbxProducto.Font = new System.Drawing.Font("Constantia", 11.25F);
             this.CbxProducto.ForeColor = System.Drawing.Color.Black;
             this.CbxProducto.ItemHeight = 30;
-            this.CbxProducto.Location = new System.Drawing.Point(9, 202);
-            this.CbxProducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CbxProducto.Location = new System.Drawing.Point(7, 164);
             this.CbxProducto.Name = "CbxProducto";
-            this.CbxProducto.Size = new System.Drawing.Size(164, 36);
+            this.CbxProducto.Size = new System.Drawing.Size(124, 36);
             this.CbxProducto.TabIndex = 16;
             this.CbxProducto.SelectedIndexChanged += new System.EventHandler(this.CbxProducto_SelectedIndexChanged);
             // 
             // gbxCliente
             // 
+            this.gbxCliente.BackColor = System.Drawing.Color.Black;
             this.gbxCliente.Controls.Add(this.txtrazonSocial);
             this.gbxCliente.Controls.Add(this.txtNit);
             this.gbxCliente.Controls.Add(this.lblRazonSocial);
             this.gbxCliente.Controls.Add(this.lblNit);
             this.gbxCliente.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbxCliente.Location = new System.Drawing.Point(324, 26);
-            this.gbxCliente.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.gbxCliente.ForeColor = System.Drawing.Color.White;
+            this.gbxCliente.Location = new System.Drawing.Point(243, 21);
+            this.gbxCliente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gbxCliente.Name = "gbxCliente";
-            this.gbxCliente.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.gbxCliente.Size = new System.Drawing.Size(579, 85);
+            this.gbxCliente.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbxCliente.Size = new System.Drawing.Size(434, 69);
             this.gbxCliente.TabIndex = 9;
             this.gbxCliente.TabStop = false;
             this.gbxCliente.Text = "Informacion del Cliente";
@@ -357,13 +326,13 @@
             this.txtrazonSocial.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtrazonSocial.ForeColor = System.Drawing.Color.Black;
             this.txtrazonSocial.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtrazonSocial.Location = new System.Drawing.Point(392, 23);
-            this.txtrazonSocial.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.txtrazonSocial.Location = new System.Drawing.Point(294, 19);
+            this.txtrazonSocial.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtrazonSocial.Name = "txtrazonSocial";
             this.txtrazonSocial.PasswordChar = '\0';
             this.txtrazonSocial.PlaceholderText = "";
             this.txtrazonSocial.SelectedText = "";
-            this.txtrazonSocial.Size = new System.Drawing.Size(171, 39);
+            this.txtrazonSocial.Size = new System.Drawing.Size(128, 32);
             this.txtrazonSocial.TabIndex = 27;
             // 
             // txtNit
@@ -380,57 +349,60 @@
             this.txtNit.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtNit.ForeColor = System.Drawing.Color.Black;
             this.txtNit.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtNit.Location = new System.Drawing.Point(77, 23);
-            this.txtNit.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.txtNit.Location = new System.Drawing.Point(58, 19);
+            this.txtNit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtNit.Name = "txtNit";
             this.txtNit.PasswordChar = '\0';
             this.txtNit.PlaceholderText = "";
             this.txtNit.SelectedText = "";
-            this.txtNit.Size = new System.Drawing.Size(171, 39);
+            this.txtNit.Size = new System.Drawing.Size(128, 32);
             this.txtNit.TabIndex = 26;
             // 
             // lblRazonSocial
             // 
             this.lblRazonSocial.AutoSize = true;
-            this.lblRazonSocial.BackColor = System.Drawing.Color.LightGray;
-            this.lblRazonSocial.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRazonSocial.Location = new System.Drawing.Point(259, 34);
-            this.lblRazonSocial.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblRazonSocial.BackColor = System.Drawing.Color.Transparent;
+            this.lblRazonSocial.Font = new System.Drawing.Font("Cooper Black", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRazonSocial.Location = new System.Drawing.Point(187, 26);
+            this.lblRazonSocial.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRazonSocial.Name = "lblRazonSocial";
-            this.lblRazonSocial.Size = new System.Drawing.Size(123, 20);
+            this.lblRazonSocial.Size = new System.Drawing.Size(111, 17);
             this.lblRazonSocial.TabIndex = 3;
             this.lblRazonSocial.Text = "Razón Social:";
+            this.lblRazonSocial.Click += new System.EventHandler(this.lblRazonSocial_Click);
             // 
             // lblNit
             // 
             this.lblNit.AutoSize = true;
-            this.lblNit.BackColor = System.Drawing.Color.LightGray;
-            this.lblNit.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNit.Location = new System.Drawing.Point(21, 34);
-            this.lblNit.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblNit.BackColor = System.Drawing.Color.Transparent;
+            this.lblNit.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNit.Location = new System.Drawing.Point(20, 26);
+            this.lblNit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNit.Name = "lblNit";
-            this.lblNit.Size = new System.Drawing.Size(42, 20);
+            this.lblNit.Size = new System.Drawing.Size(40, 19);
             this.lblNit.TabIndex = 2;
             this.lblNit.Text = "Nit:";
             // 
             // txtPrecio
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(28, 297);
-            this.txtPrecio.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtPrecio.Location = new System.Drawing.Point(21, 241);
+            this.txtPrecio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(175, 22);
+            this.txtPrecio.Size = new System.Drawing.Size(132, 22);
             this.txtPrecio.TabIndex = 13;
             // 
             // gbxVenta
             // 
+            this.gbxVenta.BackColor = System.Drawing.Color.Black;
             this.gbxVenta.Controls.Add(this.dtpFecha);
             this.gbxVenta.Controls.Add(this.lblFecha);
             this.gbxVenta.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbxVenta.Location = new System.Drawing.Point(12, 26);
-            this.gbxVenta.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.gbxVenta.ForeColor = System.Drawing.Color.White;
+            this.gbxVenta.Location = new System.Drawing.Point(9, 21);
+            this.gbxVenta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gbxVenta.Name = "gbxVenta";
-            this.gbxVenta.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.gbxVenta.Size = new System.Drawing.Size(301, 63);
+            this.gbxVenta.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbxVenta.Size = new System.Drawing.Size(226, 51);
             this.gbxVenta.TabIndex = 10;
             this.gbxVenta.TabStop = false;
             this.gbxVenta.Text = "Infromación Venta";
@@ -439,89 +411,90 @@
             // 
             this.dtpFecha.Enabled = false;
             this.dtpFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFecha.Location = new System.Drawing.Point(84, 23);
-            this.dtpFecha.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.dtpFecha.Location = new System.Drawing.Point(63, 19);
+            this.dtpFecha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtpFecha.Name = "dtpFecha";
-            this.dtpFecha.Size = new System.Drawing.Size(192, 26);
+            this.dtpFecha.Size = new System.Drawing.Size(145, 22);
             this.dtpFecha.TabIndex = 1;
             // 
             // lblFecha
             // 
             this.lblFecha.AutoSize = true;
-            this.lblFecha.BackColor = System.Drawing.Color.LightGray;
+            this.lblFecha.BackColor = System.Drawing.Color.Transparent;
             this.lblFecha.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFecha.Location = new System.Drawing.Point(11, 25);
-            this.lblFecha.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblFecha.Location = new System.Drawing.Point(8, 20);
+            this.lblFecha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(60, 20);
+            this.lblFecha.Size = new System.Drawing.Size(46, 15);
             this.lblFecha.TabIndex = 0;
             this.lblFecha.Text = "Fecha";
             // 
             // lbl
             // 
             this.lbl.AutoSize = true;
-            this.lbl.BackColor = System.Drawing.Color.LightGray;
-            this.lbl.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl.Location = new System.Drawing.Point(320, 187);
-            this.lbl.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lbl.BackColor = System.Drawing.Color.Transparent;
+            this.lbl.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl.Location = new System.Drawing.Point(238, 154);
+            this.lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl.Name = "lbl";
-            this.lbl.Size = new System.Drawing.Size(196, 20);
+            this.lbl.Size = new System.Drawing.Size(185, 19);
             this.lbl.TabIndex = 15;
             this.lbl.Text = "Numero de Productos";
             // 
             // lblCantidad
             // 
             this.lblCantidad.AutoSize = true;
-            this.lblCantidad.BackColor = System.Drawing.Color.LightGray;
-            this.lblCantidad.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCantidad.Location = new System.Drawing.Point(320, 117);
-            this.lblCantidad.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblCantidad.BackColor = System.Drawing.Color.Transparent;
+            this.lblCantidad.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCantidad.Location = new System.Drawing.Point(240, 92);
+            this.lblCantidad.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCantidad.Name = "lblCantidad";
-            this.lblCantidad.Size = new System.Drawing.Size(200, 20);
+            this.lblCantidad.Size = new System.Drawing.Size(188, 19);
             this.lblCantidad.TabIndex = 7;
             this.lblCantidad.Text = "Cantidad De Producto";
             // 
             // lblCodigo
             // 
             this.lblCodigo.AutoSize = true;
-            this.lblCodigo.BackColor = System.Drawing.Color.LightGray;
-            this.lblCodigo.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCodigo.Location = new System.Drawing.Point(11, 94);
-            this.lblCodigo.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblCodigo.BackColor = System.Drawing.Color.Transparent;
+            this.lblCodigo.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCodigo.ForeColor = System.Drawing.Color.White;
+            this.lblCodigo.Location = new System.Drawing.Point(8, 76);
+            this.lblCodigo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCodigo.Name = "lblCodigo";
-            this.lblCodigo.Size = new System.Drawing.Size(68, 20);
+            this.lblCodigo.Size = new System.Drawing.Size(66, 19);
             this.lblCodigo.TabIndex = 4;
             this.lblCodigo.Text = "Codigo";
             // 
             // tbxIdProducto
             // 
-            this.tbxIdProducto.Location = new System.Drawing.Point(145, 91);
-            this.tbxIdProducto.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.tbxIdProducto.Location = new System.Drawing.Point(109, 74);
+            this.tbxIdProducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbxIdProducto.Name = "tbxIdProducto";
-            this.tbxIdProducto.Size = new System.Drawing.Size(40, 22);
+            this.tbxIdProducto.Size = new System.Drawing.Size(31, 22);
             this.tbxIdProducto.TabIndex = 6;
             // 
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.BackColor = System.Drawing.Color.LightGray;
-            this.lblNombre.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre.Location = new System.Drawing.Point(11, 172);
-            this.lblNombre.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblNombre.BackColor = System.Drawing.Color.Transparent;
+            this.lblNombre.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombre.Location = new System.Drawing.Point(8, 140);
+            this.lblNombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(184, 20);
+            this.lblNombre.Size = new System.Drawing.Size(174, 19);
             this.lblNombre.TabIndex = 5;
             this.lblNombre.Text = "Selecionar Producto";
             // 
             // lblPrecio
             // 
             this.lblPrecio.AutoSize = true;
-            this.lblPrecio.BackColor = System.Drawing.Color.LightGray;
-            this.lblPrecio.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrecio.Location = new System.Drawing.Point(605, 144);
-            this.lblPrecio.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblPrecio.BackColor = System.Drawing.Color.Transparent;
+            this.lblPrecio.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrecio.Location = new System.Drawing.Point(454, 117);
+            this.lblPrecio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrecio.Name = "lblPrecio";
-            this.lblPrecio.Size = new System.Drawing.Size(64, 20);
+            this.lblPrecio.Size = new System.Drawing.Size(61, 19);
             this.lblPrecio.TabIndex = 6;
             this.lblPrecio.Text = "Precio";
             // 
@@ -539,54 +512,15 @@
             this.txtTotal.Font = new System.Drawing.Font("Constantia", 9.75F);
             this.txtTotal.ForeColor = System.Drawing.Color.Black;
             this.txtTotal.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtTotal.Location = new System.Drawing.Point(99, 560);
-            this.txtTotal.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtTotal.Location = new System.Drawing.Point(74, 455);
+            this.txtTotal.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.PasswordChar = '\0';
+            this.txtTotal.PlaceholderForeColor = System.Drawing.Color.Black;
             this.txtTotal.PlaceholderText = "";
             this.txtTotal.SelectedText = "";
-            this.txtTotal.Size = new System.Drawing.Size(177, 37);
+            this.txtTotal.Size = new System.Drawing.Size(133, 30);
             this.txtTotal.TabIndex = 31;
-            // 
-            // btnRegistrarVenta
-            // 
-            this.btnRegistrarVenta.BackColor = System.Drawing.Color.Transparent;
-            this.btnRegistrarVenta.BorderRadius = 13;
-            this.btnRegistrarVenta.BorderThickness = 1;
-            this.btnRegistrarVenta.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnRegistrarVenta.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnRegistrarVenta.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnRegistrarVenta.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnRegistrarVenta.FillColor = System.Drawing.Color.White;
-            this.btnRegistrarVenta.Font = new System.Drawing.Font("Cooper Black", 9F);
-            this.btnRegistrarVenta.ForeColor = System.Drawing.Color.Black;
-            this.btnRegistrarVenta.Image = global::CpPizzeria.Properties.Resources.concertticket_83678;
-            this.btnRegistrarVenta.Location = new System.Drawing.Point(285, 560);
-            this.btnRegistrarVenta.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.btnRegistrarVenta.Name = "btnRegistrarVenta";
-            this.btnRegistrarVenta.Size = new System.Drawing.Size(68, 41);
-            this.btnRegistrarVenta.TabIndex = 31;
-            this.btnRegistrarVenta.Click += new System.EventHandler(this.btnRegistrarVenta_Click);
-            // 
-            // btnVolver
-            // 
-            this.btnVolver.BackColor = System.Drawing.Color.Transparent;
-            this.btnVolver.BorderRadius = 13;
-            this.btnVolver.BorderThickness = 1;
-            this.btnVolver.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnVolver.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnVolver.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnVolver.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnVolver.FillColor = System.Drawing.Color.White;
-            this.btnVolver.Font = new System.Drawing.Font("Cooper Black", 9F);
-            this.btnVolver.ForeColor = System.Drawing.Color.Black;
-            this.btnVolver.Image = global::CpPizzeria.Properties.Resources.seo_social_web_network_internet_322_icon_icons_com_61532;
-            this.btnVolver.Location = new System.Drawing.Point(904, 2);
-            this.btnVolver.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(65, 41);
-            this.btnVolver.TabIndex = 32;
-            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
             // erpNit
             // 
@@ -604,11 +538,93 @@
             // 
             this.erpProducto.ContainerControl = this;
             // 
+            // btnVolver
+            // 
+            this.btnVolver.BackColor = System.Drawing.Color.Transparent;
+            this.btnVolver.BorderRadius = 13;
+            this.btnVolver.BorderThickness = 1;
+            this.btnVolver.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnVolver.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnVolver.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnVolver.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnVolver.FillColor = System.Drawing.Color.White;
+            this.btnVolver.Font = new System.Drawing.Font("Cooper Black", 9F);
+            this.btnVolver.ForeColor = System.Drawing.Color.Black;
+            this.btnVolver.Image = global::CpPizzeria.Properties.Resources.seo_social_web_network_internet_322_icon_icons_com_61532;
+            this.btnVolver.Location = new System.Drawing.Point(678, 2);
+            this.btnVolver.Margin = new System.Windows.Forms.Padding(4);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(49, 33);
+            this.btnVolver.TabIndex = 32;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
+            // btnRegistrarVenta
+            // 
+            this.btnRegistrarVenta.BackColor = System.Drawing.Color.Transparent;
+            this.btnRegistrarVenta.BorderRadius = 13;
+            this.btnRegistrarVenta.BorderThickness = 1;
+            this.btnRegistrarVenta.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnRegistrarVenta.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnRegistrarVenta.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnRegistrarVenta.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnRegistrarVenta.FillColor = System.Drawing.Color.White;
+            this.btnRegistrarVenta.Font = new System.Drawing.Font("Cooper Black", 9F);
+            this.btnRegistrarVenta.ForeColor = System.Drawing.Color.Black;
+            this.btnRegistrarVenta.Image = global::CpPizzeria.Properties.Resources.concertticket_83678;
+            this.btnRegistrarVenta.Location = new System.Drawing.Point(214, 455);
+            this.btnRegistrarVenta.Margin = new System.Windows.Forms.Padding(4);
+            this.btnRegistrarVenta.Name = "btnRegistrarVenta";
+            this.btnRegistrarVenta.Size = new System.Drawing.Size(51, 33);
+            this.btnRegistrarVenta.TabIndex = 31;
+            this.btnRegistrarVenta.Click += new System.EventHandler(this.btnRegistrarVenta_Click);
+            // 
+            // btnAgregar
+            // 
+            this.btnAgregar.BackColor = System.Drawing.Color.Transparent;
+            this.btnAgregar.BorderRadius = 13;
+            this.btnAgregar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnAgregar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnAgregar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnAgregar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnAgregar.FillColor = System.Drawing.Color.White;
+            this.btnAgregar.Font = new System.Drawing.Font("Cooper Black", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregar.ForeColor = System.Drawing.Color.Black;
+            this.btnAgregar.Image = global::CpPizzeria.Properties.Resources.add_icon_icons_com_65126;
+            this.btnAgregar.Location = new System.Drawing.Point(580, 164);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(89, 36);
+            this.btnAgregar.TabIndex = 30;
+            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.BackColor = System.Drawing.Color.Transparent;
+            this.btnBuscar.BorderRadius = 13;
+            this.btnBuscar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnBuscar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnBuscar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnBuscar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnBuscar.FillColor = System.Drawing.Color.White;
+            this.btnBuscar.Font = new System.Drawing.Font("Cooper Black", 9F);
+            this.btnBuscar.ForeColor = System.Drawing.Color.Black;
+            this.btnBuscar.Image = global::CpPizzeria.Properties.Resources.searcher_magnifyng_glass_search_locate_find_icon_123813;
+            this.btnBuscar.Location = new System.Drawing.Point(580, 113);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(89, 33);
+            this.btnBuscar.TabIndex = 29;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
             // FrmVenta
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(973, 634);
+            this.BackColor = System.Drawing.Color.Black;
+            this.BackgroundImage = global::CpPizzeria.Properties.Resources.pizzaback;
+            this.ClientSize = new System.Drawing.Size(730, 515);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.btnRegistrarVenta);
             this.Controls.Add(this.txtTotal);
@@ -617,7 +633,6 @@
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.gbxProducto);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmVenta";
             this.Text = "::: Ventas - Pizza :::";
             this.Load += new System.EventHandler(this.FrmVenta_Load);

@@ -63,16 +63,6 @@ namespace CpPizzeria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _1486485581_account_audience_person_customer_profile_user_81164 {
-            get {
-                object obj = ResourceManager.GetObject("1486485581-account-audience-person-customer-profile-user_81164", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap _1490129329_rounded38_82203 {
             get {
                 object obj = ResourceManager.GetObject("1490129329-rounded38_82203", resourceCulture);
@@ -83,29 +73,9 @@ namespace CpPizzeria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _3592854_add_user_business_man_employee_general_human_member_office_107767 {
-            get {
-                object obj = ResourceManager.GetObject("3592854-add-user-business-man-employee-general-human-member-office_107767", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap _create_new_folder_90671 {
             get {
                 object obj = ResourceManager.GetObject("-create-new-folder_90671", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap add_box_item_product_icon_179239 {
-            get {
-                object obj = ResourceManager.GetObject("add_box_item_product_icon_179239", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,16 +193,6 @@ namespace CpPizzeria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap descarga1 {
-            get {
-                object obj = ResourceManager.GetObject("descarga1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap descarga3 {
             get {
                 object obj = ResourceManager.GetObject("descarga3", resourceCulture);
@@ -246,16 +206,6 @@ namespace CpPizzeria.Properties {
         internal static System.Drawing.Bitmap distributorlogokorora_93658 {
             get {
                 object obj = ResourceManager.GetObject("distributorlogokorora_93658", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap food_pizza_folder_99390 {
-            get {
-                object obj = ResourceManager.GetObject("food-pizza-folder_99390", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -353,36 +303,6 @@ namespace CpPizzeria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pizza_food_20620 {
-            get {
-                object obj = ResourceManager.GetObject("pizza_food_20620", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pizza_pizzadeliverypersonpeopleman_pizza_repartidordepizzas_person_1646 {
-            get {
-                object obj = ResourceManager.GetObject("pizza_pizzadeliverypersonpeopleman_pizza_repartidordepizzas_person_1646", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pizza_pizzadeliverypersonpeopleman_pizza_repartidordepizzas_person_16461 {
-            get {
-                object obj = ResourceManager.GetObject("pizza_pizzadeliverypersonpeopleman_pizza_repartidordepizzas_person_16461", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap pizza121 {
             get {
                 object obj = ResourceManager.GetObject("pizza121", resourceCulture);
@@ -396,16 +316,6 @@ namespace CpPizzeria.Properties {
         internal static System.Drawing.Bitmap pizzaback {
             get {
                 object obj = ResourceManager.GetObject("pizzaback", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap sales_bag_shopping_bargain_retail_icon_icons_com_55340 {
-            get {
-                object obj = ResourceManager.GetObject("sales_bag_shopping_bargain_retail_icon-icons.com_55340", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
