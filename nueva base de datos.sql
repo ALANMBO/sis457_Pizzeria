@@ -177,9 +177,7 @@ GO
 
 INSERT INTO Empleado (nombre, apellidos, telefono, cargo, salario) 
 VALUES 
-('Juan', 'Perez', '555-1234', 'Manager', 5000.00),
-('Maria', 'Lopez', '555-5678', 'Cashier', 2500.00),
-('Carlos', 'Martinez', '555-9876', 'Chef', 3500.00);
+
 
 --usuario encriptado
 INSERT INTO Empleado (nombre, apellidos, telefono, cargo, salario) 
@@ -195,21 +193,21 @@ SELECT * FROM Usuario;
 
 INSERT INTO Categoria (nombre) 
 VALUES 
-('Bebidas'),
-('Comidas'),
-('Postres');
+('Pizza1'),
+('Pizza2'),
+('Pizza3');
 
 INSERT INTO Producto (idCategoria, codigo, nombre, descripcion, precio) 
 VALUES 
-(1, 'B001', 'Coca Cola', 'Bebida gaseosa de cola', 1.50),
-(2, 'C001', 'Hamburguesa', 'Hamburguesa con queso y bacon', 5.00),
-(3, 'P001', 'Helado', 'Helado de vainilla con chocolate', 2.50);
+(1, 'p001', 'pizza1 ', 'unica con cebolla', 25),
+(2, 'p002', 'pizza2', 'pizza con chocolate', 50),
+(3, 'P003', 'Helado', 'Helado de vainilla con chocolate', 25);
 
 INSERT INTO Cliente (razonSocial, cedulaIdentidad, celular) 
 VALUES 
-('Empresa ABC', '1234567890', '98765432'),
-('Juan Perez', '0987654321', '87654321'),
-('Maria Gomez', '1122334455', '76543210');
+('Elena', '85324620', '123456'),
+('jperez', '063531', '7654322'),
+('tifani', '35725633', '7545260');
 
 INSERT INTO Venta (idUsuario, idCliente, totalVenta) 
 VALUES 
@@ -219,7 +217,7 @@ VALUES
 
 INSERT INTO VentaDetalle (idVenta, idProducto, cantidad, precioUnitario, total) 
 VALUES 
-(1, 1, 2, 1.50, 3.00),
-(1, 2, 1, 5.00, 5.00),
-(2, 2, 2, 5.00, 10.00),
-(3, 3, 3, 2.50, 7.50);
+(1, 1, 2, 25, 70),
+(1, 2, 1, 50, 50),
+(2, 2, 2, 25, 100),
+(3, 3, 3, 25, 75);
