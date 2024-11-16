@@ -23,7 +23,7 @@ namespace CpPizzeria
 
         private void FrmEmpleado_Load(object sender, EventArgs e)
         {
-            Size = new Size(775, 441);
+            //Size = new Size(775, 441);
             listar();
         }
 
@@ -45,7 +45,7 @@ namespace CpPizzeria
         private void btnNuevo_Click(object sender, EventArgs e)
         {
             esNuevo = true;
-            Size = new Size(775, 644);
+           // Size = new Size(775, 644);
             txtNombre.Focus();
         }
 
@@ -54,7 +54,7 @@ namespace CpPizzeria
             if (dgvLista.CurrentCell != null)
             {
                 esNuevo = false;
-                Size = new Size(775, 644);
+               // Size = new Size(775, 644);
 
                 int index = dgvLista.CurrentCell.RowIndex;
                 int id = Convert.ToInt32(dgvLista.Rows[index].Cells["idEmpleado"].Value);

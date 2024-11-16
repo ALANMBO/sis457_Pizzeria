@@ -118,8 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="whatsapp_socialnetwork_17360" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\whatsapp_socialnetwork_17360.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="food-pizza-folder_993901" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\food-pizza-folder_993901.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="facebook_icon-icons.com_53612" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\facebook_icon-icons.com_53612.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="minimize_78483" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\minimize_78483.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,14 +148,23 @@
   <data name="1490129329-rounded38_82203" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1490129329-rounded38_82203.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pizza121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizza121.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="create_icon_235108" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\create_icon_235108.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images23.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="man-2_icon-icons.com_55041 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\man-2_icon-icons.com_55041 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="canceltheapplication_cancelar_2901" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\canceltheapplication_cancelar_2901.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pizza1211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizza1211.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Sales-by-payment-method_25410" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sales-by-payment-method_25410.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,17 +181,23 @@
   <data name="material_colors_macos_bigsur_icon_189995" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\material_colors_macos_bigsur_icon_189995.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pizzac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizzac.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pizza23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizza23.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="searcher_magnifyng_glass_search_locate_find_icon_123813" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\searcher_magnifyng_glass_search_locate_find_icon_123813.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ptz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ptz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="business_packages_boxes_products_sellingproducts_thereport_2344" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\business_packages_boxes_products_sellingproducts_thereport_2344.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="descarga3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\descarga3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images23" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images23.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -189,6 +210,9 @@
   </data>
   <data name="savetheapplication_guardar_2958" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\savetheapplication_guardar_2958.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flores" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flores.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="man-2_icon-icons.com_55041" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\man-2_icon-icons.com_55041.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,13 +232,16 @@
   <data name="create_icon_2351081" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\create_icon_2351081.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pizzas45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizzas45.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pizzaback" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pizzaback.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="concertticket_83678" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\concertticket_83678.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pizza121" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pizza121.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="iconfinder-social-media-applications-3instagram-4102579_113804" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconfinder-social-media-applications-3instagram-4102579_113804.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

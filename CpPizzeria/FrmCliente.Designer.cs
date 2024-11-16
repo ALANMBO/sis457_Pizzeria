@@ -316,7 +316,7 @@
             this.gbxLista.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.gbxLista.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.gbxLista.BackgroundImage = global::CpPizzeria.Properties.Resources.descarga1;
+            this.gbxLista.BackgroundImage = global::CpPizzeria.Properties.Resources.descarga;
             this.gbxLista.Controls.Add(this.dgvLista);
             this.gbxLista.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbxLista.ForeColor = System.Drawing.Color.Black;

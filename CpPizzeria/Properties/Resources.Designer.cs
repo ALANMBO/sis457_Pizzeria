@@ -213,6 +213,26 @@ namespace CpPizzeria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap facebook_icon_icons_com_53612 {
+            get {
+                object obj = ResourceManager.GetObject("facebook_icon-icons.com_53612", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap flores {
+            get {
+                object obj = ResourceManager.GetObject("flores", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap food_pizza_folder_993901 {
             get {
                 object obj = ResourceManager.GetObject("food-pizza-folder_993901", resourceCulture);
@@ -226,6 +246,16 @@ namespace CpPizzeria.Properties {
         internal static System.Drawing.Bitmap iconfinder_broom_clean_service_labor_website_4622511_122412 {
             get {
                 object obj = ResourceManager.GetObject("iconfinder-broom-clean-service-labor-website-4622511_122412", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_social_media_applications_3instagram_4102579_113804 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder-social-media-applications-3instagram-4102579_113804", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -313,9 +343,59 @@ namespace CpPizzeria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pizza1211 {
+            get {
+                object obj = ResourceManager.GetObject("pizza1211", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pizza23 {
+            get {
+                object obj = ResourceManager.GetObject("pizza23", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pizzaback {
             get {
                 object obj = ResourceManager.GetObject("pizzaback", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pizzac {
+            get {
+                object obj = ResourceManager.GetObject("pizzac", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pizzas45 {
+            get {
+                object obj = ResourceManager.GetObject("pizzas45", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ptz {
+            get {
+                object obj = ResourceManager.GetObject("ptz", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -376,6 +456,16 @@ namespace CpPizzeria.Properties {
         internal static System.Drawing.Bitmap user_84308 {
             get {
                 object obj = ResourceManager.GetObject("user_84308", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap whatsapp_socialnetwork_17360 {
+            get {
+                object obj = ResourceManager.GetObject("whatsapp_socialnetwork_17360", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
