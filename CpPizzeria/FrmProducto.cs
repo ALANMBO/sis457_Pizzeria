@@ -123,7 +123,7 @@ namespace CpPizzeria
                 GuardarProducto();
                 ListarProductos();
 
-                MessageBox.Show("Producto guardado correctamente", "::: Cafeteria - Mensaje :::", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Producto guardado correctamente", "::: Pizza - Mensaje :::", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -196,12 +196,12 @@ namespace CpPizzeria
             int index = dgvLista.CurrentCell.RowIndex;
             int idProducto = Convert.ToInt32(dgvLista.Rows[index].Cells["idProducto"].Value);
             string codigo = dgvLista.Rows[index].Cells["codigo"].Value.ToString();
-            DialogResult dialog = MessageBox.Show($"¿Está seguro de eliminar el producto {codigo}?", "::: Pizzeria - Mensaje :::", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            DialogResult dialog = MessageBox.Show($"¿Está seguro de eliminar el producto {codigo}?", "::: Pizza - Mensaje :::", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             if (dialog == DialogResult.OK)
             {
                 ProductoCln.eliminar(idProducto, "pizzaHouse");
                 ListarProductos();
-                MessageBox.Show("Producto dado de baja correctamente", "::: Pizzeria - Mensaje :::", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Producto dado de baja correctamente", "::: Pizza - Mensaje :::", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 

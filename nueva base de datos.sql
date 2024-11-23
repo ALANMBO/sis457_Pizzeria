@@ -1,18 +1,18 @@
 ﻿-- Crear Base de Datos
-CREATE DATABASE LabPizzeria;
+CREATE DATABASE FinalPizzeria;
 GO
 
 -- Seleccionar la base de datos
-USE LabPizzeria;
+USE FinalPizzeria;
 GO
 
 CREATE LOGIN usrpizzeria WITH PASSWORD = N'123456',
-     DEFAULT_DATABASE = LabPizzeria,
+     DEFAULT_DATABASE = FinalPizzeria,
      CHECK_EXPIRATION = OFF,
      CHECK_POLICY = ON;
 GO 
 
-USE LabPizzeria;
+USE FinalPizzeria;
 GO 
 
 CREATE USER usrpizzeria FOR LOGIN usrpizzeria;
