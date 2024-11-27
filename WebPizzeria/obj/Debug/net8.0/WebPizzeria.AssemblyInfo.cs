@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebPizzeria")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33f7c1b77155b5d5c001e98d9c38ca648706b76a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+496c71b46bc8b7b715a6e64e2011aa842f3fad3c")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebPizzeria")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebPizzeria")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
