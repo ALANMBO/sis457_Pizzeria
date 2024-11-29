@@ -86,7 +86,7 @@ namespace WebPizzeria.Controllers
         {
             TempData["isLogged"] = false;
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            return RedirectToAction(nameof(HomeController.Index), "Home");
+            return RedirectToAction(nameof(AccountController.Login), "/");
         }
 
         public static string Encrypt(string clearText)

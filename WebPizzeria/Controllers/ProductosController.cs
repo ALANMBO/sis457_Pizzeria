@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Win32;
 using WebPizzeria.Models;
 
 namespace WebPizzeria.Controllers
@@ -47,7 +48,7 @@ namespace WebPizzeria.Controllers
         // GET: Productos/Create
         public IActionResult Create()
         {
-            ViewData["IdCategoria"] = new SelectList(_context.Categoria, "IdCategoria", "IdCategoria");
+            ViewData["IdCategoria"] = new SelectList(_context.Categoria, "IdCategoria", "Nombre");
             return View();
         }
 
@@ -56,15 +57,18 @@ namespace WebPizzeria.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdProducto,IdCategoria,Codigo,Nombre,Descripcion,Precio,Stock,UsuarioRegistro,FechaRegistro,Estado")] Producto producto)
+        public async Task<IActionResult> Create([Bind("IdProducto,IdCategoria,Codigo,Nombre,Descripcion,Precio,Stock,UsuarioRegistro,FechaRegistro")] Producto producto)
         {
-            if (ModelState.IsValid)
+            if (!string.IsNullOrEmpty(producto.Codigo) && !string.IsNullOrEmpty(producto.Nombre))  //Se realizo cambios jejeje  
             {
+                producto.UsuarioRegistro = User.Identity.Name;
+                producto.FechaRegistro = DateTime.Now;
+                producto.Estado = 1;
                 _context.Add(producto);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdCategoria"] = new SelectList(_context.Categoria, "IdCategoria", "IdCategoria", producto.IdCategoria);
+            ViewData["IdCategoria"] = new SelectList(_context.Categoria, "IdCategoria", "Nombre", producto.IdCategoria); //cambias
             return View(producto);
         }
 
@@ -81,7 +85,7 @@ namespace WebPizzeria.Controllers
             {
                 return NotFound();
             }
-            ViewData["IdCategoria"] = new SelectList(_context.Categoria, "IdCategoria", "IdCategoria", producto.IdCategoria);
+            ViewData["IdCategoria"] = new SelectList(_context.Categoria, "IdCategoria", "Nombre", producto.IdCategoria); // cma
             return View(producto);
         }
 
@@ -97,8 +101,8 @@ namespace WebPizzeria.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
-            {
+            if (!string.IsNullOrEmpty(producto.Codigo) && !string.IsNullOrEmpty(producto.Nombre) )  //se realizo el cambio aqui 
+            { 
                 try
                 {
                     _context.Update(producto);
@@ -117,7 +121,7 @@ namespace WebPizzeria.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdCategoria"] = new SelectList(_context.Categoria, "IdCategoria", "IdCategoria", producto.IdCategoria);
+            ViewData["IdCategoria"] = new SelectList(_context.Categoria, "IdCategoria", "Nombre", producto.IdCategoria);
             return View(producto);
         }
 
