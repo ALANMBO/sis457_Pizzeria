@@ -1,5 +1,5 @@
-﻿@model IEnumerable<WebPizzeria.Models.Producto>
-
+﻿
+@model IEnumerable<WebPizzeria.Models.Producto>
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -71,6 +71,7 @@
                 @Html.DisplayFor(modelItem => item.Estado)
             </td>
             <td>
+
                 @Html.DisplayFor(modelItem => item.IdCategoriaNavigation.Nombre)
             </td>
             <td>
