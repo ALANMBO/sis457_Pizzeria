@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\webpizzeria\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|solutionrelative:webpizzeria\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\webpizzeria\\controllers\\ventadetallescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|solutionrelative:webpizzeria\\controllers\\ventadetallescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\webpizzeria\\views\\venta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|solutionrelative:webpizzeria\\views\\venta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\webpizzeria\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|solutionrelative:webpizzeria\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\webpizzeria\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|solutionrelative:webpizzeria\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\webpizzeria\\views\\venta\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|solutionrelative:webpizzeria\\views\\venta\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\webpizzeria\\views\\categoria\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|solutionrelative:webpizzeria\\views\\categoria\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\webpizzeria\\views\\categoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|solutionrelative:webpizzeria\\views\\categoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\webpizzeria\\models\\ventadetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|solutionrelative:webpizzeria\\models\\ventadetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\webpizzeria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,50 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\webpizzeria\\views\\shared\\_logoutpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|solutionrelative:webpizzeria\\views\\shared\\_logoutpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\webpizzeria\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|solutionrelative:webpizzeria\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\webpizzeria\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|solutionrelative:webpizzeria\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\webpizzeria\\views\\venta\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|solutionrelative:webpizzeria\\views\\venta\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\webpizzeria\\views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|solutionrelative:webpizzeria\\views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\webpizzeria\\views\\categoria\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|solutionrelative:webpizzeria\\views\\categoria\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\webpizzeria\\views\\productos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|solutionrelative:webpizzeria\\views\\productos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\webpizzeria\\views\\venta\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|solutionrelative:webpizzeria\\views\\venta\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\webpizzeria\\views\\clientes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|solutionrelative:webpizzeria\\views\\clientes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\webpizzeria\\views\\categoria\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|solutionrelative:webpizzeria\\views\\categoria\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\webpizzeria\\views\\productos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|solutionrelative:webpizzeria\\views\\productos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|d:\\trabajo final de sis457\\sis457_pizzeria\\webpizzeria\\views\\venta\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{637D1031-2B7E-4846-A8CA-667F8B20E5D3}|WebPizzeria\\WebPizzeria.csproj|solutionrelative:webpizzeria\\views\\venta\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,7 +66,81 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VentaDetallesController.cs",
+              "DocumentMoniker": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Controllers\\VentaDetallesController.cs",
+              "RelativeDocumentMoniker": "WebPizzeria\\Controllers\\VentaDetallesController.cs",
+              "ToolTip": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Controllers\\VentaDetallesController.cs",
+              "RelativeToolTip": "WebPizzeria\\Controllers\\VentaDetallesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T11:13:17.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Venta\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebPizzeria\\Views\\Venta\\Index.cshtml",
+              "ToolTip": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Venta\\Index.cshtml",
+              "RelativeToolTip": "WebPizzeria\\Views\\Venta\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T10:22:48.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Clientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebPizzeria\\Views\\Clientes\\Index.cshtml",
+              "ToolTip": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Clientes\\Index.cshtml",
+              "RelativeToolTip": "WebPizzeria\\Views\\Clientes\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T10:19:01.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Categoria\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebPizzeria\\Views\\Categoria\\Index.cshtml",
+              "ToolTip": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Categoria\\Index.cshtml",
+              "RelativeToolTip": "WebPizzeria\\Views\\Categoria\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T10:17:38.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Productos\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebPizzeria\\Views\\Productos\\Index.cshtml",
+              "ToolTip": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Productos\\Index.cshtml",
+              "RelativeToolTip": "WebPizzeria\\Views\\Productos\\Index.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAE0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T10:13:50.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VentaDetalle.cs",
+              "DocumentMoniker": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Models\\VentaDetalle.cs",
+              "RelativeDocumentMoniker": "WebPizzeria\\Models\\VentaDetalle.cs",
+              "ToolTip": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Models\\VentaDetalle.cs",
+              "RelativeToolTip": "WebPizzeria\\Models\\VentaDetalle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T10:06:55.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Program.cs",
               "RelativeDocumentMoniker": "WebPizzeria\\Program.cs",
@@ -90,12 +148,11 @@
               "RelativeToolTip": "WebPizzeria\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T09:56:14.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T09:56:14.554Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "WebPizzeria\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -103,12 +160,11 @@
               "RelativeToolTip": "WebPizzeria\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T09:56:07.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T09:56:07.304Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "_LogoutPartial.cshtml",
               "DocumentMoniker": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Shared\\_LogoutPartial.cshtml",
               "RelativeDocumentMoniker": "WebPizzeria\\Views\\Shared\\_LogoutPartial.cshtml",
@@ -116,142 +172,11 @@
               "RelativeToolTip": "WebPizzeria\\Views\\Shared\\_LogoutPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T09:56:05.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebPizzeria\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebPizzeria\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T09:55:39.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T09:56:05.783Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebPizzeria\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "WebPizzeria\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T09:54:58.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WebPizzeria\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WebPizzeria\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T09:54:42.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Venta\\Details.cshtml",
-              "RelativeDocumentMoniker": "WebPizzeria\\Views\\Venta\\Details.cshtml",
-              "ToolTip": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Venta\\Details.cshtml",
-              "RelativeToolTip": "WebPizzeria\\Views\\Venta\\Details.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T09:51:27.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Clientes\\Details.cshtml",
-              "RelativeDocumentMoniker": "WebPizzeria\\Views\\Clientes\\Details.cshtml",
-              "ToolTip": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Clientes\\Details.cshtml",
-              "RelativeToolTip": "WebPizzeria\\Views\\Clientes\\Details.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADQAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T09:51:15.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Categoria\\Details.cshtml",
-              "RelativeDocumentMoniker": "WebPizzeria\\Views\\Categoria\\Details.cshtml",
-              "ToolTip": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Categoria\\Details.cshtml",
-              "RelativeToolTip": "WebPizzeria\\Views\\Categoria\\Details.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACgAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T09:51:03.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Productos\\Details.cshtml",
-              "RelativeDocumentMoniker": "WebPizzeria\\Views\\Productos\\Details.cshtml",
-              "ToolTip": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Productos\\Details.cshtml",
-              "RelativeToolTip": "WebPizzeria\\Views\\Productos\\Details.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T09:50:34.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Venta\\Delete.cshtml",
-              "RelativeDocumentMoniker": "WebPizzeria\\Views\\Venta\\Delete.cshtml",
-              "ToolTip": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Venta\\Delete.cshtml",
-              "RelativeToolTip": "WebPizzeria\\Views\\Venta\\Delete.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADwAAABkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T09:50:09.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Clientes\\Delete.cshtml",
-              "RelativeDocumentMoniker": "WebPizzeria\\Views\\Clientes\\Delete.cshtml",
-              "ToolTip": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Clientes\\Delete.cshtml",
-              "RelativeToolTip": "WebPizzeria\\Views\\Clientes\\Delete.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADkAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T09:49:02.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Productos\\Delete.cshtml",
-              "RelativeDocumentMoniker": "WebPizzeria\\Views\\Productos\\Delete.cshtml",
-              "ToolTip": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Productos\\Delete.cshtml",
-              "RelativeToolTip": "WebPizzeria\\Views\\Productos\\Delete.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAEgAAABrAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T09:48:26.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Venta\\Edit.cshtml",
               "RelativeDocumentMoniker": "WebPizzeria\\Views\\Venta\\Edit.cshtml",
@@ -259,12 +184,11 @@
               "RelativeToolTip": "WebPizzeria\\Views\\Venta\\Edit.cshtml",
               "ViewState": "AgIAACcAAAAAAAAAAAAAADQAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T09:47:27.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T09:47:27.88Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\Trabajo final de sis457\\sis457_Pizzeria\\WebPizzeria\\Views\\Categoria\\Delete.cshtml",
               "RelativeDocumentMoniker": "WebPizzeria\\Views\\Categoria\\Delete.cshtml",
@@ -272,8 +196,7 @@
               "RelativeToolTip": "WebPizzeria\\Views\\Categoria\\Delete.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAAC4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T09:48:22.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T09:48:22.553Z"
             }
           ]
         }
