@@ -27,7 +27,7 @@ public partial class FinalPizzeriaContext : DbContext
 
     public virtual DbSet<VentaDetalle> VentaDetalles { get; set; }
 
-    public virtual DbSet<Ventum> Venta { get; set; }
+    public virtual DbSet<Venta> Venta { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
@@ -248,7 +248,7 @@ public partial class FinalPizzeriaContext : DbContext
                 .HasConstraintName("FK__VentaDeta__idVen__49C3F6B7");
         });
 
-        modelBuilder.Entity<Ventum>(entity =>
+        modelBuilder.Entity<Venta>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__Venta__3213E83FEC1F3190");
 

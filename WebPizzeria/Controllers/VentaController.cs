@@ -58,7 +58,7 @@ namespace WebPizzeria.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,IdUsuario,IdCliente,TotalVenta,FechaVenta,UsuarioRegistro,FechaRegistro,Estado")] Ventum ventum)
+        public async Task<IActionResult> Create([Bind("Id,IdUsuario,IdCliente,TotalVenta,FechaVenta,UsuarioRegistro,FechaRegistro,Estado")] Venta ventum)
         {
             if (ModelState.IsValid)
             {
@@ -94,7 +94,7 @@ namespace WebPizzeria.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,IdUsuario,IdCliente,TotalVenta,FechaVenta,UsuarioRegistro,FechaRegistro,Estado")] Ventum ventum)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,IdUsuario,IdCliente,TotalVenta,FechaVenta,UsuarioRegistro,FechaRegistro,Estado")] Venta ventum)
         {
             if (id != ventum.Id)
             {

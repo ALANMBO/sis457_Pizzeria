@@ -17,7 +17,12 @@
                     <input asp-for="Nombre" class="form-control" />
                     <span asp-validation-for="Nombre" class="text-danger"></span>
                 </div>
-                    <input type="hidden" asp-for="UsuarioRegistro" />
+                @* <div class="form-group">
+                    <label asp-for="UsuarioRegistro" class="control-label"></label>
+                    <input asp-for="UsuarioRegistro" class="form-control" />
+                    <span asp-validation-for="UsuarioRegistro" class="text-danger"></span>
+                </div> *@
+                     <input type="hidden" asp-for="UsuarioRegistro" /> 
                     <input type="hidden" asp-for="FechaRegistro" />
                     <input type="hidden" asp-for="Estado" />
                 <div class="form-group">
