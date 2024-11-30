@@ -60,8 +60,13 @@ namespace WebPizzeria.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,IdVenta,IdProducto,Cantidad,PrecioUnitario,Total,UsuarioRegistro,FechaRegistro,Estado")] VentaDetalle ventaDetalle)
         {
-            /*if (!decimal.IsNullOrEmpty(ventaDetalle.Cantidad) && !string.IsNullOrEmpty(.Codigo) &&*//*)*/
+            if (ventaDetalle.Cantidad > 0 && ventaDetalle.PrecioUnitario > 0)
             {
+                ventaDetalle.Total = ventaDetalle.Cantidad * ventaDetalle.PrecioUnitario;
+
+                ventaDetalle.UsuarioRegistro = User.Identity.Name;
+                ventaDetalle.FechaRegistro = DateTime.Now;
+                ventaDetalle.Estado = 1;
                 _context.Add(ventaDetalle);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -101,7 +106,7 @@ namespace WebPizzeria.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
+            if (ventaDetalle.Cantidad > 0 && ventaDetalle.PrecioUnitario > 0)
             {
                 try
                 {
