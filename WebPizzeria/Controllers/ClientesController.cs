@@ -55,7 +55,7 @@ namespace WebPizzeria.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,RazonSocial,CedulaIdentidad,Celular,UsuarioRegistro,FechaRegistro,Estado")] Cliente cliente)
         {
-            if (!string.IsNullOrEmpty(cliente.RazonSocial) && !string.IsNullOrEmpty(cliente.CedulaIdentidad))
+            if (!string.IsNullOrEmpty(cliente.RazonSocial) && !string.IsNullOrEmpty(cliente.CedulaIdentidad) && !string.IsNullOrEmpty(cliente.Celular))
             {
                 cliente.UsuarioRegistro = User.Identity.Name;
                 cliente.FechaRegistro = DateTime.Now;
@@ -95,7 +95,7 @@ namespace WebPizzeria.Controllers
                 return NotFound();
             }
 
-            if (!string.IsNullOrEmpty(cliente.RazonSocial) && !string.IsNullOrEmpty(cliente.CedulaIdentidad))
+            if (!string.IsNullOrEmpty(cliente.RazonSocial) && !string.IsNullOrEmpty(cliente.CedulaIdentidad) && !string.IsNullOrEmpty(cliente.Celular))
             {
                 try
                 {
